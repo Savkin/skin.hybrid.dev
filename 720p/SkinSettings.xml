@@ -242,7 +242,7 @@
 						<selected>Skin.HasSetting(StickyHomeMenuAction)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<enable>!StringCompare(Skin.String(HomeItem.1.Sub),$LOCALIZE[31938])</enable>	
+						<enable>!StringCompare(Skin.String(HomeItem.1.Sub),$LOCALIZE[31938])</enable>
 					</control>
 					<control type="button" id="104">
 						<width>750</width>
