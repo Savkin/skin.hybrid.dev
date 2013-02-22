@@ -1,3 +1,11 @@
+[B]1.0.10[/B][I]Feb 2013[/I]
+- Bugfix Video Info while Streaming
+- Added Music Genre to Menu Choices
+- Added Default Concerts Submenu items
+- Silences & Converted XBMC Intro Movie
+- Updated Language Files
+- Multiple small tweaks to layout, labels etc.
+
 [B]1.0.9[/B][I]Feb 2013[/I]
 - Added submenu sets for - Movies, TVShows & Concerts
 - Added default Left/Down menu action for Favourites
