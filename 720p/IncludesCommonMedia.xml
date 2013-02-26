@@ -92,6 +92,15 @@
 		</control>
 		<control type="multiimage">
 			<include>Dimensions_Fullscreen</include>
+			<imagepath background="true">$VAR[GlobalScreenBackground]</imagepath>
+			<timeperimage>8000</timeperimage>
+			<randomize>true</randomize>
+			<fadetime>FanartCrossfadeTime</fadetime>
+			<visible>![StringCompare(Container(9000).ListItem.Property(HiLiteItem),Weather) + Skin.HasSetting(CurrentWeatherBackdrop)]</visible>
+			<visible>!Skin.HasSetting(GlobalMenuBackdrop) + IsEmpty(Container(9000).ListItem.Thumb)</visible>
+		</control>
+		<control type="multiimage">
+			<include>Dimensions_Fullscreen</include>
 			<imagepath background="true">$INFO[Skin.String(WeatherFanartDir)]$INFO[Window(Weather).Property(Current.FanartCode)]</imagepath>
 			<timeperimage>8000</timeperimage>
 			<randomize>true</randomize>
