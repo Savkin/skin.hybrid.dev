@@ -73,6 +73,9 @@
 	<include name="TransparentWallEffect">
 		<colordiffuse>3FFFFFFF</colordiffuse>
 	</include>
+	<include name="TransparentMusicVizEffect">
+		<colordiffuse condition="Skin.HasSetting(TransparentVizFanArt)">3FFFFFFF</colordiffuse>
+	</include>
 	<include name="ButtonCommonValues">
 		<height>40</height>
 		<width>250</width>

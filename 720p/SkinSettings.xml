@@ -3723,7 +3723,20 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>Skin.HasSetting(ShowBackgroundAlbumWall) + !Skin.HasSetting(ShowMusicVizOnly)</enable>
 					</control>
-					<control type="radiobutton" id="544">
+							<control type="radiobutton" id="544">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31992]</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(TransparentVizFanArt)</onclick>
+						<selected>Skin.HasSetting(TransparentVizFanArt)</selected>
+						<enable>!Skin.HasSetting(ShowMusicVizOnly)</enable>
+					</control>
+					<control type="radiobutton" id="545">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3736,7 +3749,7 @@
 						<selected>Skin.HasSetting(NoAnimateFanArt)</selected>
 						<enable>!Skin.HasSetting(ShowMusicVizOnly)</enable>
 					</control>
-					<control type="radiobutton" id="545">
+					<control type="radiobutton" id="546">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3749,7 +3762,7 @@
 						<selected>Skin.HasSetting(HideCDArt)</selected>
 						<enable>!Skin.HasSetting(ShowMusicVizOnly)</enable>
 					</control>
-					<control type="label" id="546">
+					<control type="label" id="547">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -3759,7 +3772,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="547">
+					<control type="radiobutton" id="548">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3772,7 +3785,7 @@
 						<onclick>Skin.Reset(EnableStartupPlaylist)</onclick>
 						<selected>!Skin.HasSetting(HideXBMCIntro)</selected>
 					</control>
-					<control type="radiobutton" id="548">
+					<control type="radiobutton" id="549">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3785,7 +3798,7 @@
 						<onclick>Skin.ToggleSetting(EnableStartupPlaylist)</onclick>
 						<selected>Skin.HasSetting(EnableStartupPlaylist)</selected>
 					</control>
-					<control type="button" id="549">
+					<control type="button" id="550">
 						<description>Startup Playlist Path</description>
 						<width>750</width>
 						<height>40</height>
