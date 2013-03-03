@@ -1,4 +1,14 @@
-[B]1.0.10[/B][I]Feb 2013[/I]
+[B]1.0.11[/B] [I]Feb 2013[/I]
+- Update Language Files
+- Added Option Transparent Music Viz FanArt
+- Added Toggle to Hide System Time/Date
+- BugFix Individual Home Backgrounds (Theme was Blank)
+- BugFix Visible Conditions script.playlists
+- BugFix Extra FanArt Permissions
+- BugFix Cases Senstive Textures.xbt
+- BugFix Video NowPlaying Info ClearArt
+
+[B]1.0.10[/B] [I]Feb 2013[/I]
 - Bugfix Video Info while Streaming
 - Added Music Genre to Menu Choices
 - Added Default Concerts Submenu items
@@ -6,7 +16,7 @@
 - Updated Language Files
 - Multiple small tweaks to layout, labels etc.
 
-[B]1.0.9[/B][I]Feb 2013[/I]
+[B]1.0.9[/B] [I]Feb 2013[/I]
 - Added submenu sets for - Movies, TVShows & Concerts
 - Added default Left/Down menu action for Favourites
 - Added video Info OSD to start play
@@ -15,14 +25,14 @@
 - Re-Coded Home Panel Playlist content
 - Various small bugfixes + tweak code snippets
 
-[B]1.0.8[/B][I]Jan 2013[/I]
+[B]1.0.8[/B] [I]Jan 2013[/I]
 - Bugfix PosterThumb now looks for Thumb before Fallback
 - Added Local Artwork Toggle (FanArt & Posters)
 - Recoded ViewFileList option for Wide List
 - Added option to Only show Music Viz - no extras
 - Addded Advanced Weather Options
 
-[B]1.0.7[/B][I]Jan 2013[/I]
+[B]1.0.7[/B] [I]Jan 2013[/I]
 - Adjusted Transparency Values
 - Added view Logo Wall
 - Added UnWatched Movies Home Panel
@@ -36,7 +46,7 @@
 - Bugfix oversight in Artist SlideShow toggle
 - Bugfix inverted AutoScroll Toggle
 
-[B]1.0.6[/B][I]Jan 2013[/I]
+[B]1.0.6[/B] [I]Jan 2013[/I]
 - BugFix Zorder DialogSelect
 - BugFix HideCDart Home Screen
 - BugFix randomandlastitems (Music still a problem)
@@ -45,13 +55,13 @@
 - Added Disable & Autorun Artwork Downloader
 - Add Support Script.TVNextAired (UnTested)
 
-[B]1.0.5[/B][I]Jan 2013[/I]
+[B]1.0.5[/B] [I]Jan 2013[/I]
 - Added ability to Hide Media Cases
 - Added Extra menu & submenu choices
 - Various small bugfixes
 - Tweaked Advance Launcher Views
 
-[B]1.0.4[/B][I]Jan 2013[/I]
+[B]1.0.4[/B] [I]Jan 2013[/I]
 - Added CAPS Roboto Bold Font Edited  by uNiversal
 - Added Toggles for included 3rd Party Scripts
 - Increased Install Default Menu Items inc Stream Radio105
@@ -65,7 +75,7 @@
 - Added more Preset Menu Choices incl Streaming,PseudoTV & Advanced Launcher
 - Converted MediaInfo & WideList Views for Advanced Launcher 
 
-[B]1.0.3[/B][I]Dec 2012[/I]
+[B]1.0.3[/B] [I]Dec 2012[/I]
 - New Dependency script.randomandlastitems.2.0.0 [WIP]
 - BugFix Skinning Tool issues
 - Added support for script.globalsearch
@@ -75,17 +85,17 @@
 - Tweaked LiveTV views
 - BugFix WhiteSpaces in LangFile
 
-[B]1.0.2[/B][I]Dec 2012[/I]
+[B]1.0.2[/B] [I]Dec 2012[/I]
 - New Dependency script.favourites.4.0.7
 - Added New & Updated lang Files
 - SysInfo, Profiles & FileManager Files Updated
 - Added VideoOSD Overlay for PseudoTV
 
-[B]1.0.1[/B][I]Dec 2012[/I]
+[B]1.0.1[/B] [I]Dec 2012[/I]
 - Added ability for individual fanart settings in HomePanel
 - Bugfix, Musicviz - extrafanArt showing over CDWall
 - BugFix, Setting for Hide LibraryStats/Info
 - BugFix, Static CDWall taking over from Dynamic wall  
 
-[B]1.0.0[/B][I]Dec 2012[/I]
+[B]1.0.0[/B] [I]Dec 2012[/I]
 - Initial Commit of Development Version
