@@ -6,6 +6,16 @@
 	<onload condition="IsEmpty(Skin.String(WeatherFanartDir))">Skin.SetString(WeatherFanartDir,special://skin/backgrounds/weather/)</onload>
 	<onload condition="IsEmpty(Skin.String(UsrGenreFanartDir))">Skin.SetString(UsrGenreFanartDir,special://skin/backgrounds/moviegenre/)</onload>
 	<onload condition="IsEmpty(Skin.String(MediaPanelTrans))">Skin.SetString(MediaPanelTrans,5FFFFFFF)</onload>
+	
+	
+<!--
+	
+	<onload condition="IsEmpty(Skin.String(MainLabel.Colour))">Skin.SetString(MainLabel.Colour,$VAR[SetTextColour])</onload>
+	
+-->
+	
+	
+	
 	<onload condition="System.HasAddon(script.favourites) + !Skin.HasSetting(DisableScriptFavourites)">XBMC.RunScript(script.favourites)</onload>
 	<onload condition="System.HasAddon(script.playlists) + !Skin.HasSetting(DisableSubmenuPlayList) + !Skin.HasSetting(SubmenuPlayListMusic)">XBMC.RunScript(script.playlists,type=video)</onload>
 	<onload condition="System.HasAddon(script.playlists) + !Skin.HasSetting(DisableSubmenuPlayList) + Skin.HasSetting(SubmenuPlayListMusic)">XBMC.RunScript(script.playlists,type=music)</onload>
