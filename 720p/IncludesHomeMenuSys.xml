@@ -357,8 +357,6 @@
 					<height>40</height>
 					<font>font_MainMenu</font>
 					<textcolor>$INFO[Skin.String(UnFocusedMain.Colour)]</textcolor>
-					
-					
 					<align>right</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label]</label>
