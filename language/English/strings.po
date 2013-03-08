@@ -156,8 +156,13 @@ msgctxt "#31037"
 msgid "User Select"
 msgstr ""
 
-#empty strings from id 31038 to 31039
+msgctxt "#31038"
+msgid "Enable Global Search Script"
+msgstr ""
 
+msgctxt "#31039"
+msgid "Opposite Direction Shows Global Search not Favourites"
+msgstr ""
 
 msgctxt "#31040"
 msgid "Now Playing"

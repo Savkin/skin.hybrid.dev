@@ -3071,6 +3071,20 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
 					<control type="radiobutton" id="505">
+						<description>Alt Direction GlobalSearch</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31039]</label>
+						<onclick>Skin.ToggleSetting(AltDirectionSearch)</onclick>
+						<selected>Skin.HasSetting(AltDirectionSearch)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>System.HasAddon(script.globalsearch) + !Skin.HasSetting(DisableGlobalSearch)</enable>
+					</control>
+					<control type="radiobutton" id="506">
 						<description>enable library stats</description>
 						<width>750</width>
 						<height>40</height>
@@ -3083,7 +3097,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="radiobutton" id="506">
+					<control type="radiobutton" id="507">
 						<description>Enable Now Playing</description>
 						<width>750</width>
 						<height>40</height>
@@ -3096,7 +3110,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="radiobutton" id="507">
+					<control type="radiobutton" id="508">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3108,7 +3122,7 @@
 						<onclick>Skin.ToggleSetting(HideBackHomePlaying)</onclick>
 						<selected>Skin.HasSetting(HideBackHomePlaying)</selected>
 					</control>
-					<control type="radiobutton" id="508">
+					<control type="radiobutton" id="509">
 						<description>RainDrop Effect</description>
 						<width>750</width>
 						<height>40</height>
@@ -3121,7 +3135,7 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
-					<control type="label" id="509">
+					<control type="label" id="510">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -3131,7 +3145,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="510">
+					<control type="button" id="511">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3145,7 +3159,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.1.Label)) | Skin.HasSetting(StickyHomeMenuAction)</visible>
 					</control>
-					<control type="button" id="511">
+					<control type="button" id="512">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3159,7 +3173,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.2.Label))</visible>
 					</control>
-					<control type="button" id="512">
+					<control type="button" id="513">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3173,7 +3187,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.3.Label))</visible>
 					</control>
-					<control type="button" id="513">
+					<control type="button" id="514">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3187,7 +3201,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.4.Label))</visible>
 					</control>
-					<control type="button" id="514">
+					<control type="button" id="515">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3201,7 +3215,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.5.Label))</visible>
 					</control>
-					<control type="button" id="515">
+					<control type="button" id="516">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3215,7 +3229,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.6.Label))</visible>
 					</control>
-					<control type="button" id="516">
+					<control type="button" id="517">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3229,7 +3243,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.7.Label))</visible>
 					</control>
-					<control type="button" id="517">
+					<control type="button" id="518">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3243,7 +3257,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.8.Label))</visible>
 					</control>
-					<control type="button" id="518">
+					<control type="button" id="519">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3257,7 +3271,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.9.Label))</visible>
 					</control>
-					<control type="button" id="519">
+					<control type="button" id="520">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3271,7 +3285,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!IsEmpty(Skin.String(HomeItem.10.Label))</visible>
 					</control>
-					<control type="button" id="520">
+					<control type="button" id="521">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -3285,7 +3299,7 @@
 						<onclick>ActivateWindow(2117)</onclick>
 						<visible>!Skin.HasSetting(HideHomeMenuSystem)</visible>
 					</control>
-					<control type="label" id="521">
+					<control type="label" id="522">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -3295,7 +3309,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="radiobutton" id="522">
+					<control type="radiobutton" id="523">
 						<description>Hide Home Panel Fanart</description>
 						<width>750</width>
 						<height>40</height>
@@ -4398,7 +4412,21 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>System.HasAddon(script.playlists) + !Skin.HasSetting(DisableSubmenuPlayList)</enable>
 					</control>
-					<control type="label" id="811">
+					<control type="radiobutton" id="811">
+						<description>Enable Script GlobalSearch</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31038]</label>
+						<onclick>Skin.ToggleSetting(DisableGlobalSearch)</onclick>
+						<selected>!Skin.HasSetting(DisableGlobalSearch)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<enable>System.HasAddon(script.globalsearch)</enable>
+					</control>
+					<control type="label" id="812">
 						<width>750</width>
 						<height>45</height>
 						<font>font13_title</font>
@@ -4408,7 +4436,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
-					<control type="button" id="812">
+					<control type="button" id="813">
 						<description>Reset Skin Values</description>
 						<width>750</width>
 						<height>40</height>

@@ -1,3 +1,7 @@
+[B]1.1.0[/B] [I]Mar 2013[/I]
+- Added User Select Font Colours [WIP]
+- Added Global Search to Required Dependency
+
 [B]1.0.11[/B] [I]Feb 2013[/I]
 - Update Language Files
 - Added Option Transparent Music Viz FanArt

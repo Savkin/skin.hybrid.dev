@@ -45,7 +45,13 @@
 		<value condition="StringCompare(Container(9000).ListItem.Property(HiLiteItem),Movies)">ActivateWindow(2118)</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(HiLiteItem),TVShows)">ActivateWindow(2119)</value>
 		<value condition="StringCompare(Container(9000).ListItem.Property(HiLiteItem),Music)">ActivateWindow(2120)</value>
-		<value condition="IntegerGreaterThan(Window(Home).Property(favourite.count),0) + !Skin.HasSetting(DisableScriptFavourites)">ActivateWindow(Favourites)</value>
+		<value condition="IntegerGreaterThan(Window(Home).Property(favourite.count),0) + !Skin.HasSetting(DisableScriptFavourites) + !Skin.HasSetting(AltDirectionSearch)">ActivateWindow(Favourites)</value>
+		<value condition="Skin.HasSetting(AltDirectionSearch) + System.HasAddon(script.globalsearch) + !Skin.HasSetting(DisableGlobalSearch)">RunAddon(script.globalsearch)</value>
+	
+	
+	
+	
+	
 	</variable>
 	<variable name="AutoGenreImage">
 		<value condition="!Skin.HasSetting(UsrGenreFanArt) + [substring(ListItem.Label,$LOCALIZE[31600],Left) | substring(ListItem.Label,Action,Left)]">DefaultGenre/Action.png</value>
