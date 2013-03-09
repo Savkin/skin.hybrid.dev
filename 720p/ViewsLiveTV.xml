@@ -144,7 +144,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>blue</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scrollout>false</scrollout>
 					<pauseatend>1000</pauseatend>
 				</control>

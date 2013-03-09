@@ -36,7 +36,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<textcolor>selected</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="button">
 			<description>Close Window button</description>
@@ -65,7 +65,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>blue</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<label>21422</label>
 		</control>
 		<control type="group" id="9001">
@@ -94,7 +94,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="spincontrolex" id="16">
 				<description>Rule operator</description>
@@ -121,7 +121,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 		</control>
 		<control type="button" id="17">

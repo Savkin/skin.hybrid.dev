@@ -402,7 +402,7 @@
 						<font>font13</font>
 						<font>font13</font>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.genre,[B][COLOR=blue]$LOCALIZE[515]: [/COLOR][/B]]</label>
@@ -415,7 +415,7 @@
 						<height>30</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -429,7 +429,7 @@
 						<height>30</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -443,7 +443,7 @@
 						<height>30</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -688,7 +688,7 @@
 						<height>20</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -701,7 +701,7 @@
 						<height>20</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
 						<aligny>center</aligny>

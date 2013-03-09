@@ -53,7 +53,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>blue</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label">
 				<description>Selected item's date</description>

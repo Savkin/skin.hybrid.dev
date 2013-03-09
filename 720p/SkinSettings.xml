@@ -203,7 +203,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31950]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -433,7 +433,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31673]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -456,7 +456,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31939]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -621,7 +621,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31037] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -701,7 +701,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31982] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -782,7 +782,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[10006] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -835,7 +835,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[20342] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -888,7 +888,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31662] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -941,7 +941,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31669] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -994,7 +994,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[10005] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -1047,7 +1047,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[10002] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -1100,7 +1100,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[10001] $LOCALIZE[1034] $LOCALIZE[31025]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -1185,7 +1185,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31109]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -2876,7 +2876,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31750]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -2885,15 +2885,15 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31751]</label>
-						<label2>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Skin.String(MainPrimary.Name)][/COLOR]</label2>
+						<label2>[COLOR=$INFO[Skin.String(MainMenu.Colour)]]$INFO[Skin.String(MainMenu.Name)][/COLOR]</label2>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>SetProperty(UsrSelectBtn,MainPrimary,home)</onclick>
+						<onclick>SetProperty(UsrSelectBtn,MainMenu,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="402">
+						<control type="button" id="402">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2911,6 +2911,19 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31753]</label>
+						<label2>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Skin.String(MainPrimary.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,MainPrimary,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>
+					<control type="button" id="404">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31754]</label>
 						<label2>[COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[Skin.String(InfoLabels.Name)][/COLOR]</label2>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -2919,20 +2932,136 @@
 						<onclick>SetProperty(UsrSelectBtn,InfoLabels,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="404">
+					
+					
+					
+					<control type="button" id="405">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<label>$LOCALIZE[31754]</label>
-						<label2>[COLOR=$INFO[Skin.String(HomeInfoText.Colour)]]$INFO[Skin.String(HomeInfoText.Name)][/COLOR]</label2>
+						<label>$LOCALIZE[31755]1</label>
+						<label2>[COLOR=$INFO[Skin.String(HomeInfoOne.Colour)]]$INFO[Skin.String(HomeInfoOne.Name)][/COLOR]</label2>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>SetProperty(UsrSelectBtn,HomeInfoText,home)</onclick>
+						<onclick>SetProperty(UsrSelectBtn,HomeInfoOne,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="405">
+					<control type="button" id="406">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31755]2</label>
+						<label2>[COLOR=$INFO[Skin.String(HomeInfoTwo.Colour)]]$INFO[Skin.String(HomeInfoTwo.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,HomeInfoTwo,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>
+					<control type="button" id="407">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31755]3</label>
+						<label2>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$INFO[Skin.String(HomeInfoThree.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,HomeInfoThree,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>
+					<control type="button" id="408">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31756]</label>
+						<label2>[COLOR=$INFO[Skin.String(TitlesStatsRSS.Colour)]]$INFO[Skin.String(TitlesStatsRSS.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,TitlesStatsRSS,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>
+					<control type="button" id="409">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31757]</label>
+						<label2>[COLOR=$INFO[Skin.String(TextStatsRSS.Colour)]]$INFO[Skin.String(TextStatsRSS.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,TextStatsRSS,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>
+
+
+					<!--
+					<control type="button" id="409">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31758]</label>
+						<label2>[COLOR=$INFO[Skin.String(RSSTitleInfo.Colour)]]$INFO[Skin.String(RSSTitleInfo.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,RSSTitleInfo,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>
+					<control type="button" id="410">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31759]</label>
+						<label2>[COLOR=$INFO[Skin.String(RSSHiLiteInfo.Colour)]]$INFO[Skin.String(RSSHiLiteInfo.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,RSSHiLiteInfo,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>					
+										
+					
+					<control type="button" id="411">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31760]</label>
+						<label2>[COLOR=$INFO[Skin.String(StatTitleInfo.Colour)]]$INFO[Skin.String(StatTitleInfo.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,StatTitleInfo,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>	
+					<control type="button" id="412">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31761]</label>
+						<label2>[COLOR=$INFO[Skin.String(StatAmtInfo.Colour)]]$INFO[Skin.String(StatAmtInfo.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,StatAmtInfo,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>	
+					-->
+					
+					
+					<!--
+					<control type="button" id="406">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2945,12 +3074,12 @@
 						<onclick>SetProperty(UsrSelectBtn,RSSStatInfo,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="406">
+					<control type="button" id="407">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31756]</label>
-						<label2>[COLOR=$INFO[Skin.String(RSSStatHiLite.Colour)]]$INFO[Skin.String(RSSStatHiLite.Name)][/COLOR]</label2>
+						<label2>[COLOR=$INFO[Skin.String(HomeInfoOne.Colour)]]$INFO[Skin.String(RSSStatHiLite.Name)][/COLOR]</label2>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -2959,11 +3088,23 @@
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
 				
+					-->
 					
 					
 					
-					
-					
+					<control type="button" id="416">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31764]</label>
+						<label2>[COLOR=$INFO[Skin.String(TextShadow.Colour)]]$INFO[Skin.String(TextShadow.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,TextShadow,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>					
 					
 					
 					
@@ -3013,7 +3154,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31101]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -3141,7 +3282,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31928]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -3305,7 +3446,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31914]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -3365,7 +3506,7 @@
 						<font>font13_title</font>
 						<label>31106</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -3460,7 +3601,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31984]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -3621,7 +3762,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31946]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -3764,7 +3905,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31141]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -3822,7 +3963,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[249] $LOCALIZE[250]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -3924,7 +4065,7 @@
 						<font>font13_title</font>
 						<label>512</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -4042,7 +4183,7 @@
 						<font>font13_title</font>
 						<label>31140</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -4064,7 +4205,7 @@
 						<font>font13_title</font>
 						<label>31141</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -4086,7 +4227,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31999]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -4273,7 +4414,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31013]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
@@ -4432,7 +4573,7 @@
 						<font>font13_title</font>
 						<label>$LOCALIZE[31679] $LOCALIZE[31680]</label>
 						<textcolor>blue</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>

@@ -86,7 +86,7 @@
 				<height>30</height>
 				<font>font13_title</font>
 				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<align>center</align>
 				<aligny>center</aligny>
 			</control>

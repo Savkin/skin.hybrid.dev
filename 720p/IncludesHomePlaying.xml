@@ -72,8 +72,8 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>NowPlayAlbum</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(TextShadow.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 			</control>
 			<control type="label">
@@ -87,7 +87,7 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>NowPlayAlbum</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)</visible>
 			</control>
 			<control type="label">
@@ -101,7 +101,7 @@
 				<aligny>center</aligny>
 				<font>font13_title</font>
 				<textcolor>NowPlayTitle</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label">
 				<description>Time Label</description>
@@ -114,7 +114,7 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>NowPlayTime</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 			</control>
 		</control>
@@ -190,7 +190,7 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>NowPlayAlbum</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 			</control>
 			<control type="label">
@@ -204,7 +204,7 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>NowPlayAlbum</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)</visible>
 			</control>
 			<control type="label">
@@ -218,7 +218,7 @@
 				<aligny>center</aligny>
 				<font>font13_title</font>
 				<textcolor>NowPlayTitle</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label">
 				<description>Time Label</description>
@@ -231,7 +231,7 @@
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>NowPlayTime</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 			</control>
 		</control>
@@ -266,7 +266,7 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>NowPlayTitle</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -279,7 +279,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayTime</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -312,7 +312,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayAlbum</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Title label</description>
@@ -325,7 +325,7 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>NowPlayTitle</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -338,7 +338,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayTime</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -365,7 +365,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayAlbum</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Title label</description>
@@ -378,7 +378,7 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>NowPlayTitle</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -391,7 +391,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayTime</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
 		</control>
@@ -426,7 +426,7 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>NowPlayTitle</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -439,7 +439,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayTime</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -472,7 +472,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayAlbum</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Title label</description>
@@ -485,7 +485,7 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>NowPlayTitle</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -498,7 +498,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayTime</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -525,7 +525,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayAlbum</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Title label</description>
@@ -538,7 +538,7 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>NowPlayTitle</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Time Label</description>
@@ -551,7 +551,7 @@
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>NowPlayTime</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
 		</control>

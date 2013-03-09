@@ -42,7 +42,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>selected</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="textbox" id="5">
 					<description>textarea</description>
@@ -54,7 +54,7 @@
 					<font>font13</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<pagecontrol>61</pagecontrol>
 				</control>
 				<control type="scrollbar" id="61">

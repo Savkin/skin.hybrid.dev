@@ -134,7 +134,7 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
 				</control>
 				<control type="image">
@@ -290,7 +290,7 @@
 						<height>25</height>
 						<font>font13_title</font>
 						<textcolor>ffaa0000</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<selectedcolor>red</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -341,7 +341,7 @@
 						<height>25</height>
 						<font>font13_title</font>
 						<textcolor>ffaa0000</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<selectedcolor>red</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -394,7 +394,7 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
 				</control>
 				<control type="group">

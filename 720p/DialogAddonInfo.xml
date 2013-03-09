@@ -39,7 +39,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>selected</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -420,7 +420,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<textcolor>selected</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="textbox">
 					<description>Reason label</description>
@@ -432,7 +432,7 @@
 					<label>$INFO[ListItem.Property(Addon.broken)]</label>
 					<align>left</align>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
 		</control>

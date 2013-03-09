@@ -69,7 +69,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Provider Text</description>
@@ -121,7 +121,7 @@
 					<aligny>top</aligny>
 					<label>$INFO[Window.Property(Current.Temperature)]</label>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current temp Value Units</description>
@@ -134,7 +134,7 @@
 					<aligny>top</aligny>
 					<label>$INFO[System.TemperatureUnits]</label>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="image">
 					<description>current weather icon</description>
@@ -157,7 +157,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="image">
 					<posx>20</posx>
@@ -177,7 +177,7 @@
 					<aligny>center</aligny>
 					<label>$LOCALIZE[402] :</label>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current dew label</description>
@@ -190,7 +190,7 @@
 					<aligny>center</aligny>
 					<label>$LOCALIZE[405] :</label>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current humidity label</description>
@@ -203,7 +203,7 @@
 					<aligny>center</aligny>
 					<label>$LOCALIZE[406] :</label>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current UV Index label</description>
@@ -216,7 +216,7 @@
 					<aligny>center</aligny>
 					<label>$LOCALIZE[403] :</label>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current Wind label</description>
@@ -229,7 +229,7 @@
 					<aligny>center</aligny>
 					<label>$LOCALIZE[404] :</label>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current feels like Value</description>
@@ -242,7 +242,7 @@
 					<aligny>center</aligny>
 					<label>$INFO[Window.Property(Current.FeelsLike)]$INFO[System.TemperatureUnits]</label>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current dew Value</description>
@@ -255,7 +255,7 @@
 					<aligny>center</aligny>
 					<label>$INFO[Window.Property(Current.DewPoint)]$INFO[System.TemperatureUnits]</label>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current humidity Value</description>
@@ -268,7 +268,7 @@
 					<aligny>center</aligny>
 					<info>Window.Property(Current.Humidity)</info>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current UV Index Value</description>
@@ -281,7 +281,7 @@
 					<aligny>center</aligny>
 					<info>Window.Property(Current.UVIndex)</info>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>current Wind Value</description>
@@ -294,7 +294,7 @@
 					<aligny>center</aligny>
 					<info>Window.Property(Current.Wind)</info>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
 			<control type="group">
@@ -320,7 +320,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="list" id="50">
 					<posx>15</posx>
@@ -356,7 +356,7 @@
 							<height>25</height>
 							<font>font13_title</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -377,7 +377,7 @@
 							<height>25</height>
 							<font>font13</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -391,7 +391,7 @@
 							<height>25</height>
 							<font>font13</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -405,7 +405,7 @@
 							<height>50</height>
 							<font>font13</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<label>$INFO[ListItem.Property(Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]]</label>
@@ -446,7 +446,7 @@
 							<height>25</height>
 							<font>font13_title</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -467,7 +467,7 @@
 							<height>25</height>
 							<font>font13</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -481,7 +481,7 @@
 							<height>25</height>
 							<font>font13</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<aligny>center</aligny>
@@ -495,7 +495,7 @@
 							<height>50</height>
 							<font>font13</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>selected</selectedcolor>
 							<align>left</align>
 							<label>$INFO[ListItem.Property(Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]]</label>
@@ -674,7 +674,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 						<control type="list" id="52">
 							<posx>15</posx>
@@ -961,7 +961,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 						<control type="label">
 							<posx>0</posx>
@@ -990,7 +990,7 @@
 									<height>30</height>
 									<font>font13_title</font>
 									<textcolor>white</textcolor>
-									<shadowcolor>black</shadowcolor>
+									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
 									<label>$INFO[Window.Property(Weekend.1.LongDay)] - $INFO[Window.Property(Weekend.1.ShortDate)]</label>
@@ -1067,7 +1067,7 @@
 									<height>30</height>
 									<font>font13_title</font>
 									<textcolor>white</textcolor>
-									<shadowcolor>black</shadowcolor>
+									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
 									<label>$INFO[Window.Property(Weekend.2.LongDay)] - $INFO[Window.Property(Weekend.2.ShortDate)]</label>
@@ -1154,7 +1154,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 						<control type="label">
 							<posx>0</posx>
@@ -1183,7 +1183,7 @@
 									<height>30</height>
 									<font>font13_title</font>
 									<textcolor>white</textcolor>
-									<shadowcolor>black</shadowcolor>
+									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
 									<label>$INFO[Window.Property(36Hour.1.Heading)]</label>
@@ -1249,7 +1249,7 @@
 									<height>30</height>
 									<font>font13_title</font>
 									<textcolor>white</textcolor>
-									<shadowcolor>black</shadowcolor>
+									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
 									<label>$INFO[Window.Property(36Hour.2.Heading)]</label>
@@ -1315,7 +1315,7 @@
 									<height>30</height>
 									<font>font13_title</font>
 									<textcolor>white</textcolor>
-									<shadowcolor>black</shadowcolor>
+									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
 									<label>$INFO[Window.Property(36Hour.3.Heading)]</label>
@@ -1391,7 +1391,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 						<control type="image">
 							<description>Background image</description>

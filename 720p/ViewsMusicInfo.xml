@@ -146,7 +146,7 @@
 					<aligny>center</aligny>
 					<font>font24_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<posx>10</posx>
@@ -159,7 +159,7 @@
 					<aligny>center</aligny>
 					<font>font13</font>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<posx>10</posx>
@@ -172,7 +172,7 @@
 					<aligny>top</aligny>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
 					<visible>!Container.Content(Albums)</visible>
 				</control>
@@ -187,7 +187,7 @@
 					<aligny>top</aligny>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
 					<visible>Container.Content(Albums)</visible>
 				</control>

@@ -266,22 +266,30 @@
 			<onfocus condition="IsEmpty(Skin.String(HomeItem.11.Sub))">Skin.SetString(HomeItem.11.Sub,Settings)</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(HomeItem.11.Stats))">Skin.SetString(HomeItem.11.Stats,Settings)</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(HomeItem.11.FanArt))">Skin.SetString(HomeItem.11.FanArt,special://skin/backgrounds/homescreen/settings.jpg)</onfocus>
-			
-			
-			
-			<onfocus condition="IsEmpty(Skin.String(MainPrimary.Colour)">Skin.SetString(MainPrimary.Colour,ff0000ff)</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(MainPrimary.Name)">Skin.SetString(MainPrimary.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(UnFocusedMain.Colour)">Skin.SetString(UnFocusedMain.Colour,FF505050)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(MainMenu.Colour)">Skin.SetString(MainMenu.Colour,MenuFocus)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(MainMenu.Name)">Skin.SetString(MainMenu.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(UnFocusedMain.Colour)">Skin.SetString(UnFocusedMain.Colour,MenuNoFocus)</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(UnFocusedMain.Name)">Skin.SetString(UnFocusedMain.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(InfoLabels.Colour)">Skin.SetString(InfoLabels.Colour,FF0084ff)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(MainPrimary.Colour)">Skin.SetString(MainPrimary.Colour,MainLabel)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(MainPrimary.Name)">Skin.SetString(MainPrimary.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(InfoLabels.Colour)">Skin.SetString(InfoLabels.Colour,MinorLabel)</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(InfoLabels.Name)">Skin.SetString(InfoLabels.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(HomeInfoText.Colour)">Skin.SetString(HomeInfoText.Colour,FF0084ff)</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(HomeInfoText.Name)">Skin.SetString(HomeInfoText.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(RSSStatInfo.Colour)">Skin.SetString(RSSStatInfo.Colour,FF0084ff)</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(RSSStatInfo.Name)">Skin.SetString(RSSStatInfo.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(RSSStatHiLite.Colour)">Skin.SetString(RSSStatHiLite.Colour,FF0084ff)</onfocus>
-			<onfocus condition="IsEmpty(Skin.String(RSSStatHiLite.Name)">Skin.SetString(RSSStatHiLite.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(HomeInfoOne.Colour)">Skin.SetString(HomeInfoOne.Colour,HomeInfoOne)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(HomeInfoOne.Name)">Skin.SetString(HomeInfoOne.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(HomeInfoTwo.Colour)">Skin.SetString(HomeInfoTwo.Colour,HomeInfoTwo)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(HomeInfoTwo.Name)">Skin.SetString(HomeInfoTwo.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(HomeInfoThree.Colour)">Skin.SetString(HomeInfoThree.Colour,HomeInfoThree)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(HomeInfoThree.Name)">Skin.SetString(HomeInfoThree.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(TitlesStatsRSS.Colour)">Skin.SetString(TitlesStatsRSS.Colour,StatsName)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(TitlesStatsRSS.Name)">Skin.SetString(TitlesStatsRSS.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(TextStatsRSS.Colour)">Skin.SetString(TextStatsRSS.Colour,StatsAmnt)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(TextStatsRSS.Name)">Skin.SetString(TextStatsRSS.Name,$LOCALIZE[571])</onfocus>
 
+			
+			
+			
+			<onfocus condition="IsEmpty(Skin.String(TextShadow.Colour)">Skin.SetString(TextShadow.Colour,TextShadow)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(TextShadow.Name)">Skin.SetString(TextShadow.Name,$LOCALIZE[31898])</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(PreviousTheme)">Skin.SetString(PreviousTheme,$INFO[Skin.CurrentTheme])</onfocus>
 			<onfocus>Skin.SetBool(CurrentWeatherBackdrop)</onfocus>
 			<onfocus>Skin.SetBool(InitialSetUpRun)</onfocus>
@@ -291,43 +299,45 @@
 		<control type="button" id="8999">
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
+			<onfocus>Skin.SetString(MainMenu.Colour,MenuFocus)</onfocus>
+			<onfocus>Skin.SetString(MainMenu.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(UnFocusedMain.Colour,MenuNoFocus)</onfocus>
+			<onfocus>Skin.SetString(UnFocusedMain.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(MainPrimary.Colour,MainLabel)</onfocus>
+			<onfocus>Skin.SetString(MainPrimary.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(InfoLabels.Colour,MinorLabel)</onfocus>
+			<onfocus>Skin.SetString(InfoLabels.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(HomeInfoOne.Colour,HomeInfoOne)</onfocus>
+			<onfocus>Skin.SetString(HomeInfoOne.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(HomeInfoTwo.Colour,HomeInfoTwo)</onfocus>
+			<onfocus>Skin.SetString(HomeInfoTwo.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(HomeInfoThree.Colour,HomeInfoThree)</onfocus>
+			<onfocus>Skin.SetString(HomeInfoThree.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(TitlesStatsRSS.Colour,StatsName)</onfocus>
+			<onfocus>Skin.SetString(TitlesStatsRSS.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(TextStatsRSS.Colour,StatsAmnt)</onfocus>
+			<onfocus>Skin.SetString(TextStatsRSS.Name,$LOCALIZE[571])</onfocus>
 			
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(MainPrimary.Colour,$VAR[SetMainPrimary])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(MainPrimary.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(UnFocusedMain.Colour,$VAR[SetUnFocusedMain])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(UnFocusedMain.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(InfoLabels.Colour,$VAR[SetInfoLabels])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(InfoLabels.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(HomeInfoText.Colour,$VAR[SetHomeInfoText])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(HomeInfoText.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(RSSStatInfo.Colour,$VAR[SetRSSStatInfo])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(RSSStatInfo.Name,$LOCALIZE[571])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(RSSStatHiLite.Colour,$VAR[SetRSSStatHiLite])</onfocus>
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(RSSStatHiLite.Name,$LOCALIZE[571])</onfocus>
 			
 			
 			
-			
-			<onfocus condition="!stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))">Skin.SetString(PreviousTheme,$INFO[Skin.CurrentTheme])</onfocus>
-			
-			
-			
-			<!--
-	
-	
-	
-	<onload condition="IsEmpty(Skin.String(InfoLabels.Colour))">Skin.SetString(InfoLabels.Colour,$VAR[SetTextColour])</onload>
-	
--->
+
 	
 
 			
 			
 			
-			
-			
+			<onfocus>Skin.SetString(TextShadow.Colour,TextShadow)</onfocus>
+			<onfocus>Skin.SetString(TextShadow.Name,$LOCALIZE[31898])</onfocus>
+			<onfocus>Skin.SetString(PreviousTheme,$INFO[Skin.CurrentTheme])</onfocus>
 			<onfocus>SetFocus(9000)</onfocus>
-			<visible>Skin.HasSetting(InitialSetUpRun)</visible>
+			<visible>Skin.HasSetting(InitialSetUpRun) + !stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))</visible>
+		</control>
+		<control type="button" id="8999">
+			<texturenofocus>-</texturenofocus>
+			<texturefocus>-</texturefocus>
+			<onfocus>SetFocus(9000)</onfocus>
+			<visible>Skin.HasSetting(InitialSetUpRun) + stringcompare(Skin.CurrentTheme,Skin.String(PreviousTheme))</visible>
 		</control>
 	</include>
 	<include name="HomeVerticalMainMenu">
@@ -373,7 +383,7 @@
 					<width>335</width>
 					<height>102</height>
 					<font>font_MainMenu</font>
-					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
+					<textcolor>$INFO[Skin.String(MainMenu.Colour)]</textcolor>
 					<align>right</align>
 					<aligny>center</aligny>
 					<animation effect="zoom" start="65" end="110" center="380,51" time="200">Focus</animation>
@@ -456,7 +466,7 @@
 					<width>290</width>
 					<height>60</height>
 					<font>font_HorzMainMenu</font>
-					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
+					<textcolor>$INFO[Skin.String(MainMenu.Colour)]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>

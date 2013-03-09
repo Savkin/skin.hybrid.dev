@@ -35,7 +35,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<textcolor>selected</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<visible>!pvr.IsPlayingRadio</visible>
 		</control>
 		<control type="button">
@@ -66,7 +66,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<textcolor>blue</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="image">
 			<posx>30</posx>
@@ -84,7 +84,7 @@
 			<height>40</height>
 			<font>font13</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<texturefocus>-</texturefocus>
 			<texturenofocus>-</texturenofocus>
 			<align>left</align>
@@ -116,7 +116,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<texturefocus border="5">button-focus2.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<align>left</align>
@@ -136,7 +136,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<texturefocus border="5">button-focus2.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<align>left</align>
@@ -156,7 +156,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<texturefocus border="5">button-focus2.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<label>19128</label>
@@ -174,7 +174,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<texturefocus border="5">button-focus2.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<label>19129</label>
@@ -207,7 +207,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
 				<texturefocus border="5">button-focus2.png</texturefocus>
@@ -228,7 +228,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
 				<texturefocus border="5">button-focus2.png</texturefocus>
@@ -249,7 +249,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
 				<texturefocus border="5">button-focus2.png</texturefocus>
@@ -304,7 +304,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<texturefocus border="5">button-focus2.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<label>19126</label>
@@ -322,7 +322,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<texturefocus border="5">button-focus2.png</texturefocus>
 				<texturenofocus border="5">button-nofocus.png</texturenofocus>
 				<label>19127</label>
@@ -340,7 +340,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
 				<texturefocus border="5">button-focus2.png</texturefocus>
@@ -391,7 +391,7 @@
 				<font>font12</font>
 				<textcolor>white</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<align>left</align>
 				<aligny>center</aligny>
 				<texturefocus border="5">button-focus2.png</texturefocus>

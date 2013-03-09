@@ -45,7 +45,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="group">
 					<visible>Control.HasFocus(12)</visible>
@@ -85,7 +85,7 @@
 							<height>380</height>
 							<font>font30_title</font>
 							<textcolor>white</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>31311</label>
@@ -1019,7 +1019,7 @@
 					<height>30</height>
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -1033,7 +1033,7 @@
 					<height>30</height>
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>

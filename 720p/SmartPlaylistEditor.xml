@@ -39,7 +39,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>selected</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -81,7 +81,7 @@
 				<label>21433</label>
 				<font>font12</font>
 				<textcolor>blue</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="edit" id="12">
 				<description>Name Button</description>
@@ -109,7 +109,7 @@
 				<label>21434</label>
 				<font>font12</font>
 				<textcolor>blue</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="list" id="10">
 				<description>Rules List Control</description>
@@ -226,7 +226,7 @@
 				<label>31325</label>
 				<font>font12</font>
 				<textcolor>blue</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="spincontrolex" id="16">
 				<posx>30</posx>

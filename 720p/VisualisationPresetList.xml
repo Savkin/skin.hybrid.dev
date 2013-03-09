@@ -36,7 +36,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>selected</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>

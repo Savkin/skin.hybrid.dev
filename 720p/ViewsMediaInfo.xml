@@ -181,7 +181,7 @@
 					<height>30</height>
 					<font>font13</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>top</aligny>
@@ -298,7 +298,7 @@
 					<height>30</height>
 					<font>font24_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label]</label>
@@ -376,7 +376,7 @@
 					<height>30</height>
 					<font>font24_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label]</label>
@@ -454,7 +454,7 @@
 					<height>30</height>
 					<font>font24_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label]</label>
@@ -527,7 +527,7 @@
 					<height>30</height>
 					<font>font13_title</font>
 					<textcolor>grey2</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>right</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.genre]</label>

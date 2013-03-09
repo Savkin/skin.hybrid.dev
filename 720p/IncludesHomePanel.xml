@@ -19,8 +19,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8000)</visible>
 			</control>
 			<control type="label">
@@ -33,8 +33,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8000)</visible>
 			</control>
 			<control type="panel" id="8000">
@@ -87,8 +87,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="panel" id="8001">
 				<include>DimensionsLandscapePanel</include>
@@ -140,8 +140,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8002)</visible>
 			</control>
 			<control type="label">
@@ -154,8 +154,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8002)</visible>
 			</control>
 			<control type="panel" id="8002">
@@ -208,8 +208,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8003)</visible>
 			</control>
 			<control type="label">
@@ -222,8 +222,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8003)</visible>
 			</control>
 			<control type="panel" id="8003">
@@ -276,8 +276,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="panel" id="8004">
 				<include>DimensionsLandscapePanel</include>
@@ -329,8 +329,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8005)</visible>
 			</control>
 			<control type="label">
@@ -343,8 +343,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8005)</visible>
 			</control>
 			<control type="panel" id="8005">
@@ -397,8 +397,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="panel" id="8006">
 				<include>DimensionsLandscapePanel</include>
@@ -450,8 +450,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8007)</visible>
 			</control>
 			<control type="label">
@@ -464,8 +464,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8007)</visible>
 			</control>
 			<control type="panel" id="8007">
@@ -518,8 +518,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="panel" id="8008">
 				<include>DimensionsLandscapePanel</include>
@@ -571,8 +571,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8009)</visible>
 			</control>
 			<control type="label">
@@ -585,8 +585,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8009)</visible>
 			</control>
 			<control type="panel" id="8009">
@@ -639,8 +639,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8010)</visible>
 			</control>
 			<control type="label">
@@ -653,8 +653,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8010)</visible>
 			</control>
 			<control type="panel" id="8010">
@@ -707,8 +707,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="panel" id="8011">
 				<include>DimensionsLandscapePanel</include>
@@ -760,8 +760,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8012)</visible>
 			</control>
 			<control type="label">
@@ -774,8 +774,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8012)</visible>
 			</control>
 			<control type="panel" id="8012">
@@ -828,8 +828,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="panel" id="8013">
 				<include>DimensionsLandscapePanel</include>
@@ -881,8 +881,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8020)</visible>
 			</control>
 			<control type="label">
@@ -895,8 +895,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8020)</visible>
 			</control>
 			<control type="panel" id="8020">
@@ -949,8 +949,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8021)</visible>
 			</control>
 			<control type="label">
@@ -963,8 +963,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8021)</visible>
 			</control>
 			<control type="panel" id="8021">
@@ -1017,8 +1017,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8022)</visible>
 			</control>
 			<control type="label">
@@ -1031,8 +1031,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8022)</visible>
 			</control>
 			<control type="panel" id="8022">
@@ -1085,8 +1085,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8023)</visible>
 			</control>
 			<control type="label">
@@ -1099,8 +1099,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8023)</visible>
 			</control>
 			<control type="panel" id="8023">
@@ -1153,8 +1153,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="panel" id="8024">
 				<include>DimensionsLandscapePanel</include>
@@ -1206,8 +1206,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8025)</visible>
 			</control>
 			<control type="label">
@@ -1220,8 +1220,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8025)</visible>
 			</control>
 			<control type="panel" id="8025">
@@ -1274,8 +1274,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="panel" id="8026">
 				<include>DimensionsLandscapePanel</include>
@@ -1341,8 +1341,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>!Skin.HasSetting(EnableRandomPlaylist)</visible>
 					<visible>!Control.HasFocus(8014)</visible>
 				</control>
@@ -1356,8 +1356,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Skin.HasSetting(EnableRandomPlaylist)</visible>
 					<visible>!Control.HasFocus(8014)</visible>
 				</control>
@@ -1371,8 +1371,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Control.HasFocus(8014)</visible>
 				</control>
 				<control type="panel" id="8014">
@@ -1696,8 +1696,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>!Skin.HasSetting(EnableRandomPlaylist)</visible>
 					<visible>!Control.HasFocus(8016)</visible>
 				</control>
@@ -1711,8 +1711,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Skin.HasSetting(EnableRandomPlaylist)</visible>
 					<visible>!Control.HasFocus(8016)</visible>
 				</control>
@@ -1726,8 +1726,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Control.HasFocus(8016)</visible>
 				</control>
 				<control type="panel" id="8016">
@@ -2051,8 +2051,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>!Skin.HasSetting(EnableRandomPlaylist)</visible>
 					<visible>!Control.HasFocus(8017)</visible>
 				</control>
@@ -2066,8 +2066,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Skin.HasSetting(EnableRandomPlaylist)</visible>
 					<visible>!Control.HasFocus(8017)</visible>
 				</control>
@@ -2081,8 +2081,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Control.HasFocus(8017)</visible>
 				</control>
 				<control type="panel" id="8017">
@@ -2411,8 +2411,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>!Skin.HasSetting(EnableRandomPlaylist)</visible>
 				</control>
 				<control type="label">
@@ -2425,8 +2425,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Skin.HasSetting(EnableRandomPlaylist)</visible>
 				</control>
 				<control type="panel" id="8015">
@@ -2750,8 +2750,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>!Skin.HasSetting(EnableRandomPlaylist)</visible>
 					<visible>!Control.HasFocus(8027)</visible>
 				</control>
@@ -2765,8 +2765,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Skin.HasSetting(EnableRandomPlaylist)</visible>
 					<visible>!Control.HasFocus(8027)</visible>
 				</control>
@@ -2780,8 +2780,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Control.HasFocus(8027)</visible>
 				</control>
 				<control type="panel" id="8027">
@@ -3115,8 +3115,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>!Skin.HasSetting(EnableRandomPlaylist)</visible>
 				</control>
 				<control type="label">
@@ -3129,8 +3129,8 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Skin.HasSetting(EnableRandomPlaylist)</visible>
 				</control>
 				<control type="panel" id="8018">
@@ -3450,8 +3450,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!Control.HasFocus(8019)</visible>
 			</control>
 			<control type="label">
@@ -3464,8 +3464,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Control.HasFocus(8019)</visible>
 			</control>
 			<control type="panel" id="8019">
@@ -3637,8 +3637,8 @@
 				<label>$INFO[ListItem.Label]</label>
 				<align>center</align>
 				<font>font12_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!IsEmpty(ListItem.Label)</visible>
 			</control>
 		</itemlayout>
@@ -3695,8 +3695,8 @@
 				<label>[B]$INFO[ListItem.Label][/B]</label>
 				<align>center</align>
 				<font>font13_title</font>
-				<textcolor>HomeInfoTwo</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(RSSStatInfo.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<animation effect="slide" end="25,0" time="100" reversible="true" condition="Control.HasFocus(8001) + Container(8001).Column(0)">conditional</animation>
 				<animation effect="slide" end="5,0" time="100" reversible="true" condition="Control.HasFocus(8001) + Container(8001).Column(1)">conditional</animation>
 				<animation effect="slide" end="-15,0" time="100" reversible="true" condition="Control.HasFocus(8001) + Container(8001).Column(2)">conditional</animation>
@@ -3803,8 +3803,8 @@
 				<label>$INFO[ListItem.Label]</label>
 				<align>center</align>
 				<font>font12_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!IsEmpty(ListItem.Label)</visible>
 			</control>
 		</itemlayout>
@@ -3852,8 +3852,8 @@
 				<label>[B]$INFO[ListItem.Label][/B]</label>
 				<align>center</align>
 				<font>font13_title</font>
-				<textcolor>HomeInfoTwo</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(RSSStatInfo.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<animation effect="slide" end="25,0" time="100" reversible="true" condition="Control.HasFocus(8004) + Container(8004).Column(0)">conditional</animation>
 				<animation effect="slide" end="5,0" time="100" reversible="true" condition="Control.HasFocus(8004) + Container(8004).Column(1)">conditional</animation>
 				<animation effect="slide" end="-15,0" time="100" reversible="true" condition="Control.HasFocus(8004) + Container(8004).Column(2)">conditional</animation>
@@ -3923,8 +3923,8 @@
 				<label>$INFO[ListItem.Label2]</label>
 				<align>center</align>
 				<font>font12_title</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>!IsEmpty(ListItem.Label)</visible>
 			</control>
 		</itemlayout>
@@ -3992,8 +3992,8 @@
 				<label>$INFO[ListItem.Label2]</label>
 				<align>center</align>
 				<font>font13_title</font>
-				<textcolor>HomeInfoTwo</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(RSSStatInfo.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<animation effect="slide" end="25,0" time="100" reversible="true" condition="Control.HasFocus(8002) + Container(8002).Column(0)">conditional</animation>
 				<animation effect="slide" end="5,0" time="100" reversible="true" condition="Control.HasFocus(8002) + Container(8002).Column(1)">conditional</animation>
 				<animation effect="slide" end="-15,0" time="100" reversible="true" condition="Control.HasFocus(8002) + Container(8002).Column(2)">conditional</animation>

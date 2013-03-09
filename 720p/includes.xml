@@ -94,7 +94,7 @@
 			<width>900</width>
 			<height>35</height>
 			<font>font30_title</font>
-			<textcolor>MainLabel</textcolor>
+			<textcolor>$INFO[Skin.String(MainLabel.Colour)]</textcolor>
 			<scroll>true</scroll>
 			<align>center</align>
 			<aligny>center</aligny>
@@ -690,7 +690,7 @@
 			<aligny>center</aligny>
 			<font>font12_title</font>
 			<textcolor>grey2</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="fadelabel">
 			<description>Title label</description>
@@ -703,7 +703,7 @@
 			<aligny>center</aligny>
 			<font>font13_title</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<scrollout>false</scrollout>
 			<pauseatend>2000</pauseatend>
 		</control>
@@ -718,7 +718,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="label">
 			<description>Time Label</description>
@@ -731,7 +731,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="label">
 			<description>Next Label</description>
@@ -744,7 +744,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>grey</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 	</include>
 	<include name="SmallVideoInfo">
@@ -777,7 +777,7 @@
 			<aligny>center</aligny>
 			<font>font12_title</font>
 			<textcolor>grey2</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
 		</control>
 		<control type="label">
@@ -791,7 +791,7 @@
 			<aligny>center</aligny>
 			<font>font12_title</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<visible>videoplayer.content(episodes)</visible>
 		</control>
 		<control type="fadelabel">
@@ -805,7 +805,7 @@
 			<aligny>center</aligny>
 			<font>font12_title</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<visible>videoplayer.content(musicvideos)</visible>
 			<scrollout>false</scrollout>
 			<pauseatend>2000</pauseatend>
@@ -821,7 +821,7 @@
 			<aligny>center</aligny>
 			<font>font13_title</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<scrollout>false</scrollout>
 			<pauseatend>2000</pauseatend>
 		</control>
@@ -836,7 +836,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
 		</control>
 		<control type="label">
@@ -849,7 +849,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<visible>videoplayer.content(musicvideos)</visible>
 		</control>
 		<control type="label">
@@ -863,7 +863,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<visible>videoplayer.content(episodes)</visible>
 		</control>
 		<control type="label">
@@ -877,7 +877,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<textcolor>white</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 	</include>
 	<include name="CDArtSpinner">
@@ -955,7 +955,7 @@
 			<align>right</align>
 			<aligny>center</aligny>
 			<font>font10_title</font>
-			<textcolor>HomeInfoOne</textcolor>
+			<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 			<info>System.Date</info>
 			<animation effect="slide" start="0,0" end="-40,0" time="100" condition="Window.IsVisible(Mutebug)">conditional</animation>
 			<animation effect="slide" start="0,0" end="0,-50" time="100" condition="Window.IsVisible(busydialog)">conditional</animation>
@@ -973,7 +973,7 @@
 			<align>right</align>
 			<aligny>center</aligny>
 			<font>font35_title</font>
-			<textcolor>HomeInfoClock</textcolor>
+			<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 			<label>$INFO[System.Time]</label>
 			<animation effect="slide" start="0,0" end="-40,0" time="100" condition="Window.IsVisible(Mutebug)">conditional</animation>
 			<animation effect="slide" start="0,0" end="0,-50" time="100" condition="Window.IsVisible(busydialog)">conditional</animation>
@@ -1006,8 +1006,8 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font10</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<label>$INFO[Window(Weather).Property(Location)]</label>
 				<visible>Window.IsVisible(home)</visible>
 			</control>
@@ -1020,8 +1020,8 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font10</font>
-				<textcolor>HomeInfoOne</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<label>$LOCALIZE[31300]</label>
 				<visible>!Window.IsVisible(home)</visible>
 			</control>
@@ -1040,8 +1040,8 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font28_title</font>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B]</label>
 				</control>
 				<control type="label">
@@ -1051,8 +1051,8 @@
 					<font>font10</font>
 					<aligny>center</aligny>
 					<label>$INFO[System.TemperatureUnits]</label>
-					<textcolor>HomeInfoOne</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
 					<description>Condition</description>
@@ -1061,8 +1061,8 @@
 					<font>font10</font>
 					<aligny>center</aligny>
 					<label> $INFO[Window(Weather).Property(Current.Condition)]</label>
-					<textcolor>HomeInfoThree</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>Window.IsVisible(home)</visible>
 				</control>
 			</control>
@@ -1153,8 +1153,7 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>font12</font>
-		<textcolor>CommonBtnNoFocus</textcolor>
-		<focusedcolor>CommonBtnFocus</focusedcolor>
+		<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 		<texturefocus border="5">HorizontalMenu/HomeSubFO.png</texturefocus>
 		<texturenofocus border="5">HorizontalMenu/HomeSubNF.png</texturenofocus>
 		<alttexturefocus border="5">HorizontalMenu/HomeSubFO.png</alttexturefocus>

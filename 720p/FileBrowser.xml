@@ -52,7 +52,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<textcolor>selected</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label" id="412">
 					<description>Path label</description>
@@ -65,7 +65,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="grouplist" id="9000">
 					<posx>20</posx>

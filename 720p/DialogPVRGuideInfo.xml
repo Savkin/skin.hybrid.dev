@@ -47,7 +47,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>selected</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -77,7 +77,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>blue</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="group">
 				<control type="group">
@@ -187,7 +187,7 @@
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<pagecontrol>-</pagecontrol>
 					<autoscroll time="2000" delay="3000" repeat="5000">true</autoscroll>
 					<label fallback="31028">$INFO[ListItem.Plot]</label>

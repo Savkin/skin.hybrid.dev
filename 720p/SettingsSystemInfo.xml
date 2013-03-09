@@ -182,7 +182,7 @@
 				<width>900</width>
 				<height>35</height>
 				<font>font30_title</font>
-				<textcolor>MainLabel</textcolor>
+				<textcolor>$INFO[Skin.String(MainLabel.Colour)]</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -280,7 +280,7 @@
 					<label>144</label>
 					<align>right</align>
 					<textcolor>blue</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<font>font13_title</font>
 				</control>
 				<control type="label">
@@ -293,7 +293,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<font>font12_title</font>
 				</control>
 				<control type="progress">
@@ -314,7 +314,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<font>font12_title</font>
 				</control>
 				<control type="progress">

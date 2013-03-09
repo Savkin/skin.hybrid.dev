@@ -50,7 +50,7 @@
 					<label>$LOCALIZE[29802]</label>
 					<font>font10_title</font>
 					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
 				</control>

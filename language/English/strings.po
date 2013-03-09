@@ -1001,7 +1001,7 @@ msgid "Text Colours"
 msgstr ""
 
 msgctxt "#31751"
-msgid "Home Menu Focused and Main Headings"
+msgid "Home Menu Focused"
 msgstr ""
 
 msgctxt "#31752"
@@ -1009,22 +1009,33 @@ msgid "Home Menu UnFocused"
 msgstr ""
 
 msgctxt "#31753"
+msgid "Main Headings and Labels"
+msgstr ""
+
+
+msgctxt "#31754"
 msgid "Secondry Info Labels"
 msgstr ""
 
-msgctxt "#31754"
-msgid "Clock and Weather Info"
-msgstr ""
-
 msgctxt "#31755"
-msgid "RSS and Stats Info"
+msgid "Home Info Colour - "
 msgstr ""
 
 msgctxt "#31756"
-msgid "RSS and Stats HiLighted"
+msgid "RSS Titles and Stats Type"
 msgstr ""
 
-#empty strings from id 31704 to 31906
+msgctxt "#31757"
+msgid "RSS Text and Stats Amounts"
+msgstr ""
+
+
+
+
+
+msgctxt "#31764"
+msgid "Text Shadow"
+msgstr ""
 
 msgctxt "#31765"
 msgid "Text Colours"

@@ -191,7 +191,7 @@
 					<font>font13_title</font>
 					<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, - ]</label>
 					<textcolor>NowPlayAlbum</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 				</control>
 				<control type="label" id="1">
@@ -204,7 +204,7 @@
 					<font>font13_title</font>
 					<label>$LOCALIZE[31956] $INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, - ]</label>
 					<textcolor>NowPlayAlbum</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)</visible>
 				</control>
 				<control type="grouplist">
@@ -252,8 +252,8 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13</font>
-				<textcolor>StatsAmnt</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<scrollout>true</scrollout>
 				<scrollspeed>30</scrollspeed>
 				<pauseatend>2000</pauseatend>

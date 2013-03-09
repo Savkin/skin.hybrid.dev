@@ -173,7 +173,7 @@
 						<aligny>top</aligny>
 						<font>font12</font>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<wrapmultiline>false</wrapmultiline>
 						<animation type="Focus" reversible="false">
 							<effect type="fade" start="0" end="100" time="200" />

@@ -44,7 +44,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>selected</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="group">
 					<description>Group list</description>

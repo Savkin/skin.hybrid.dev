@@ -1,5 +1,18 @@
 <!-- TRANSFIRE COLOR SET BY FREAKYLINUX GUY -->
 <colors>
+	<!-- Hybrid Default Item Default Colours -->
+	<color name="MainLabel">FFF30000</color>
+	<color name="MenuFocus">FFF30000</color>
+	<color name="MenuNoFocus">FF505050</color>
+	<color name="MinorLabel">FF999999</color>
+	<color name="HomeInfoClock">FFFFFFFF</color>
+	<color name="HomeInfoDate">FFFFFFFF</color>
+    <color name="StatsName">FFF30000</color>
+    <color name="StatsAmnt">FFFFFFFF</color>
+	
+	
+	<color name="TextShadow">FF000000</color>		
+
         <!-- CONFLUENCE LITE COLORS -->
 	<color name="white">FFFFFFFF</color>
 	<color name="grey">FFb4b4b4</color>
@@ -12,27 +25,25 @@
 	
 	<!-- BY ITEM TYPE COLOURS -->
 	
-	<color name="MainLabel">FFF30000</color><!--blue-->
+	
 
 
 
-        <color name="MenuFocus">FFF30000</color><!--blue-->
-        <color name="MenuNoFocus">FF505050</color><!--grey3-->
+        
+        
+		
+		
+		
         <color name="SubMenu">FF999999</color><!--grey2-->
         <color name="CommonBtnFocus">FFFFFFFF</color><!--white-->
         <color name="CommonBtnNoFocus">FF999999</color><!--grey2-->
         <color name="HomeInfoOne">FFFFFFFF</color><!--white-->
         <color name="HomeInfoTwo">FFF30000</color><!--blue-->
         <color name="HomeInfoThree">FF999999</color><!--grey2-->
-        <color name="StatsName">FFF30000</color><!--white-->
-        <color name="StatsAmnt">FFFFFFFF</color><!--white-->
-        <color name="RSSText">FFFFFFFF</color><!--blue-->
-        <color name="RSSTitle">FFF30000</color><!--blue-->
-        <color name="RSSHiLite">FFFFFFFF</color><!--blue-->
 
     <!--ADVANCED COLORS CLOCK -->
-    <color name="HomeInfoDate">FFFFFFFF</color><!--white-->
-    <color name="HomeInfoClock">FFFFFFFF</color><!--white-->
+   
+   
 
         <!--ADNVANCED COLORS HOME ALBUM INFO -->
         <color name="NowPlayAlbum">white</color><!--white-->

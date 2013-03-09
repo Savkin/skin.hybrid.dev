@@ -46,7 +46,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>selected</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -108,7 +108,7 @@
 						<font>font13</font>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
@@ -121,7 +121,7 @@
 						<font>font13</font>
 						<aligny>center</aligny>
 						<textcolor>grey2</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
@@ -152,7 +152,7 @@
 						<font>font13</font>
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
@@ -165,7 +165,7 @@
 						<font>font13</font>
 						<aligny>center</aligny>
 						<textcolor>grey2</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>

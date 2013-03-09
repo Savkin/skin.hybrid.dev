@@ -163,7 +163,7 @@
 						<align>left</align>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
-						<shadowcolor>black</shadowcolor>
+						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					</control>
 					<control type="grouplist">
 						<posx>190</posx>
@@ -180,7 +180,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>orange</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<scroll>true</scroll>
 						</control>
 						<control type="label">
@@ -191,7 +191,7 @@
 							<font>font12</font>
 							<label>$INFO[VideoPlayer.Studio]</label>
 							<textcolor>grey2</textcolor>
-							<shadowcolor>black</shadowcolor>
+							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 					</control>
 					<control type="label" id="504">

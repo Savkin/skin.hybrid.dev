@@ -59,7 +59,7 @@
 			<height>35</height>
 			<font>font12_title</font>
 			<textcolor>selected</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<align>center</align>
 			<aligny>center</aligny>
 			<wrapmultiline>true</wrapmultiline>
