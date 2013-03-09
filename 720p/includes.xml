@@ -94,7 +94,7 @@
 			<width>900</width>
 			<height>35</height>
 			<font>font30_title</font>
-			<textcolor>$INFO[Skin.String(MainLabel.Colour)]</textcolor>
+			<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 			<scroll>true</scroll>
 			<align>center</align>
 			<aligny>center</aligny>
@@ -107,7 +107,7 @@
 			<width>900</width>
 			<height>20</height>
 			<font>font12_title</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<wrapmultiline>true</wrapmultiline>
 			<scroll>false</scroll>
 			<align>center</align>
@@ -125,7 +125,7 @@
 				<posy>45</posy>
 				<width>900</width>
 				<height>20</height>
-				<label>[B][COLOR=blue]$LOCALIZE[20360]:[/COLOR][/B] $INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+				<label>[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[20360]:[/COLOR][/B] $INFO[listitem.episode] [COLOR=$INFO[Skin.String(InfoLabels.Colour)]] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
@@ -142,7 +142,7 @@
 				<posy>50</posy>
 				<width>900</width>
 				<height>20</height>
-				<label>[B][COLOR=blue]$LOCALIZE[20416]:[/COLOR][/B][COLOR=grey] $INFO[listitem.premiered][/COLOR]</label>
+				<label>[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[20416]:[/COLOR][/B][COLOR=$INFO[Skin.String(InfoLabels.Colour)]] $INFO[listitem.premiered][/COLOR]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
@@ -159,7 +159,7 @@
 				<width>900</width>
 				<height>20</height>
 				<font>font12_title</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<wrapmultiline>true</wrapmultiline>
 				<scroll>false</scroll>
 				<align>center</align>
@@ -178,7 +178,7 @@
 				<width>900</width>
 				<height>20</height>
 				<font>font12_title</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<wrapmultiline>true</wrapmultiline>
 				<scroll>false</scroll>
 				<align>center</align>
@@ -301,7 +301,7 @@
 			<height>35</height>
 			<font>font12</font>
 			<label>31023</label>
-			<textcolor>blue</textcolor>
+			<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 			<align>center</align>
 			<aligny>center</aligny>
 			<visible>[Player.HasAudio | Player.HasVideo]</visible>
