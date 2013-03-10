@@ -95,7 +95,7 @@
 			<label>186</label>
 			<font>font12_title</font>
 			<textcolor>white</textcolor>
-			<focusedcolor>white</focusedcolor>
+			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<align>center</align>
 			<onleft>10</onleft>
 			<onright>10</onright>

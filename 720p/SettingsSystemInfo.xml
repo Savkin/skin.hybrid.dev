@@ -81,7 +81,7 @@
 					<aligny>center</aligny>
 					<font>font24_title</font>
 					<textcolor>grey2</textcolor>
-					<focusedcolor>white</focusedcolor>
+					<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 					<texturefocus border="0,2,0,2">DefaultNoImage.png</texturefocus>
 					<texturenofocus border="0,2,0,2">DefaultNoImage.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
@@ -98,7 +98,7 @@
 					<aligny>center</aligny>
 					<font>font24_title</font>
 					<textcolor>grey2</textcolor>
-					<focusedcolor>white</focusedcolor>
+					<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 					<texturefocus border="0,2,0,2">DefaultNoImage.png</texturefocus>
 					<texturenofocus border="0,2,0,2">DefaultNoImage.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
@@ -115,7 +115,7 @@
 					<aligny>center</aligny>
 					<font>font24_title</font>
 					<textcolor>grey2</textcolor>
-					<focusedcolor>white</focusedcolor>
+					<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 					<texturefocus border="0,2,0,2">DefaultNoImage.png</texturefocus>
 					<texturenofocus border="0,2,0,2">DefaultNoImage.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
@@ -132,7 +132,7 @@
 					<aligny>center</aligny>
 					<font>font24_title</font>
 					<textcolor>grey2</textcolor>
-					<focusedcolor>white</focusedcolor>
+					<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 					<texturefocus border="0,2,0,2">DefaultNoImage.png</texturefocus>
 					<texturenofocus border="0,2,0,2">DefaultNoImage.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
@@ -149,7 +149,7 @@
 					<aligny>center</aligny>
 					<font>font24_title</font>
 					<textcolor>grey2</textcolor>
-					<focusedcolor>white</focusedcolor>
+					<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 					<texturefocus border="0,2,0,2">DefaultNoImage.png</texturefocus>
 					<texturenofocus border="0,2,0,2">DefaultNoImage.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
@@ -166,7 +166,7 @@
 					<aligny>center</aligny>
 					<font>font24_title</font>
 					<textcolor>grey2</textcolor>
-					<focusedcolor>white</focusedcolor>
+					<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 					<texturefocus border="0,2,0,2">DefaultNoImage.png</texturefocus>
 					<texturenofocus border="0,2,0,2">DefaultNoImage.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>

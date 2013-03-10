@@ -11,8 +11,14 @@
     <color name="StatsAmnt">FFFFFFFF</color>
 	<color name="MediaMenuFocus">FFFFFFFF</color>
 	<color name="MediaMenuNoFocus">FF999999</color>
-
+	<color name="DefaultItem">FFFFFFFF</color>
+	
+	<color name="DisabledText">FF505050</color>
 	<color name="TextShadow">FF000000</color>	
+	
+	
+	
+	
 	
 
 	<!-- BY COLOUR NAMES -->

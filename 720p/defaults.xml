@@ -11,15 +11,15 @@
 		<posy>60</posy>
 		<label>-</label>
 		<font>font13</font>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 	</default>
 	<default type="fadelabel">
 		<posx>80</posx>
 		<posy>60</posy>
 		<font>font13</font>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 	</default>
 	<default type="button">
 		<posx>300</posx>
@@ -29,8 +29,8 @@
 		<texturefocus border="5">button-focus.png</texturefocus>
 		<texturenofocus border="5">button-nofocus.png</texturenofocus>
 		<font>font13</font>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
 		<pulseonselect>no</pulseonselect>
@@ -44,10 +44,10 @@
 		<texturenofocus>scroll-up.png</texturenofocus>
 		<alttexturefocus>scroll-down-focus.png</alttexturefocus>
 		<alttexturenofocus>scroll-down.png</alttexturenofocus>
-		<textcolor>white</textcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 		<label>-</label>
 		<font>font13</font>
-		<disabledcolor>grey3</disabledcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 		<pulseonselect>no</pulseonselect>
 	</default>
 	<default type="textbox">
@@ -56,7 +56,7 @@
 		<width>410</width>
 		<height>215</height>
 		<align>left</align>
-		<textcolor>white</textcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 		<font>font13</font>
 	</default>
 	<default type="progress">
@@ -80,8 +80,8 @@
 		<height>22</height>
 		<font>font13</font>
 		<reverse>yes</reverse>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 		<subtype>text</subtype>
 		<textoffsetx>-5</textoffsetx>
 		<textoffsety>0</textoffsety>
@@ -101,8 +101,8 @@
 		<textureupfocus>scroll-up-focus-2.png</textureupfocus>
 		<texturedownfocus>scroll-down-focus-2.png</texturedownfocus>
 		<font>font13</font>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
 		<reverse>yes</reverse>
@@ -121,8 +121,8 @@
 		<texturenofocus border="5">button-nofocus.png</texturenofocus>
 		<label>215</label>
 		<font>font13</font>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 		<aligny>center</aligny>
 		<pulseonselect>no</pulseonselect>
 		<colordiffuse>ffffffff</colordiffuse>
@@ -142,8 +142,8 @@
 		<textureright>scroll-right.png</textureright>
 		<texturerightfocus>scroll-right-focus.png</texturerightfocus>
 		<font>font13</font>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 		<aligny>center</aligny>
 	</default>
 	<default type="slider">
@@ -162,8 +162,8 @@
 		<textureslidernib>OSD/osd_slider_nibNF.png</textureslidernib>
 		<textureslidernibfocus>OSD/osd_slider_nib.png</textureslidernibfocus>
 		<font>font12</font>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 	</default>
 	<default type="mover">
 		<posx>60</posx>
@@ -185,8 +185,8 @@
 		<texturefocus border="5">button-focus.png</texturefocus>
 		<texturenofocus border="5">button-nofocus.png</texturenofocus>
 		<font>font13</font>
-		<textcolor>white</textcolor>
-		<disabledcolor>grey3</disabledcolor>
+		<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+		<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
 		<pulseonselect>no</pulseonselect>

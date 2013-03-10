@@ -63,7 +63,7 @@
 			<texturefocus border="5">button-focus2.png</texturefocus>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
 			<textcolor>white</textcolor>
-			<disabledcolor>grey3</disabledcolor>
+			<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 			<textoffsetx>12</textoffsetx>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>

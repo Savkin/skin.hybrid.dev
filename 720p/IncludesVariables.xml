@@ -41,6 +41,9 @@
 	</variable>
 		<variable name="ReSetTextColour" type="text">
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),TextShadow)">TextShadow</value>
+		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),DisabledText)">DisabledText</value>
+		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),DefaultMiscItem)">DefaultItem</value>
+		
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),MainMenu)">MenuFocus</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),UnFocusedMain)">MenuNoFocus</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),MainPrimary)">MainLabel</value>

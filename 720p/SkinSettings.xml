@@ -34,7 +34,7 @@
 				<width>900</width>
 				<height>35</height>
 				<font>font30_title</font>
-				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -47,7 +47,7 @@
 				<width>900</width>
 				<height>20</height>
 				<font>font12_title</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<wrapmultiline>true</wrapmultiline>
 				<scroll>false</scroll>
 				<align>center</align>
@@ -202,7 +202,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31950]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -212,8 +212,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[31951] $LOCALIZE[31008]</label>
 						<onclick>Skin.ToggleSetting(HideHomeFullScreen)</onclick>
 						<selected>Skin.HasSetting(HideHomeFullScreen)</selected>
@@ -225,8 +225,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[31951] $LOCALIZE[13000]</label>
 						<onclick>Skin.ToggleSetting(HideHomeMenuSystem)</onclick>
 						<selected>Skin.HasSetting(HideHomeMenuSystem)</selected>
@@ -238,8 +238,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31910]</label>
 						<onclick>Skin.SetString(HomeItemLastLabel,$INFO[Skin.String(HomeItem.1.Label)])</onclick>
 						<onclick>Skin.SetString(HomeItemLastAction,$INFO[Skin.String(HomeItem.1.Path)])</onclick>
@@ -255,8 +255,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 1</label>
 						<label2>[COLOR=selected]$VAR[MenuItemOneLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.1,home)</onclick>
@@ -270,8 +270,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.2,home)</onclick>
@@ -284,8 +284,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.3,home)</onclick>
@@ -298,8 +298,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 4</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.4.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.4,home)</onclick>
@@ -312,8 +312,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 5</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.5.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.5,home)</onclick>
@@ -326,8 +326,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 6</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.6.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.6,home)</onclick>
@@ -340,8 +340,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 7</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.7.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.7,home)</onclick>
@@ -354,8 +354,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 8</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.8.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.8,home)</onclick>
@@ -368,8 +368,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 9</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.9.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.9,home)</onclick>
@@ -382,8 +382,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31951] - 10</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeItem.10.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.10,home)</onclick>
@@ -432,7 +432,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31673]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -442,8 +442,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31674]</label>
 						<onclick>Skin.ToggleSetting(HideDefaultSubItem)</onclick>
 						<selected>Skin.HasSetting(HideDefaultSubItem)</selected>
@@ -455,7 +455,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31939]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -466,8 +466,8 @@
 						<font>font13</font>
 						<label>$VAR[MenuItemOneLabel]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemOneSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.Reset(HomeItemLastLabel)</onclick>
@@ -481,8 +481,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.2.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemTwoSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.2,home)</onclick>
@@ -495,8 +495,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.3.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemThreeSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.3,home)</onclick>
@@ -509,8 +509,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.4.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemFourSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.4,home)</onclick>
@@ -523,8 +523,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.5.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemFiveSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.5,home)</onclick>
@@ -537,8 +537,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.6.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemSixSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.6,home)</onclick>
@@ -551,8 +551,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.7.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemSevenSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.7,home)</onclick>
@@ -565,8 +565,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.8.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemEightSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.8,home)</onclick>
@@ -579,8 +579,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.9.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemNineSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.9,home)</onclick>
@@ -593,8 +593,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.10.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemTenSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.10,home)</onclick>
@@ -607,8 +607,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[13000]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefSettingsSubLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.11,home)</onclick>
@@ -620,7 +620,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31037] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -631,8 +631,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.1,home)</onclick>
@@ -645,8 +645,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.2,home)</onclick>
@@ -659,8 +659,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.3,home)</onclick>
@@ -673,8 +673,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 4</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.4.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.4,home)</onclick>
@@ -687,8 +687,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 5</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.5.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.5,home)</onclick>
@@ -700,7 +700,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31982] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -711,8 +711,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.6.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.6,home)</onclick>
@@ -725,8 +725,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.7.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.7,home)</onclick>
@@ -739,8 +739,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.8.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.8,home)</onclick>
@@ -753,8 +753,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 4</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.9.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.9,home)</onclick>
@@ -767,8 +767,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 5</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(SubMenuItem.10.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,SubMenuItem.10,home)</onclick>
@@ -781,7 +781,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[10006] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -792,8 +792,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(VideoSubMenu.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,VideoSubMenu.1,home)</onclick>
@@ -806,8 +806,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(VideoSubMenu.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,VideoSubMenu.2,home)</onclick>
@@ -820,8 +820,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(VideoSubMenu.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,VideoSubMenu.3,home)</onclick>
@@ -834,7 +834,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[20342] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -845,8 +845,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(MovieSubMenu.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MovieSubMenu.1,home)</onclick>
@@ -859,8 +859,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(MovieSubMenu.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MovieSubMenu.2,home)</onclick>
@@ -873,8 +873,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(MovieSubMenu.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MovieSubMenu.3,home)</onclick>
@@ -887,7 +887,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31662] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -898,8 +898,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(TVShowSubMenu.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,TVShowSubMenu.1,home)</onclick>
@@ -912,8 +912,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(TVShowSubMenu.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,TVShowSubMenu.2,home)</onclick>
@@ -926,8 +926,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(TVShowSubMenu.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,TVShowSubMenu.3,home)</onclick>
@@ -940,7 +940,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31669] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -951,8 +951,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(ConcertSubMenu.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,ConcertSubMenu.1,home)</onclick>
@@ -965,8 +965,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(ConcertSubMenu.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,ConcertSubMenu.2,home)</onclick>
@@ -979,8 +979,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(ConcertSubMenu.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,ConcertSubMenu.3,home)</onclick>
@@ -993,7 +993,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[10005] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -1004,8 +1004,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(MusicSubMenu.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MusicSubMenu.1,home)</onclick>
@@ -1018,8 +1018,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(MusicSubMenu.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MusicSubMenu.2,home)</onclick>
@@ -1032,8 +1032,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(MusicSubMenu.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MusicSubMenu.3,home)</onclick>
@@ -1046,7 +1046,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[10002] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -1057,8 +1057,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(PicSubMenu.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,PicSubMenu.1,home)</onclick>
@@ -1071,8 +1071,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(PicSubMenu.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,PicSubMenu.2,home)</onclick>
@@ -1085,8 +1085,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(PicSubMenu.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,PicSubMenu.3,home)</onclick>
@@ -1099,7 +1099,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[10001] $LOCALIZE[1034] $LOCALIZE[31025]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -1110,8 +1110,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 1</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(ProgSubMenu.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,ProgSubMenu.1,home)</onclick>
@@ -1124,8 +1124,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 2</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(ProgSubMenu.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,ProgSubMenu.2,home)</onclick>
@@ -1138,8 +1138,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31941] - 3</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(ProgSubMenu.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,ProgSubMenu.3,home)</onclick>
@@ -1184,7 +1184,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31109]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -1196,8 +1196,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31668]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(GlobalMenuBackdrop)</onclick>
@@ -1280,7 +1280,7 @@
 								<width>600</width>
 								<height>40</height>
 								<font>font13</font>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
 								<label>$LOCALIZE[31110]</label>
@@ -1304,7 +1304,7 @@
 								<width>640</width>
 								<height>40</height>
 								<font>font13</font>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<align>right</align>
 								<aligny>center</aligny>
 								<label>$INFO[ListItem.Label]</label>
@@ -1470,8 +1470,8 @@
 								<height>40</height>
 								<label>$LOCALIZE[31114]</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1493,8 +1493,8 @@
 								<height>40</height>
 								<label>$LOCALIZE[31657]</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1516,8 +1516,8 @@
 								<height>40</height>
 								<label>$LOCALIZE[31658]</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1539,8 +1539,8 @@
 								<height>40</height>
 								<label>8</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1561,8 +1561,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1586,8 +1586,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1606,8 +1606,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1626,8 +1626,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1654,8 +1654,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1677,8 +1677,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1697,8 +1697,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1717,8 +1717,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1745,8 +1745,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1768,8 +1768,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1788,8 +1788,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1808,8 +1808,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1836,8 +1836,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1859,8 +1859,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1879,8 +1879,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1899,8 +1899,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1927,8 +1927,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1950,8 +1950,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1970,8 +1970,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -1990,8 +1990,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2018,8 +2018,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2041,8 +2041,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2061,8 +2061,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2081,8 +2081,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2109,8 +2109,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2132,8 +2132,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2152,8 +2152,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2172,8 +2172,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2200,8 +2200,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2223,8 +2223,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2243,8 +2243,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2263,8 +2263,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2291,8 +2291,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2314,8 +2314,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2334,8 +2334,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2354,8 +2354,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2382,8 +2382,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2405,8 +2405,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2425,8 +2425,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2445,8 +2445,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2473,8 +2473,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2496,8 +2496,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2515,8 +2515,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2534,8 +2534,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2553,8 +2553,8 @@
 								<height>40</height>
 								<label>21895</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2575,8 +2575,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2594,8 +2594,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2613,8 +2613,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2632,8 +2632,8 @@
 								<height>40</height>
 								<label>$LOCALIZE[31685]</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2654,8 +2654,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2673,8 +2673,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2692,8 +2692,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2711,8 +2711,8 @@
 								<height>40</height>
 								<label>$LOCALIZE[31685]</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2733,8 +2733,8 @@
 								<height>40</height>
 								<label>31113</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2752,8 +2752,8 @@
 								<height>40</height>
 								<label>31114</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2771,8 +2771,8 @@
 								<height>40</height>
 								<label>571</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2790,8 +2790,8 @@
 								<height>40</height>
 								<label>$LOCALIZE[31685]</label>
 								<font>font12_title</font>
-								<textcolor>grey2</textcolor>
-								<focusedcolor>white</focusedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 								<align>center</align>
 								<texturenofocus border="5">button-nofocus.png</texturenofocus>
 								<texturefocus border="5">button-focus.png</texturefocus>
@@ -2865,7 +2865,7 @@
 					<width>750</width>
 					<height>530</height>
 					<itemgap>-1</itemgap>
-					<pagecontrol>-</pagecontrol>
+					<pagecontrol>60</pagecontrol>
 					<onleft>9000</onleft>
 					<onright>60</onright>
 					<onup>9004</onup>
@@ -2875,7 +2875,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31750]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -2886,8 +2886,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31751]</label>
 						<label2>[COLOR=$INFO[Skin.String(MainMenu.Colour)]]$INFO[Skin.String(MainMenu.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MainMenu,home)</onclick>
@@ -2899,8 +2899,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31752]</label>
 						<label2>[COLOR=$INFO[Skin.String(UnFocusedMain.Colour)]]$INFO[Skin.String(UnFocusedMain.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,UnFocusedMain,home)</onclick>
@@ -2915,8 +2915,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31758]</label>
 						<label2>[COLOR=$INFO[Skin.String(MediaMenu.Colour)]]$INFO[Skin.String(MediaMenu.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MediaMenu,home)</onclick>
@@ -2928,8 +2928,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31759]</label>
 						<label2>[COLOR=$INFO[Skin.String(UnFocusedMediaMenu.Colour)]]$INFO[Skin.String(UnFocusedMediaMenu.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,UnFocusedMediaMenu,home)</onclick>
@@ -2937,29 +2937,44 @@
 					</control>	
 					
 					
-					
-					
 					<control type="button" id="406">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31761]</label>
+						<label2>[COLOR=$INFO[Skin.String(DefaultMiscItem.Colour)]]$INFO[Skin.String(DefaultMiscItem.Name)][/COLOR]</label2>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,DefaultMiscItem,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>	
+					
+					
+					
+					
+					<control type="button" id="407">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31753]</label>
 						<label2>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Skin.String(MainPrimary.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MainPrimary,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="407">
+					<control type="button" id="408">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31754]</label>
 						<label2>[COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[Skin.String(InfoLabels.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,InfoLabels,home)</onclick>
@@ -2968,66 +2983,66 @@
 					
 					
 					
-					<control type="button" id="408">
+					<control type="button" id="409">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31755]1</label>
 						<label2>[COLOR=$INFO[Skin.String(HomeInfoOne.Colour)]]$INFO[Skin.String(HomeInfoOne.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeInfoOne,home)</onclick>
-						<onclick>ActivateWindow(2123)</onclick>
-					</control>
-					<control type="button" id="409">
-						<width>750</width>
-						<height>40</height>
-						<font>font13</font>
-						<label>$LOCALIZE[31755]2</label>
-						<label2>[COLOR=$INFO[Skin.String(HomeInfoTwo.Colour)]]$INFO[Skin.String(HomeInfoTwo.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
-						<texturefocus>MenuItemFO.png</texturefocus>
-						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>SetProperty(UsrSelectBtn,HomeInfoTwo,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
 					<control type="button" id="410">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<label>$LOCALIZE[31755]3</label>
-						<label2>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$INFO[Skin.String(HomeInfoThree.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31755]2</label>
+						<label2>[COLOR=$INFO[Skin.String(HomeInfoTwo.Colour)]]$INFO[Skin.String(HomeInfoTwo.Name)][/COLOR]</label2>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>SetProperty(UsrSelectBtn,HomeInfoThree,home)</onclick>
+						<onclick>SetProperty(UsrSelectBtn,HomeInfoTwo,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
 					<control type="button" id="411">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<label>$LOCALIZE[31756]</label>
-						<label2>[COLOR=$INFO[Skin.String(TitlesStatsRSS.Colour)]]$INFO[Skin.String(TitlesStatsRSS.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31755]3</label>
+						<label2>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$INFO[Skin.String(HomeInfoThree.Name)][/COLOR]</label2>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>SetProperty(UsrSelectBtn,TitlesStatsRSS,home)</onclick>
+						<onclick>SetProperty(UsrSelectBtn,HomeInfoThree,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
 					<control type="button" id="412">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
+						<label>$LOCALIZE[31756]</label>
+						<label2>[COLOR=$INFO[Skin.String(TitlesStatsRSS.Colour)]]$INFO[Skin.String(TitlesStatsRSS.Name)][/COLOR]</label2>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,TitlesStatsRSS,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>
+					<control type="button" id="413">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
 						<label>$LOCALIZE[31757]</label>
 						<label2>[COLOR=$INFO[Skin.String(TextStatsRSS.Colour)]]$INFO[Skin.String(TextStatsRSS.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,TextStatsRSS,home)</onclick>
@@ -3042,8 +3057,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31758]</label>
 						<label2>[COLOR=$INFO[Skin.String(RSSTitleInfo.Colour)]]$INFO[Skin.String(RSSTitleInfo.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,RSSTitleInfo,home)</onclick>
@@ -3055,8 +3070,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31759]</label>
 						<label2>[COLOR=$INFO[Skin.String(RSSHiLiteInfo.Colour)]]$INFO[Skin.String(RSSHiLiteInfo.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,RSSHiLiteInfo,home)</onclick>
@@ -3070,8 +3085,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31760]</label>
 						<label2>[COLOR=$INFO[Skin.String(StatTitleInfo.Colour)]]$INFO[Skin.String(StatTitleInfo.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,StatTitleInfo,home)</onclick>
@@ -3083,8 +3098,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31761]</label>
 						<label2>[COLOR=$INFO[Skin.String(StatAmtInfo.Colour)]]$INFO[Skin.String(StatAmtInfo.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,StatAmtInfo,home)</onclick>
@@ -3100,8 +3115,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31755]</label>
 						<label2>[COLOR=$INFO[Skin.String(RSSStatInfo.Colour)]]$INFO[Skin.String(RSSStatInfo.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,RSSStatInfo,home)</onclick>
@@ -3113,8 +3128,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31756]</label>
 						<label2>[COLOR=$INFO[Skin.String(HomeInfoOne.Colour)]]$INFO[Skin.String(RSSStatHiLite.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,RSSStatHiLite,home)</onclick>
@@ -3129,10 +3144,23 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
+						<label>$LOCALIZE[31760]</label>
+						<label2>[COLOR=$INFO[Skin.String(DisabledText.Colour)]]$INFO[Skin.String(DisabledText.Name)][/COLOR]</label2>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,DisabledText,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>					
+					<control type="button" id="417">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
 						<label>$LOCALIZE[31764]</label>
 						<label2>[COLOR=$INFO[Skin.String(TextShadow.Colour)]]$INFO[Skin.String(TextShadow.Name)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,TextShadow,home)</onclick>
@@ -3186,7 +3214,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31101]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -3196,8 +3224,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31677]</label>
 						<onclick>Skin.ToggleSetting(HorizontalHomeScreen)</onclick>
 						<selected>!Skin.HasSetting(HorizontalHomeScreen)</selected>
@@ -3209,8 +3237,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31690]</label>
 						<onclick>Skin.ToggleSetting(AutoHorizontalSubMenu)</onclick>
 						<selected>!Skin.HasSetting(AutoHorizontalSubMenu)</selected>
@@ -3223,8 +3251,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31695]</label>
 						<onclick>Skin.ToggleSetting(HideSubMenuAdvise)</onclick>
 						<selected>Skin.HasSetting(HideSubMenuAdvise)</selected>
@@ -3236,8 +3264,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31655]</label>
 						<onclick>Skin.ToggleSetting(HidePanelScrolling)</onclick>
 						<selected>!Skin.HasSetting(HidePanelScrolling)</selected>
@@ -3249,8 +3277,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31039]</label>
 						<onclick>Skin.ToggleSetting(AltDirectionSearch)</onclick>
 						<selected>Skin.HasSetting(AltDirectionSearch)</selected>
@@ -3263,8 +3291,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31949]</label>
 						<onclick>Skin.ToggleSetting(HideHomeStats)</onclick>
 						<selected>!Skin.HasSetting(HideHomeStats)</selected>
@@ -3276,8 +3304,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31693]</label>
 						<onclick>Skin.ToggleSetting(HideHomePlaying)</onclick>
 						<selected>!Skin.HasSetting(HideHomePlaying)</selected>
@@ -3289,8 +3317,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31686]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideBackHomePlaying)</onclick>
@@ -3301,8 +3329,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31672]</label>
 						<onclick>Skin.ToggleSetting(HideRainDropEffect)</onclick>
 						<selected>Skin.HasSetting(HideRainDropEffect)</selected>
@@ -3314,7 +3342,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31928]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -3325,8 +3353,8 @@
 						<font>font13</font>
 						<label>$VAR[MenuItemOneLabel]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemOneWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.1,home)</onclick>
@@ -3339,8 +3367,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.2.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemTwoWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.2,home)</onclick>
@@ -3353,8 +3381,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.3.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemThreeWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.3,home)</onclick>
@@ -3367,8 +3395,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.4.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemFourWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.4,home)</onclick>
@@ -3381,8 +3409,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.5.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemFiveWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.5,home)</onclick>
@@ -3395,8 +3423,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.6.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemSixWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.6,home)</onclick>
@@ -3409,8 +3437,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.7.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemSevenWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.7,home)</onclick>
@@ -3423,8 +3451,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.8.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemEightWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.8,home)</onclick>
@@ -3437,8 +3465,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.9.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemNineWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.9,home)</onclick>
@@ -3451,8 +3479,8 @@
 						<font>font13</font>
 						<label>$INFO[Skin.String(HomeItem.10.Label)]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefItemTenWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.10,home)</onclick>
@@ -3465,8 +3493,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[13000]</label>
 						<label2>[COLOR=selected]$VAR[UsrDefSettingsWidgetLabel][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,HomeItem.11,home)</onclick>
@@ -3478,7 +3506,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31914]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -3488,8 +3516,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31994]</label>
 						<onclick>Skin.ToggleSetting(HideHomePanelFanArt)</onclick>
 						<selected>Skin.HasSetting(HideHomePanelFanArt)</selected>
@@ -3538,7 +3566,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>31106</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -3548,8 +3576,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>31103</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(EnableSlideShowPause)</onclick>
@@ -3560,8 +3588,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[20084]</label>
 						<onclick>Skin.ToggleSetting(HideWeatherInfo)</onclick>
 						<selected>!Skin.HasSetting(HideWeatherInfo)</selected>
@@ -3573,8 +3601,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31995]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideSystemClock)</onclick>
@@ -3585,8 +3613,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[29801]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(ABCKeyBoard)</onclick>
@@ -3597,8 +3625,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31996]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(KioskMode)</onclick>
@@ -3609,8 +3637,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31692]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(EnableXtraFanArt)</onclick>
@@ -3621,8 +3649,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31689]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(EnableLocalFanArt)</onclick>
@@ -3633,7 +3661,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31984]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -3644,8 +3672,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31698]</label>
 						<label2>[COLOR=selected]$VAR[UsrMPAACountry][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Control.Move(9009,1)</onclick>
@@ -3656,8 +3684,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31102]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(DisableMediaCases)</onclick>
@@ -3668,8 +3696,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31119]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideBackGroundFanart)</onclick>
@@ -3680,8 +3708,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31985]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(UseStatusBanners)</onclick>
@@ -3692,8 +3720,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>     $LOCALIZE[31986]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideNewMediaStat)</onclick>
@@ -3705,8 +3733,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31651]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(UsrGenreFanArt)</onclick>
@@ -3718,8 +3746,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31659]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(UsrGenreBackground)</onclick>
@@ -3731,8 +3759,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>15311</label>
 						<label2>$INFO[Skin.String(UsrGenreFanartDir)]</label2>
 						<onclick>Skin.SetPath(UsrGenreFanartDir)</onclick>
@@ -3745,8 +3773,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>20189</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(StopAutoScroll)</onclick>
@@ -3758,8 +3786,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31983]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideSubTitleFlags)</onclick>
@@ -3770,8 +3798,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31691]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideEpisodeThumb)</onclick>
@@ -3782,8 +3810,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31932]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(UseTvSeasonArt)</onclick>
@@ -3794,7 +3822,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31946]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -3937,7 +3965,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31141]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -3947,8 +3975,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31687]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideInfoStartOSD)</onclick>
@@ -3959,8 +3987,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31696]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideSeekBarOSD)</onclick>
@@ -3971,8 +3999,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31970]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HidePauseInfo)</onclick>
@@ -3983,8 +4011,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31979]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(TVShowUsesLogo)</onclick>
@@ -3995,7 +4023,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[249] $LOCALIZE[250]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -4005,8 +4033,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31965]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(ShowMusicVizOnly)</onclick>
@@ -4017,8 +4045,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31962]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(ShowArtistSlideShow)</onclick>
@@ -4030,8 +4058,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31963]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(ShowBackgroundAlbumWall)</onclick>
@@ -4043,8 +4071,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>15311</label>
 						<label2>$INFO[Skin.String(AlbumWallFolder)]</label2>
 						<onclick>Skin.Reset(AlbumWallFolder)</onclick>
@@ -4058,8 +4086,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31992]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(TransparentVizFanArt)</onclick>
@@ -4071,8 +4099,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31991]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(NoAnimateFanArt)</onclick>
@@ -4084,8 +4112,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31652]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideCDArt)</onclick>
@@ -4097,7 +4125,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>512</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -4107,8 +4135,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>$LOCALIZE[31911]</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.ToggleSetting(HideXBMCIntro)</onclick>
@@ -4120,8 +4148,8 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>21398</label>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetBool(HideXBMCIntro)</onclick>
@@ -4133,8 +4161,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>15311</label>
 						<label2>$INFO[Skin.String(StartupPlaylist.Path)]</label2>
 						<onclick>Skin.SetFile(StartupPlaylist.Path,,special://MusicPlaylists/)</onclick>
@@ -4215,7 +4243,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>31140</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -4226,8 +4254,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31132]</label>
 						<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(LyricScript.Path))][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(LyricScript.Path,xbmc.python.lyrics)</onclick>
@@ -4237,7 +4265,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>31141</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -4248,8 +4276,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[31133]</label>
 						<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(SubtitleScript.Path))][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(SubtitleScript.Path,xbmc.python.subtitles)</onclick>
@@ -4259,7 +4287,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31999]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -4270,8 +4298,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]1[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.1.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.1.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4284,8 +4312,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]2[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.2.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.2.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4298,8 +4326,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]3[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.3.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.3.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4312,8 +4340,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]4[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.4.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.4.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4326,8 +4354,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]5[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.5.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.5.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4340,8 +4368,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]6[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.6.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.6.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4354,8 +4382,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]7[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.7.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.7.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4368,8 +4396,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]8[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.8.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.8.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4382,8 +4410,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]9[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.9.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.9.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4396,8 +4424,8 @@
 						<font>font13</font>
 						<label>$LOCALIZE[24000] [B]10[/B]</label>
 						<label2>[COLOR=selected]$INFO[Skin.String(HomeAddon.10.Label)][/COLOR]</label2>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>Skin.SetAddon(HomeAddon.10.Path,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.addon.executable)</onclick>
@@ -4446,7 +4474,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31013]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -4456,8 +4484,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31014]</label>
 						<onclick>Skin.ToggleSetting(DisableTvTunes)</onclick>
 						<selected>!Skin.HasSetting(DisableTvTunes)</selected>
@@ -4469,8 +4497,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31015]</label>
 						<onclick>Skin.ToggleSetting(DisableWatchItLater)</onclick>
 						<selected>!Skin.HasSetting(DisableWatchItLater)</selected>
@@ -4482,8 +4510,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31016]</label>
 						<onclick>Skin.ToggleSetting(DisableArtistSlideShow)</onclick>
 						<onclick>Skin.Reset(ShowArtistSlideShow)</onclick>
@@ -4496,8 +4524,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31017]</label>
 						<onclick>Skin.ToggleSetting(DisableScriptFavourites)</onclick>
 						<selected>!Skin.HasSetting(DisableScriptFavourites)</selected>
@@ -4509,8 +4537,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31018]</label>
 						<onclick>Skin.ToggleSetting(DisableScriptPlayList)</onclick>
 						<selected>!Skin.HasSetting(DisableScriptPlayList)</selected>
@@ -4522,8 +4550,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>    $LOCALIZE[31968]</label>
 						<onclick>Skin.ToggleSetting(EnableRandomPlaylist)</onclick>
 						<selected>Skin.HasSetting(EnableRandomPlaylist)</selected>
@@ -4536,8 +4564,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>    $LOCALIZE[31969]</label>
 						<onclick>Skin.ToggleSetting(EnableUnWatchedPlaylist)</onclick>
 						<selected>Skin.HasSetting(EnableUnWatchedPlaylist)</selected>
@@ -4550,8 +4578,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31034]</label>
 						<onclick>Skin.ToggleSetting(DisableArtDownloader)</onclick>
 						<selected>!Skin.HasSetting(DisableArtDownloader)</selected>
@@ -4563,8 +4591,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31035]</label>
 						<onclick>Skin.ToggleSetting(DisableSubmenuPlayList)</onclick>
 						<selected>!Skin.HasSetting(DisableSubmenuPlayList)</selected>
@@ -4577,8 +4605,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>    $LOCALIZE[31036]</label>
 						<onclick>Skin.ToggleSetting(SubmenuPlayListMusic)</onclick>
 						<selected>Skin.HasSetting(SubmenuPlayListMusic)</selected>
@@ -4591,8 +4619,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<label>$LOCALIZE[31038]</label>
 						<onclick>Skin.ToggleSetting(DisableGlobalSearch)</onclick>
 						<selected>!Skin.HasSetting(DisableGlobalSearch)</selected>
@@ -4605,7 +4633,7 @@
 						<height>45</height>
 						<font>font13_title</font>
 						<label>$LOCALIZE[31679] $LOCALIZE[31680]</label>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -4615,8 +4643,8 @@
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<focusedcolor>white</focusedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 						<align>center</align>
 						<textoffsetx>20</textoffsetx>
 						<textwidth>730</textwidth>

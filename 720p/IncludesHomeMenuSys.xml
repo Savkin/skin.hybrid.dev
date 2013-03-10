@@ -284,7 +284,10 @@
 			<onfocus condition="IsEmpty(Skin.String(TitlesStatsRSS.Name)">Skin.SetString(TitlesStatsRSS.Name,$LOCALIZE[571])</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(TextStatsRSS.Colour)">Skin.SetString(TextStatsRSS.Colour,StatsAmnt)</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(TextStatsRSS.Name)">Skin.SetString(TextStatsRSS.Name,$LOCALIZE[571])</onfocus>
-
+			<onfocus condition="IsEmpty(Skin.String(DisabledText.Colour)">Skin.SetString(DisabledText.Colour,DisabledText)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(DisabledText.Name)">Skin.SetString(DisabledText.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(DefaultMiscItem.Colour)">Skin.SetString(DefaultMiscItem.Colour,DefaultItem)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(DefaultMiscItem.Name)">Skin.SetString(DefaultMiscItem.Name,$LOCALIZE[571])</onfocus>
 			
 			
 			
@@ -329,8 +332,11 @@
 	
 
 			
+			<onfocus>Skin.SetString(DefaultMiscItem.Colour,DefaultItem)</onfocus>
+			<onfocus>Skin.SetString(DefaultMiscItem.Name,$LOCALIZE[571])</onfocus>
 			
-			
+			<onfocus>Skin.SetString(DisabledText.Colour,DisabledText)</onfocus>
+			<onfocus>Skin.SetString(DisabledText.Name,$LOCALIZE[571])</onfocus>
 			<onfocus>Skin.SetString(TextShadow.Colour,TextShadow)</onfocus>
 			<onfocus>Skin.SetString(TextShadow.Name,$LOCALIZE[31898])</onfocus>
 			<onfocus>Skin.SetString(PreviousTheme,$INFO[Skin.CurrentTheme])</onfocus>

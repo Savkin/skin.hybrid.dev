@@ -1030,12 +1030,21 @@ msgid "RSS Text and Stats Amounts"
 msgstr ""
 
 msgctxt "#31758"
-msgid "Media and Submenu Focused"
+msgid "Focused Media Lists"
 msgstr ""
 
 msgctxt "#31759"
-msgid "Unfocused Media and Submenu"
+msgid "Unfocused Media Lists"
 msgstr ""
+
+msgctxt "#31760"
+msgid "Disabled Text"
+msgstr ""
+
+msgctxt "#31761"
+msgid "Miscellaneous Buttons and Labels"
+msgstr ""
+
 
 
 

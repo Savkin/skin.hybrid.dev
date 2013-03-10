@@ -188,7 +188,7 @@
 			<height>40</height>
 			<font>font13</font>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
+			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 		</control>
 		<control type="radiobutton" id="4">
@@ -196,14 +196,14 @@
 			<height>40</height>
 			<font>font13</font>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
+			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 		</control>
 		<control type="spincontrolex" id="5">
 			<description>Default spincontrolex</description>
 			<height>40</height>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
+			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 			<font>font13</font>
@@ -229,7 +229,7 @@
 			<height>40</height>
 			<font>font13</font>
 			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
+			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 		</control>
 	</controls>
