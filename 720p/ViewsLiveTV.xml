@@ -31,7 +31,7 @@
 						<width>730</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -43,7 +43,7 @@
 						<width>700</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -83,7 +83,7 @@
 						<width>730</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -95,7 +95,7 @@
 						<width>700</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -156,7 +156,7 @@
 					<height>220</height>
 					<font>font12</font>
 					<align>justify</align>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<label fallback="31028">$INFO[ListItem.Plot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(StopAutoScroll)</autoscroll>
 				</control>

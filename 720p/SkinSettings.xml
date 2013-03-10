@@ -2893,7 +2893,7 @@
 						<onclick>SetProperty(UsrSelectBtn,MainMenu,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-						<control type="button" id="402">
+					<control type="button" id="402">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2906,7 +2906,40 @@
 						<onclick>SetProperty(UsrSelectBtn,UnFocusedMain,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
+					
+					
+					
 					<control type="button" id="403">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31758]</label>
+						<label2>[COLOR=$INFO[Skin.String(MediaMenu.Colour)]]$INFO[Skin.String(MediaMenu.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,MediaMenu,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>	
+					<control type="button" id="405">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>$LOCALIZE[31759]</label>
+						<label2>[COLOR=$INFO[Skin.String(UnFocusedMediaMenu.Colour)]]$INFO[Skin.String(UnFocusedMediaMenu.Name)][/COLOR]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>SetProperty(UsrSelectBtn,UnFocusedMediaMenu,home)</onclick>
+						<onclick>ActivateWindow(2123)</onclick>
+					</control>	
+					
+					
+					
+					
+					<control type="button" id="406">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2919,7 +2952,7 @@
 						<onclick>SetProperty(UsrSelectBtn,MainPrimary,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="404">
+					<control type="button" id="407">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2935,7 +2968,7 @@
 					
 					
 					
-					<control type="button" id="405">
+					<control type="button" id="408">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2948,7 +2981,7 @@
 						<onclick>SetProperty(UsrSelectBtn,HomeInfoOne,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="406">
+					<control type="button" id="409">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2961,7 +2994,7 @@
 						<onclick>SetProperty(UsrSelectBtn,HomeInfoTwo,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="407">
+					<control type="button" id="410">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2974,7 +3007,7 @@
 						<onclick>SetProperty(UsrSelectBtn,HomeInfoThree,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="408">
+					<control type="button" id="411">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>
@@ -2987,7 +3020,7 @@
 						<onclick>SetProperty(UsrSelectBtn,TitlesStatsRSS,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					<control type="button" id="409">
+					<control type="button" id="412">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>

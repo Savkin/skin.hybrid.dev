@@ -48,7 +48,7 @@
 						<height>89</height>
 						<align>left</align>
 						<font>font28_title</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<label>[B]$INFO[ListItem.Label][/B]</label>
 					</control>
 					<control type="group">
@@ -90,7 +90,7 @@
 						<height>89</height>
 						<align>left</align>
 						<font>font28_title</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
 					</control>
 					<control type="label">
@@ -103,7 +103,7 @@
 						<height>89</height>
 						<align>left</align>
 						<font>font28_title</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<label>[B]$INFO[ListItem.Label][/B]</label>
 					</control>
 					<control type="group">
@@ -148,7 +148,7 @@
 						<align>left</align>
 						<aligny>bottom</aligny>
 						<font>font28_title</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<label>[B]$INFO[ListItem.Label][/B]</label>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="100" end="125" time="600" tween="back" easing="out" />
@@ -198,7 +198,7 @@
 						<align>left</align>
 						<aligny>bottom</aligny>
 						<font>font28_title</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<label>[B]$LOCALIZE[20359] $INFO[ListItem.Episode][/B]</label>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="100" end="125" time="600" tween="back" easing="out" />
@@ -215,7 +215,7 @@
 						<align>left</align>
 						<aligny>bottom</aligny>
 						<font>font28_title</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<label>[B]$INFO[ListItem.Label][/B]</label>
 						<animation type="Focus" reversible="false">
 							<effect type="zoom" center="auto" start="100" end="125" time="600" tween="back" easing="out" />
@@ -401,7 +401,7 @@
 						<height>30</height>
 						<font>font13</font>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<aligny>center</aligny>
@@ -414,7 +414,7 @@
 						<width>400</width>
 						<height>30</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
@@ -428,7 +428,7 @@
 						<width>400</width>
 						<height>30</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
@@ -442,7 +442,7 @@
 						<width>400</width>
 						<height>30</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
@@ -481,7 +481,7 @@
 						<height>285</height>
 						<font>font13</font>
 						<align>justify</align>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<label>$INFO[ListItem.Plot,[B][COLOR=blue]$LOCALIZE[207]: [/COLOR][/B]]</label>
 						<autoscroll time="4000" delay="5000" repeat="5000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
 					</control>
@@ -598,7 +598,7 @@
 						<height>335</height>
 						<font>font13</font>
 						<align>justify</align>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<label>$INFO[ListItem.Plot,[B][COLOR=blue]$LOCALIZE[207]: [/COLOR][/B]]</label>
 						<autoscroll time="4000" delay="5000" repeat="5000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
 					</control>
@@ -687,7 +687,7 @@
 						<width>480</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
@@ -700,7 +700,7 @@
 						<width>480</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>true</scroll>
 						<align>left</align>
@@ -715,7 +715,7 @@
 						<height>285</height>
 						<font>font13</font>
 						<align>justify</align>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<label>$INFO[ListItem.Plot,[B][COLOR=blue]$LOCALIZE[207]: [/COLOR][/B]]</label>
 						<autoscroll time="4000" delay="5000" repeat="5000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
 					</control>

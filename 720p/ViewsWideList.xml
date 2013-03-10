@@ -137,7 +137,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font18</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<info>ListItem.label</info>
 					</control>
@@ -147,7 +147,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<info>ListItem.Year</info>
 						<visible>Container.Content(Movies)</visible>
@@ -170,7 +170,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>top</aligny>
@@ -185,7 +185,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>top</aligny>
@@ -200,7 +200,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>$LOCALIZE[31667]</label>
 						<visible>StringCompare(ListItem.Label,..)</visible>
@@ -211,7 +211,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<info>ListItem.Genre</info>
 						<visible>Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Movies)</visible>
@@ -222,7 +222,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<info>ListItem.TVShowTitle</info>
 						<visible>Container.Content(Seasons)</visible>
@@ -259,7 +259,7 @@
 						<width>200</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>false</scroll>
 						<align>right</align>
@@ -384,7 +384,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font18</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<info>ListItem.label</info>
 					</control>
@@ -394,7 +394,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<info>ListItem.Year</info>
 						<visible>Container.Content(Movies)</visible>
@@ -418,7 +418,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>top</aligny>
@@ -433,7 +433,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<align>left</align>
 						<aligny>top</aligny>
@@ -448,7 +448,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>$LOCALIZE[31667]</label>
 						<visible>StringCompare(ListItem.Label,..)</visible>
@@ -459,7 +459,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<info>ListItem.Genre</info>
 						<visible>Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Movies)</visible>
@@ -470,7 +470,7 @@
 						<width>356</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<info>ListItem.TVShowTitle</info>
 						<visible>Container.Content(Seasons)</visible>
@@ -507,7 +507,7 @@
 						<width>200</width>
 						<height>20</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<scroll>false</scroll>
 						<align>right</align>

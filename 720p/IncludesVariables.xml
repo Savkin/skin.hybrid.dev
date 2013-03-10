@@ -44,6 +44,8 @@
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),MainMenu)">MenuFocus</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),UnFocusedMain)">MenuNoFocus</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),MainPrimary)">MainLabel</value>
+		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),MediaMenu)">MediaMenuFocus</value>
+		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),UnFocusedMediaMenu)">MediaMenuNoFocus</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),InfoLabels)">MinorLabel</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),HomeInfoOne)">HomeInfoOne</value>	
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),HomeInfoTwo)">HomeInfoTwo</value>

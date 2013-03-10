@@ -303,6 +303,10 @@
 			<onfocus>Skin.SetString(MainMenu.Name,$LOCALIZE[571])</onfocus>
 			<onfocus>Skin.SetString(UnFocusedMain.Colour,MenuNoFocus)</onfocus>
 			<onfocus>Skin.SetString(UnFocusedMain.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(MediaMenu.Colour,MediaMenuFocus)</onfocus>
+			<onfocus>Skin.SetString(MediaMenu.Name,$LOCALIZE[571])</onfocus>
+			<onfocus>Skin.SetString(UnFocusedMediaMenu.Colour,MediaMenuNoFocus)</onfocus>
+			<onfocus>Skin.SetString(UnFocusedMediaMenu.Name,$LOCALIZE[571])</onfocus>
 			<onfocus>Skin.SetString(MainPrimary.Colour,MainLabel)</onfocus>
 			<onfocus>Skin.SetString(MainPrimary.Name,$LOCALIZE[571])</onfocus>
 			<onfocus>Skin.SetString(InfoLabels.Colour,MinorLabel)</onfocus>
@@ -459,6 +463,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
+					<visible>!Control.HasFocus(9000)</visible>
 				</control>
 				<control type="label">
 					<posx>150</posx>

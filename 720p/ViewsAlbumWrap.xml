@@ -135,7 +135,7 @@
 				<width>840</width>
 				<height>20</height>
 				<font>font24_title</font>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<scroll>true</scroll>
 				<align>center</align>
@@ -151,7 +151,7 @@
 					<width>400</width>
 					<height>30</height>
 					<font>font13_title</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>true</scroll>
 					<align>left</align>
@@ -164,7 +164,7 @@
 					<width>850</width>
 					<height>30</height>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>true</scroll>
 					<align>left</align>
@@ -178,7 +178,7 @@
 					<width>850</width>
 					<height>30</height>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>true</scroll>
 					<align>left</align>
@@ -192,7 +192,7 @@
 					<width>400</width>
 					<height>30</height>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>true</scroll>
 					<align>left</align>
@@ -219,7 +219,7 @@
 					<font>font12</font>
 					<align>justify</align>
 					<pagecontrol>-</pagecontrol>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<label>$INFO[ListItem.Property(Album_Description)]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(StopAutoScroll)</autoscroll>
 				</control>

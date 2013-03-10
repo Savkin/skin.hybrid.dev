@@ -125,7 +125,7 @@
 				<posy>45</posy>
 				<width>900</width>
 				<height>20</height>
-				<label>[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[20360]:[/COLOR][/B] $INFO[listitem.episode] [COLOR=$INFO[Skin.String(InfoLabels.Colour)]] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
+				<label>[B][COLOR=blue]$LOCALIZE[20360]:[/COLOR][/B] $INFO[listitem.episode] [COLOR=$INFO[Skin.String(InfoLabels.Colour)]] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
@@ -142,7 +142,7 @@
 				<posy>50</posy>
 				<width>900</width>
 				<height>20</height>
-				<label>[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[20416]:[/COLOR][/B][COLOR=$INFO[Skin.String(InfoLabels.Colour)]] $INFO[listitem.premiered][/COLOR]</label>
+				<label>[B][COLOR=blue]$LOCALIZE[20416]:[/COLOR][/B][COLOR=$INFO[Skin.String(InfoLabels.Colour)]] $INFO[listitem.premiered][/COLOR]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
@@ -1153,7 +1153,7 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>font12</font>
-		<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+		<!--textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor-->
 		<texturefocus border="5">HorizontalMenu/HomeSubFO.png</texturefocus>
 		<texturenofocus border="5">HorizontalMenu/HomeSubNF.png</texturenofocus>
 		<alttexturefocus border="5">HorizontalMenu/HomeSubFO.png</alttexturefocus>

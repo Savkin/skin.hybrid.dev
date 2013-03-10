@@ -31,7 +31,7 @@
 						<width>730</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -43,7 +43,7 @@
 						<width>700</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -83,7 +83,7 @@
 						<width>730</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -95,7 +95,7 @@
 						<width>700</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -145,7 +145,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font24_title</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -158,7 +158,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -171,7 +171,7 @@
 					<align>center</align>
 					<aligny>top</aligny>
 					<font>font13_title</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
 					<visible>!Container.Content(Albums)</visible>
@@ -186,7 +186,7 @@
 					<align>center</align>
 					<aligny>top</aligny>
 					<font>font13_title</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<wrapmultiline>true</wrapmultiline>
 					<visible>Container.Content(Albums)</visible>
@@ -201,7 +201,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<visible>!Container.Content(Albums)</visible>
 				</control>
 				<control type="label">
@@ -214,7 +214,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 				</control>
 				<control type="image">
 					<description>Rating value</description>

@@ -51,7 +51,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font11_title</font>
-							<textcolor>grey2</textcolor>
+							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 							<label>[B]$LOCALIZE[20359][/B]</label>
 						</control>
 						<control type="label">
@@ -62,7 +62,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font45_title</font>
-							<textcolor>grey2</textcolor>
+							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 							<label>[B]$INFO[ListItem.Episode][/B]</label>
 						</control>
 					</control>
@@ -197,7 +197,7 @@
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>font11_title</font>
-								<textcolor>white</textcolor>
+								<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 								<label>[B]$LOCALIZE[20359][/B]</label>
 							</control>
 							<control type="label">
@@ -208,7 +208,7 @@
 								<align>center</align>
 								<aligny>center</aligny>
 								<font>font45_title</font>
-								<textcolor>white</textcolor>
+								<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 								<label>[B]$INFO[ListItem.Episode][/B]</label>
 							</control>
 						</control>
@@ -422,7 +422,7 @@
 			<height>260</height>
 			<font>font13_title</font>
 			<align>justify</align>
-			<textcolor>white</textcolor>
+			<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 			<label>$VAR[ShowMediaPlot]</label>
 			<autoscroll time="4000" delay="4000" repeat="5000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
 			<visible>!StringCompare(ListItem.Label,..)</visible>

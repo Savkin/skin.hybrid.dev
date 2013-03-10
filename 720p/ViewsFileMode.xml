@@ -46,7 +46,7 @@
 						<width>660</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -59,7 +59,7 @@
 						<width>400</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -72,7 +72,7 @@
 						<width>400</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -118,7 +118,7 @@
 						<width>1040</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -130,7 +130,7 @@
 						<width>400</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -143,7 +143,7 @@
 						<width>400</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -208,7 +208,7 @@
 						<width>1040</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -221,7 +221,7 @@
 						<width>400</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -234,7 +234,7 @@
 						<width>400</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -299,7 +299,7 @@
 						<width>1040</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -311,7 +311,7 @@
 						<width>400</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -324,7 +324,7 @@
 						<width>400</width>
 						<height>40</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
@@ -417,7 +417,7 @@
 					<width>340</width>
 					<height>100</height>
 					<font>WeatherTemp</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label]</label>

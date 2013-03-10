@@ -43,7 +43,7 @@
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
 						<font>font24_title</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>white</selectedcolor>
 						<visible>IsEmpty(ListItem.Title)</visible>
 					</control>
@@ -55,7 +55,7 @@
 						<align>left</align>
 						<label>$INFO[ListItem.Title]</label>
 						<font>font24_title</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>white</selectedcolor>
 						<visible>!IsEmpty(ListItem.Title)</visible>
 					</control>
@@ -67,7 +67,7 @@
 						<align>left</align>
 						<label>$INFO[ListItem.Premiered,$LOCALIZE[31322]: ]</label>
 						<font>font12</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>white</selectedcolor>
 					</control>
 				</itemlayout>
@@ -172,7 +172,7 @@
 						<align>left</align>
 						<aligny>top</aligny>
 						<font>font12</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<wrapmultiline>false</wrapmultiline>
 						<animation type="Focus" reversible="false">
@@ -185,7 +185,7 @@
 						<width>830</width>
 						<label>[COLOR blue]$INFO[ListItem.Episode][/COLOR]. $INFO[ListItem.Title]</label>
 						<font>font24_title</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>white</selectedcolor>
 						<animation type="Focus" reversible="false">
 							<effect type="fade" start="0" end="100" time="200" />
@@ -232,7 +232,7 @@
 				<height>100</height>
 				<align>justify</align>
 				<label>$VAR[ShowMediaPlot]</label>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 				<selectedcolor>white</selectedcolor>
 				<animation type="Conditional" reversible="false" condition="Control.HasFocus(728) + [!Container(728).OnNext + !Container(728).OnPrevious]">
 					<effect type="fade" start="0" end="100" time="200" />

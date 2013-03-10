@@ -3674,7 +3674,7 @@
 					<width>550</width>
 					<height>22</height>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>false</scroll>
 					<align>right</align>
@@ -3686,7 +3686,7 @@
 					<width>550</width>
 					<height>22</height>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>false</scroll>
 					<align>left</align>
@@ -3704,7 +3704,7 @@
 				<width>1280</width>
 				<height>22</height>
 				<font>font13</font>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<scroll>false</scroll>
 				<align>center</align>
@@ -3718,7 +3718,7 @@
 				<width>1280</width>
 				<height>22</height>
 				<font>font13</font>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<scroll>false</scroll>
 				<align>center</align>
