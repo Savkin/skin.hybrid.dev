@@ -112,7 +112,7 @@
 					<align>left</align>
 					<font>font12</font>
 					<label>$INFO[VideoPlayer.Studio]</label>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>VideoPlayer.Content(Movies)</visible>
 				</control>
@@ -125,7 +125,7 @@
 					<align>left</align>
 					<font>font12</font>
 					<label>$INFO[VideoPlayer.TVShowTitle] ($INFO[VideoPlayer.Season]x$INFO[VideoPlayer.Episode])</label>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>VideoPlayer.Content(Episodes)</visible>
 				</control>
@@ -138,7 +138,7 @@
 					<align>left</align>
 					<font>font12</font>
 					<label>$INFO[VideoPlayer.Artist] $INFO[VideoPlayer.Album, - ]</label>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>VideoPlayer.Content(MusicVideos)</visible>
 				</control>
@@ -488,7 +488,7 @@
 					<align>left</align>
 					<font>font12</font>
 					<label>$INFO[VideoPlayer.Studio]</label>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>VideoPlayer.Content(Movies)</visible>
 				</control>
@@ -501,7 +501,7 @@
 					<align>left</align>
 					<font>font12</font>
 					<label>$INFO[VideoPlayer.TVShowTitle] ($INFO[VideoPlayer.Season]x$INFO[VideoPlayer.Episode])</label>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>VideoPlayer.Content(Episodes)</visible>
 				</control>
@@ -514,7 +514,7 @@
 					<align>left</align>
 					<font>font12</font>
 					<label>$INFO[VideoPlayer.Artist] $INFO[VideoPlayer.Album, - ]</label>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>VideoPlayer.Content(MusicVideos)</visible>
 				</control>
@@ -527,7 +527,7 @@
 					<align>left</align>
 					<font>font12</font>
 					<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.ChannelNumber, - ([COLOR=blue],[/COLOR])]</label>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>VideoPlayer.Content(LiveTV)</visible>
 				</control>
@@ -797,7 +797,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			</control>
 			<control type="label">
 				<description>Backend value</description>
@@ -821,7 +821,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			</control>
 			<control type="label">
 				<description>Device value</description>
@@ -845,7 +845,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			</control>
 			<control type="label">
 				<description>Status value</description>
@@ -869,7 +869,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			</control>
 			<control type="progress">
 				<description>Progressbar</description>
@@ -901,7 +901,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			</control>
 			<control type="progress">
 				<description>Progressbar</description>
@@ -934,7 +934,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			</control>
 			<control type="label">
 				<description>BER value</description>
@@ -958,7 +958,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			</control>
 			<control type="label">
 				<description>UNC value</description>
@@ -982,7 +982,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			</control>
 			<control type="label">
 				<description>Encryption value</description>

@@ -118,7 +118,7 @@
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 		</control>
 		<control type="button" id="7">
@@ -127,7 +127,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
@@ -138,7 +138,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
@@ -149,7 +149,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
 			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>

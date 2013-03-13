@@ -33,7 +33,7 @@
 			<label>$LOCALIZE[13406]</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>selected</textcolor>
+			<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="button">

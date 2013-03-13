@@ -45,7 +45,7 @@
 				<label>$LOCALIZE[13406]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>selected</textcolor>
+				<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="button">
@@ -109,7 +109,7 @@
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
@@ -120,9 +120,9 @@
 						<height>40</height>
 						<font>font13</font>
 						<aligny>center</aligny>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
 					</control>
@@ -153,7 +153,7 @@
 						<aligny>center</aligny>
 						<textcolor>white</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
@@ -164,9 +164,9 @@
 						<height>40</height>
 						<font>font13</font>
 						<aligny>center</aligny>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
 					</control>

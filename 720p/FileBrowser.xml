@@ -51,7 +51,7 @@
 					<label>1023</label>
 					<align>right</align>
 					<aligny>center</aligny>
-					<textcolor>selected</textcolor>
+					<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label" id="412">

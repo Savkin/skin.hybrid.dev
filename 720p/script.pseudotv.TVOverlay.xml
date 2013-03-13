@@ -162,7 +162,7 @@
 						<height>25</height>
 						<align>left</align>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					</control>
 					<control type="grouplist">
@@ -190,7 +190,7 @@
 							<aligny>center</aligny>
 							<font>font12</font>
 							<label>$INFO[VideoPlayer.Studio]</label>
-							<textcolor>grey2</textcolor>
+							<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 					</control>

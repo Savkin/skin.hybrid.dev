@@ -75,7 +75,7 @@
 				<description>Exit button</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>
@@ -91,7 +91,7 @@
 				<description>Shutdown button</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>
@@ -107,7 +107,7 @@
 				<description>Custom Shutdown Timer</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>
@@ -124,7 +124,7 @@
 				<description>Cancel Shutdown Timer</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>
@@ -140,7 +140,7 @@
 				<description>Suspend button</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>
@@ -156,7 +156,7 @@
 				<description>Hibernate button</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>
@@ -172,7 +172,7 @@
 				<description>Reboot button</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>
@@ -188,7 +188,7 @@
 				<description>Logoff button</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>
@@ -211,7 +211,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<textwidth>290</textwidth>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
 				<texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
@@ -251,7 +251,7 @@
 				<description>Settings button</description>
 				<width>340</width>
 				<height>40</height>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 				<align>center</align>
 				<textwidth>290</textwidth>

@@ -34,7 +34,7 @@
 			<label>$LOCALIZE[5]</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>selected</textcolor>
+			<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="button">
@@ -100,7 +100,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 		</control>
@@ -110,7 +110,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 		</control>
@@ -120,7 +120,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
@@ -133,7 +133,7 @@
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 		</control>
 		<control type="image" id="11">

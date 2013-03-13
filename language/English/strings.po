@@ -891,7 +891,7 @@ msgid "Use Vertical Menu System"
 msgstr ""
 
 msgctxt "#31678"
-msgid "[COLOR=selected][B]Warning!![/B][/COLOR] - Reset Skin Values to Initial Install Defaults"
+msgid "[COLOR=$INFO[Skin.String(UsrHiLiteText.Colour)]][B]Warning!![/B][/COLOR] - Reset Skin Values to Initial Install Defaults"
 msgstr ""
 
 msgctxt "#31679"
@@ -1045,7 +1045,9 @@ msgctxt "#31761"
 msgid "Miscellaneous Buttons and Labels"
 msgstr ""
 
-
+msgctxt "#31762"
+msgid "Skin Settings Users Hilighted Items"
+msgstr ""
 
 
 msgctxt "#31764"

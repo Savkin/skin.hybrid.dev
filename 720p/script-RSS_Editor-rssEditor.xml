@@ -33,7 +33,7 @@
 			<font>font13_title</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>selected</textcolor>
+			<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="button">
@@ -92,8 +92,8 @@
 					<font>font13</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<textcolor>grey2</textcolor>
-					<selectedcolor>selected</selectedcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<info>ListItem.Label</info>
 				</control>
 			</itemlayout>
@@ -122,7 +122,7 @@
 					<font>font13</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<selectedcolor>selected</selectedcolor>
+					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<info>ListItem.Label</info>
 				</control>
 			</focusedlayout>

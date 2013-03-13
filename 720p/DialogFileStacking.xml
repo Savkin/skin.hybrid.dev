@@ -53,7 +53,7 @@
 			<aligny>center</aligny>
 			<font>font12</font>
 			<label>31060</label>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 		</control>
 		<control type="image">
 			<posx>50</posx>

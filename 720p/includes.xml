@@ -556,7 +556,7 @@
 		<font>fontContextMenu</font>
 		<width>340</width>
 		<height>40</height>
-		<textcolor>grey2</textcolor>
+		<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 		<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 		<align>center</align>
 		<textwidth>290</textwidth>
@@ -689,7 +689,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>font12_title</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="fadelabel">
@@ -776,7 +776,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>font12_title</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<visible>!videoplayer.content(episodes) + !videoplayer.content(musicvideos)</visible>
 		</control>

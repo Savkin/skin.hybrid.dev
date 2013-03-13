@@ -205,7 +205,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -216,7 +216,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -294,7 +294,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(NextDate)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -305,7 +305,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(ShortTime)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -363,7 +363,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -374,7 +374,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -452,7 +452,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(NextDate)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -463,7 +463,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(ShortTime)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -521,7 +521,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -532,7 +532,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -610,7 +610,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(NextDate)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -621,7 +621,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(ShortTime)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -679,7 +679,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -690,7 +690,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -768,7 +768,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(NextDate)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -779,7 +779,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(ShortTime)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -837,7 +837,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -848,7 +848,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -926,7 +926,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(NextDate)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -937,7 +937,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(ShortTime)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -995,7 +995,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -1006,7 +1006,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -1084,7 +1084,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(NextDate)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -1095,7 +1095,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(ShortTime)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -1153,7 +1153,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(NextDate)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -1164,7 +1164,7 @@
 								<width>150</width>
 								<height>20</height>
 								<label>$INFO[ListItem.Property(ShortTime)]</label>
-								<textcolor>grey2</textcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								<font>font12</font>
 								<align>center</align>
 							</control>
@@ -1242,7 +1242,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(NextDate)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -1253,7 +1253,7 @@
 									<width>150</width>
 									<height>20</height>
 									<label>$INFO[ListItem.Property(ShortTime)]</label>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<font>font12</font>
 									<align>center</align>
 								</control>
@@ -1305,7 +1305,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font13_title</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<wrapmultiline>true</wrapmultiline>
 						</control>
 						<control type="label">
@@ -1358,7 +1358,7 @@
 							<width>302</width>
 							<height>30</height>
 							<label>$INFO[Container(200).ListItem.Property(NextTitle)]</label>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<font>font13_title</font>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1412,7 +1412,7 @@
 							<height>15</height>
 							<label>$INFO[Container(200).ListItem.Property(Network)]</label>
 							<font>font13</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<visible>IsEmpty(Control.GetLabel(80000))</visible>
@@ -1440,7 +1440,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font13_title</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<wrapmultiline>true</wrapmultiline>
 						</control>
 						<control type="label">
@@ -1493,7 +1493,7 @@
 							<width>302</width>
 							<height>30</height>
 							<label>$INFO[Container(201).ListItem.Property(NextTitle)]</label>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<font>font13_title</font>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1547,7 +1547,7 @@
 							<height>15</height>
 							<label>$INFO[Container(201).ListItem.Property(Network)]</label>
 							<font>font13</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<visible>IsEmpty(Control.GetLabel(80001))</visible>
@@ -1575,7 +1575,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font13_title</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<wrapmultiline>true</wrapmultiline>
 						</control>
 						<control type="label">
@@ -1628,7 +1628,7 @@
 							<width>302</width>
 							<height>30</height>
 							<label>$INFO[Container(202).ListItem.Property(NextTitle)]</label>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<font>font13_title</font>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1682,7 +1682,7 @@
 							<height>15</height>
 							<label>$INFO[Container(202).ListItem.Property(Network)]</label>
 							<font>font13</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<visible>IsEmpty(Control.GetLabel(80002))</visible>
@@ -1710,7 +1710,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font13_title</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<wrapmultiline>true</wrapmultiline>
 						</control>
 						<control type="label">
@@ -1763,7 +1763,7 @@
 							<width>302</width>
 							<height>30</height>
 							<label>$INFO[Container(203).ListItem.Property(NextTitle)]</label>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<font>font13_title</font>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1817,7 +1817,7 @@
 							<height>15</height>
 							<label>$INFO[Container(203).ListItem.Property(Network)]</label>
 							<font>font13</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<visible>IsEmpty(Control.GetLabel(80003))</visible>
@@ -1845,7 +1845,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font13_title</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<wrapmultiline>true</wrapmultiline>
 						</control>
 						<control type="label">
@@ -1898,7 +1898,7 @@
 							<width>302</width>
 							<height>30</height>
 							<label>$INFO[Container(204).ListItem.Property(NextTitle)]</label>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<font>font13_title</font>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -1952,7 +1952,7 @@
 							<height>15</height>
 							<label>$INFO[Container(204).ListItem.Property(Network)]</label>
 							<font>font13</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<visible>IsEmpty(Control.GetLabel(80004))</visible>
@@ -1980,7 +1980,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font13_title</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<wrapmultiline>true</wrapmultiline>
 						</control>
 						<control type="label">
@@ -2033,7 +2033,7 @@
 							<width>302</width>
 							<height>30</height>
 							<label>$INFO[Container(205).ListItem.Property(NextTitle)]</label>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<font>font13_title</font>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -2087,7 +2087,7 @@
 							<height>15</height>
 							<label>$INFO[Container(205).ListItem.Property(Network)]</label>
 							<font>font13</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<visible>IsEmpty(Control.GetLabel(80005))</visible>
@@ -2115,7 +2115,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>font13_title</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<wrapmultiline>true</wrapmultiline>
 						</control>
 						<control type="label">
@@ -2168,7 +2168,7 @@
 							<width>302</width>
 							<height>30</height>
 							<label>$INFO[Container(206).ListItem.Property(NextTitle)]</label>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<font>font13_title</font>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -2222,7 +2222,7 @@
 							<height>15</height>
 							<label>$INFO[Container(206).ListItem.Property(Network)]</label>
 							<font>font13</font>
-							<textcolor>selected</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<visible>IsEmpty(Control.GetLabel(80006))</visible>

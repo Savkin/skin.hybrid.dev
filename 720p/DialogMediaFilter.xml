@@ -34,7 +34,7 @@
 			<label>587</label>
 			<align>center</align>
 			<aligny>center</aligny>
-			<textcolor>selected</textcolor>
+			<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="button">
@@ -88,7 +88,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
 			<texturefocus border="5">button-focus2.png</texturefocus>
@@ -99,7 +99,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
 			<texturefocus border="5">button-focus2.png</texturefocus>
@@ -110,7 +110,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
 			<texturefocus border="5">button-focus2.png</texturefocus>
@@ -123,7 +123,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
 			<texturefocus border="5">button-focus2.png</texturefocus>
@@ -135,7 +135,7 @@
 			<posy>0</posy>
 			<height>40</height>
 			<font>font13</font>
-			<textcolor>grey2</textcolor>
+			<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 			<focusedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</focusedcolor>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
 			<texturefocus border="5">button-focus2.png</texturefocus>

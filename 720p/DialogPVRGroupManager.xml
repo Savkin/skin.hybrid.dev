@@ -43,7 +43,7 @@
 					<label>19143</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>selected</textcolor>
+					<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="group">
@@ -96,8 +96,8 @@
 								<font>font12</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>grey2</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 						</itemlayout>
@@ -127,7 +127,7 @@
 								<align>left</align>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 						</focusedlayout>
@@ -206,8 +206,8 @@
 								<font>font12</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>grey2</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<label>$INFO[ListItem.ChannelNumber,(,) - ]$INFO[ListItem.ChannelName]</label>
 							</control>
 						</itemlayout>
@@ -244,7 +244,7 @@
 								<align>left</align>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<label>$INFO[ListItem.ChannelNumber,(,) - ]$INFO[ListItem.ChannelName]</label>
 							</control>
 						</focusedlayout>
@@ -323,8 +323,8 @@
 								<font>font12</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>grey2</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<label>$INFO[ListItem.ChannelNumber,(,) - ]$INFO[ListItem.ChannelName]</label>
 							</control>
 						</itemlayout>
@@ -361,7 +361,7 @@
 								<align>left</align>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<label>$INFO[ListItem.ChannelNumber,(,) - ]$INFO[ListItem.ChannelName]</label>
 							</control>
 						</focusedlayout>

@@ -199,7 +199,7 @@
 					<width>900</width>
 					<height>20</height>
 					<font>font12_title</font>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<wrapmultiline>true</wrapmultiline>
 					<scroll>false</scroll>
 					<align>center</align>
@@ -354,7 +354,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 									<visible>!SubString(ListItem.Property(Duration),min)</visible>
 								</control>
@@ -365,7 +365,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 									<visible>SubString(ListItem.Property(Duration),min)</visible>
 								</control>
@@ -448,7 +448,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration),, $LOCALIZE[12391]]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 									<visible>!SubString(ListItem.Property(Duration),min)</visible>
 								</control>
@@ -459,7 +459,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Year),, - ]$INFO[ListItem.Property(Duration)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 									<visible>SubString(ListItem.Property(Duration),min)</visible>
 								</control>
@@ -582,7 +582,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Premiered)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<align>center</align>
 									<aligny>center</aligny>
 								</control>
@@ -647,7 +647,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Premiered)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<align>center</align>
 									<aligny>center</aligny>
 								</control>
@@ -742,7 +742,7 @@
 									<height>120</height>
 									<label>$INFO[ListItem.Property(TvShowTitle)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								</control>
 							</itemlayout>
 							<focusedlayout width="375" height="130">
@@ -786,7 +786,7 @@
 									<height>120</height>
 									<label>$INFO[ListItem.Property(TvShowTitle)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 								</control>
 							</focusedlayout>
 						</control>
@@ -877,7 +877,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(TvShowTitle)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="textbox">
@@ -940,7 +940,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(TvShowTitle)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="textbox">
@@ -1051,7 +1051,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Year)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="label">
@@ -1061,7 +1061,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Duration)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 							</itemlayout>
@@ -1124,7 +1124,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Year)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="label">
@@ -1134,7 +1134,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Duration)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 							</focusedlayout>
@@ -1219,7 +1219,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Artist_Genre)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="textbox">
@@ -1274,7 +1274,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Artist_Genre)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="textbox">
@@ -1368,7 +1368,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Artist)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="textbox">
@@ -1423,7 +1423,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Artist)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="textbox">
@@ -1526,7 +1526,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Genre)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="label">
@@ -1591,7 +1591,7 @@
 									<height>15</height>
 									<label>$INFO[ListItem.Property(Genre)]</label>
 									<font>font12</font>
-									<textcolor>grey2</textcolor>
+									<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 									<aligny>center</aligny>
 								</control>
 								<control type="label">

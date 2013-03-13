@@ -136,7 +136,7 @@
 						<font>font13</font>
 						<aligny>center</aligny>
 						<align>center</align>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>
@@ -152,7 +152,7 @@
 						<align>center</align>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>!Control.HasFocus(110)</visible>
@@ -166,7 +166,7 @@
 						<aligny>center</aligny>
 						<align>center</align>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-						<textcolor>selected</textcolor>
+						<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 						<align>left</align>
 						<label fallback="--">$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(110)</visible>
@@ -229,7 +229,7 @@
 						<font>font13</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
 				</itemlayout>
@@ -258,7 +258,7 @@
 						<font>font13</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<info>ListItem.Label</info>
 					</control>
 				</focusedlayout>
@@ -295,7 +295,7 @@
 				<font>font12_title</font>
 				<align>right</align>
 				<aligny>center</aligny>
-				<textcolor>grey2</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label" id="200">

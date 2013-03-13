@@ -200,8 +200,8 @@
 						<width>380</width>
 						<height>30</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
@@ -212,8 +212,8 @@
 						<width>360</width>
 						<height>30</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<info>ListItem.Label2</info>
@@ -236,7 +236,7 @@
 						<height>30</height>
 						<font>font12</font>
 						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
@@ -248,7 +248,7 @@
 						<height>30</height>
 						<font>font12</font>
 						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<info>ListItem.Label2</info>
@@ -340,8 +340,8 @@
 						<width>380</width>
 						<height>30</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
@@ -352,8 +352,8 @@
 						<width>360</width>
 						<height>30</height>
 						<font>font12</font>
-						<textcolor>grey2</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<info>ListItem.Label2</info>
@@ -376,7 +376,7 @@
 						<height>30</height>
 						<font>font12</font>
 						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
@@ -388,7 +388,7 @@
 						<height>30</height>
 						<font>font12</font>
 						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<info>ListItem.Label2</info>

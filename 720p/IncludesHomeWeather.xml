@@ -101,7 +101,7 @@
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-					<selectedcolor>selected</selectedcolor>
+					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>center</align>
 					<aligny>bottom</aligny>
 					<label>$INFO[Window(weather).Property(Day0.Outlook)]</label>
@@ -260,7 +260,7 @@
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-					<selectedcolor>selected</selectedcolor>
+					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>center</align>
 					<aligny>bottom</aligny>
 					<label>$INFO[Window(weather).Property(Day1.Outlook)]</label>
@@ -419,7 +419,7 @@
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-					<selectedcolor>selected</selectedcolor>
+					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>center</align>
 					<aligny>bottom</aligny>
 					<label>$INFO[Window(weather).Property(Day2.Outlook)]</label>
@@ -578,7 +578,7 @@
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-					<selectedcolor>selected</selectedcolor>
+					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>center</align>
 					<aligny>bottom</aligny>
 					<label>$INFO[Window(weather).Property(Day3.Outlook)]</label>

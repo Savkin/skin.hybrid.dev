@@ -128,7 +128,7 @@
 						<height>25</height>
 						<font>font13</font>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -223,7 +223,7 @@
 						<height>25</height>
 						<font>font13</font>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -426,7 +426,7 @@
 						<height>25</height>
 						<font>font13</font>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -521,7 +521,7 @@
 						<height>25</height>
 						<font>font13</font>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -642,7 +642,7 @@
 						<height>40</height>
 						<font>font13</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -654,7 +654,7 @@
 						<height>40</height>
 						<font>font12</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Date]</label>
@@ -708,7 +708,7 @@
 						<height>40</height>
 						<font>font13</font>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -720,7 +720,7 @@
 						<height>40</height>
 						<font>font12</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Date]</label>
@@ -832,7 +832,7 @@
 						<height>29</height>
 						<font>font12</font>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
@@ -872,7 +872,7 @@
 						<height>52</height>
 						<font>special12</font>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.ChannelName]</label>
 					</control>
@@ -912,7 +912,7 @@
 						<height>52</height>
 						<font>special12</font>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.ChannelName]</label>
 					</control>
@@ -933,7 +933,7 @@
 						<height>25</height>
 						<font>font12</font>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>
@@ -977,7 +977,7 @@
 						<height>25</height>
 						<font>font12</font>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>
@@ -1127,7 +1127,7 @@
 							<font>font12</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -1138,7 +1138,7 @@
 							<font>font12</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="label">
@@ -1149,7 +1149,7 @@
 							<font>font12</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Date</info>
 						</control>
 						<control type="label">
@@ -1160,7 +1160,7 @@
 							<font>font12</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Comment</info>
 						</control>
 					</itemlayout>
@@ -1224,7 +1224,7 @@
 							<font>font12</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -1235,7 +1235,7 @@
 							<font>font12</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="label">
@@ -1246,7 +1246,7 @@
 							<font>font12</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Date</info>
 						</control>
 						<control type="label">
@@ -1257,7 +1257,7 @@
 							<font>font12</font>
 							<align>center</align>
 							<aligny>center</aligny>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Comment</info>
 						</control>
 					</focusedlayout>
@@ -1429,7 +1429,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -1441,7 +1441,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="label">
@@ -1453,7 +1453,7 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Date</info>
 						</control>
 						<control type="image">
@@ -1473,7 +1473,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1494,7 +1494,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -1559,7 +1559,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -1571,7 +1571,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="label">
@@ -1583,7 +1583,7 @@
 							<align>right</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Date</info>
 						</control>
 						<control type="image">
@@ -1603,7 +1603,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1624,7 +1624,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -1754,7 +1754,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label2</info>
 						</control>
 						<control type="label">
@@ -1766,7 +1766,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="image">
@@ -1786,7 +1786,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1807,7 +1807,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -1873,7 +1873,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label2</info>
 						</control>
 						<control type="label">
@@ -1885,7 +1885,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="textbox">
@@ -1918,7 +1918,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1939,7 +1939,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -2082,7 +2082,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.StartTime</info>
 						</control>
 						<control type="image">
@@ -2101,7 +2101,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -2113,7 +2113,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="image">
@@ -2133,7 +2133,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -2154,7 +2154,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>
@@ -2220,7 +2220,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.StartTime</info>
 						</control>
 						<control type="image">
@@ -2239,7 +2239,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.ChannelName</info>
 						</control>
 						<control type="label">
@@ -2251,7 +2251,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 						<control type="textbox">
@@ -2284,7 +2284,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>19043</label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -2305,7 +2305,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 							<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
-							<selectedcolor>selected</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<label>31510</label>
 							<visible>ListItem.HasTimer</visible>
 						</control>

@@ -166,7 +166,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -201,7 +201,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -347,7 +347,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -382,7 +382,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -512,7 +512,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -547,7 +547,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -692,7 +692,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -727,7 +727,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -895,7 +895,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -930,7 +930,7 @@
 								<align>right</align>
 								<aligny>center</aligny>
 								<textcolor>blue</textcolor>
-								<selectedcolor>selected</selectedcolor>
+								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 							<control type="label">
@@ -1018,7 +1018,7 @@
 					<width>400</width>
 					<height>30</height>
 					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>true</scroll>
 					<align>right</align>
@@ -1032,7 +1032,7 @@
 					<width>400</width>
 					<height>30</height>
 					<font>font13_title</font>
-					<textcolor>grey2</textcolor>
+					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scroll>true</scroll>
 					<align>right</align>

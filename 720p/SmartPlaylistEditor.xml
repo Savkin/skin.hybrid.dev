@@ -38,7 +38,7 @@
 				<label>$LOCALIZE[21432]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>selected</textcolor>
+				<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="button">
@@ -136,7 +136,7 @@
 						<height>40</height>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<font>font13</font>
 					</control>
 				</itemlayout>
@@ -164,7 +164,7 @@
 						<height>40</height>
 						<aligny>center</aligny>
 						<info>ListItem.Label</info>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<font>font13</font>
 					</control>
 				</focusedlayout>

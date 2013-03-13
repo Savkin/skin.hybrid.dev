@@ -58,7 +58,7 @@
 				<font>font14</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>selected</textcolor>
+				<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 				<label>[B]$LOCALIZE[136][/B]</label>
 			</control>
 			<control type="image">
@@ -112,7 +112,7 @@
 						<font>font12_title</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
@@ -141,7 +141,7 @@
 						<font>font12_title</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<selectedcolor>selected</selectedcolor>
+						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</focusedlayout>
