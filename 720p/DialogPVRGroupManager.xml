@@ -126,7 +126,7 @@
 								<font>font12</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -243,7 +243,7 @@
 								<font>font12</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<label>$INFO[ListItem.ChannelNumber,(,) - ]$INFO[ListItem.ChannelName]</label>
 							</control>
@@ -360,7 +360,7 @@
 								<font>font12</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<label>$INFO[ListItem.ChannelNumber,(,) - ]$INFO[ListItem.ChannelName]</label>
 							</control>

@@ -68,7 +68,7 @@
 					<label>31300</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -78,7 +78,7 @@
 					<width>460</width>
 					<height>35</height>
 					<font>font12</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -92,7 +92,7 @@
 					<width>460</width>
 					<height>30</height>
 					<font>font13_title</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<scroll>false</scroll>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -120,7 +120,7 @@
 					<align>right</align>
 					<aligny>top</aligny>
 					<label>$INFO[Window.Property(Current.Temperature)]</label>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -133,7 +133,7 @@
 					<align>left</align>
 					<aligny>top</aligny>
 					<label>$INFO[System.TemperatureUnits]</label>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="image">
@@ -156,7 +156,7 @@
 					<font>font13</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="image">
@@ -241,7 +241,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[Window.Property(Current.FeelsLike)]$INFO[System.TemperatureUnits]</label>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -254,7 +254,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<label>$INFO[Window.Property(Current.DewPoint)]$INFO[System.TemperatureUnits]</label>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -267,7 +267,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<info>Window.Property(Current.Humidity)</info>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -280,7 +280,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<info>Window.Property(Current.UVIndex)</info>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -293,7 +293,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<info>Window.Property(Current.Wind)</info>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
@@ -319,7 +319,7 @@
 					<label>10508</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="list" id="50">
@@ -355,7 +355,7 @@
 							<width>300</width>
 							<height>25</height>
 							<font>font13_title</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<align>center</align>
@@ -376,7 +376,7 @@
 							<width>390</width>
 							<height>25</height>
 							<font>font13</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<align>left</align>
@@ -390,7 +390,7 @@
 							<width>390</width>
 							<height>25</height>
 							<font>font13</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<align>left</align>
@@ -404,7 +404,7 @@
 							<width>400</width>
 							<height>50</height>
 							<font>font13</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<align>left</align>
@@ -445,7 +445,7 @@
 							<width>300</width>
 							<height>25</height>
 							<font>font13_title</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<align>center</align>
@@ -466,7 +466,7 @@
 							<width>390</width>
 							<height>25</height>
 							<font>font13</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<align>left</align>
@@ -480,7 +480,7 @@
 							<width>390</width>
 							<height>25</height>
 							<font>font13</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<align>left</align>
@@ -494,7 +494,7 @@
 							<width>400</width>
 							<height>50</height>
 							<font>font13</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<align>left</align>
@@ -673,7 +673,7 @@
 							<label>31296</label>
 							<align>center</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 						<control type="list" id="52">
@@ -702,7 +702,7 @@
 									<width>100</width>
 									<height>120</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -722,7 +722,7 @@
 									<width>390</width>
 									<height>70</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>right</align>
 									<aligny>center</aligny>
@@ -734,7 +734,7 @@
 									<width>590</width>
 									<height>50</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<label>$INFO[ListItem.ActualIcon]</label>
@@ -765,7 +765,7 @@
 									<width>100</width>
 									<height>120</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -785,7 +785,7 @@
 									<width>390</width>
 									<height>70</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>right</align>
 									<aligny>center</aligny>
@@ -797,7 +797,7 @@
 									<width>590</width>
 									<height>50</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<label>$INFO[ListItem.ActualIcon]</label>
@@ -960,7 +960,7 @@
 							<label>31297</label>
 							<align>center</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 						<control type="label">
@@ -969,7 +969,7 @@
 							<width>600</width>
 							<height>30</height>
 							<font>font13</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$LOCALIZE[31909]</label>
@@ -989,7 +989,7 @@
 									<width>600</width>
 									<height>30</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1009,7 +1009,7 @@
 									<width>100</width>
 									<height>50</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1021,7 +1021,7 @@
 									<width>100</width>
 									<height>50</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1033,7 +1033,7 @@
 									<width>350</width>
 									<height>130</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<align>right</align>
 									<label>$INFO[Window.Property(Weekend.1.Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR][B]$INFO[Window.Property(Weekend.1.WindSpeed)] $INFO[Window.Property(Weekend.1.WindDirection)][/B][CR][CR]$INFO[Window.Property(Weekend.1.ChancePrecipitation),[COLOR=grey2]$LOCALIZE[31908] :[/COLOR][B] ,[/B]]</label>
 								</control>
@@ -1043,7 +1043,7 @@
 									<width>590</width>
 									<height>80</height>
 									<font>font13</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1066,7 +1066,7 @@
 									<width>600</width>
 									<height>30</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1086,7 +1086,7 @@
 									<width>100</width>
 									<height>50</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1098,7 +1098,7 @@
 									<width>100</width>
 									<height>50</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1110,7 +1110,7 @@
 									<width>350</width>
 									<height>130</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<align>right</align>
 									<label>$INFO[Window.Property(Weekend.2.Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR][B]$INFO[Window.Property(Weekend.2.WindSpeed)] $INFO[Window.Property(Weekend.2.WindDirection)][/B][CR][CR]$INFO[Window.Property(Weekend.2.ChancePrecipitation),[COLOR=grey2]$LOCALIZE[31908] :[/COLOR][B] ,[/B]]</label>
 								</control>
@@ -1120,7 +1120,7 @@
 									<width>590</width>
 									<height>80</height>
 									<font>font13</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1153,7 +1153,7 @@
 							<label>31298</label>
 							<align>center</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 						<control type="label">
@@ -1162,7 +1162,7 @@
 							<width>600</width>
 							<height>30</height>
 							<font>font13</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$LOCALIZE[31909]</label>
@@ -1182,7 +1182,7 @@
 									<width>600</width>
 									<height>30</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1202,7 +1202,7 @@
 									<width>100</width>
 									<height>40</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1214,7 +1214,7 @@
 									<width>390</width>
 									<height>20</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>right</align>
 									<aligny>center</aligny>
@@ -1226,7 +1226,7 @@
 									<width>590</width>
 									<height>70</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<label>$INFO[Window.Property(36hour.1.Forecast),[COLOR=grey2]$LOCALIZE[31907]: [/COLOR]]</label>
@@ -1248,7 +1248,7 @@
 									<width>600</width>
 									<height>30</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1268,7 +1268,7 @@
 									<width>100</width>
 									<height>40</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1280,7 +1280,7 @@
 									<width>390</width>
 									<height>20</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>right</align>
 									<aligny>center</aligny>
@@ -1292,7 +1292,7 @@
 									<width>590</width>
 									<height>70</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<label>$INFO[Window.Property(36hour.2.Forecast),[COLOR=grey2]$LOCALIZE[31907]: [/COLOR]]</label>
@@ -1314,7 +1314,7 @@
 									<width>600</width>
 									<height>30</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1334,7 +1334,7 @@
 									<width>100</width>
 									<height>40</height>
 									<font>font13_title</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<aligny>center</aligny>
@@ -1346,7 +1346,7 @@
 									<width>390</width>
 									<height>20</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>right</align>
 									<aligny>center</aligny>
@@ -1358,7 +1358,7 @@
 									<width>590</width>
 									<height>70</height>
 									<font>font12</font>
-									<textcolor>white</textcolor>
+									<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 									<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 									<align>center</align>
 									<label>$INFO[Window.Property(36hour.3.Forecast),[COLOR=grey2]$LOCALIZE[31907]: [/COLOR]]</label>
@@ -1390,7 +1390,7 @@
 							<label>31295</label>
 							<align>center</align>
 							<aligny>center</aligny>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						</control>
 						<control type="image">
@@ -1442,7 +1442,7 @@
 								<width>570</width>
 								<height>100</height>
 								<font>font12</font>
-								<textcolor>white</textcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<align>center</align>
 								<label>$INFO[Window.Property(Alerts)]</label>
@@ -1455,7 +1455,7 @@
 							<width>570</width>
 							<height>30</height>
 							<font>font13_title</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>$LOCALIZE[19055]</label>
@@ -1511,7 +1511,7 @@
 						<height>40</height>
 						<font>font13</font>
 						<label>31027</label>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>

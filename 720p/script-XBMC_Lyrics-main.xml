@@ -48,7 +48,7 @@
 				<label>$LOCALIZE[SCRIPT0]</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label">
@@ -93,7 +93,7 @@
 				<height>500</height>
 				<align>center</align>
 				<font>font13</font>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<onup>100</onup>
 				<ondown>100</ondown>
@@ -151,7 +151,7 @@
 						<aligny>center</aligny>
 						<align>center</align>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label]</label>
@@ -197,7 +197,7 @@
 				<aligny>center</aligny>
 				<font>font13_title</font>
 				<label>31203</label>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<visible>Control.IsVisible(120) + ![Control.IsVisible(100) | Control.IsVisible(110)]</visible>
 			</control>
 			<!-- ** Required ** Do not change <id> or <type> (Song Chooser if it gets it wrong) -->

@@ -126,7 +126,7 @@
 					<width>240</width>
 					<height>20</height>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label>$INFO[Container(2).ListItem.Label]</label>
@@ -148,7 +148,7 @@
 					<width>240</width>
 					<height>30</height>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 					<label fallback="13170">$INFO[Container(2).ListItem.Label2]</label>
@@ -219,7 +219,7 @@
 						<width>178</width>
 						<height>25</height>
 						<font>font11</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>

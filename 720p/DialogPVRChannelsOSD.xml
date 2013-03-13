@@ -130,7 +130,7 @@
 						<width>350</width>
 						<height>25</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -249,7 +249,7 @@
 						<width>350</width>
 						<height>25</height>
 						<font>font13</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>

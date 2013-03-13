@@ -53,7 +53,7 @@
 					<label>-</label>
 					<font>font13</font>
 					<align>justify</align>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<pagecontrol>61</pagecontrol>
 				</control>

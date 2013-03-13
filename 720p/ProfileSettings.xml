@@ -83,7 +83,7 @@
 			<width>460</width>
 			<align>left</align>
 			<font>font16</font>
-			<textcolor>white</textcolor>
+			<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 		</control>
 		<control type="label">
 			<description>profile directory label</description>
@@ -102,7 +102,7 @@
 			<width>460</width>
 			<align>left</align>
 			<font>font13</font>
-			<textcolor>white</textcolor>
+			<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 		</control>
 		<control type="grouplist" id="5">
 			<description>control area</description>

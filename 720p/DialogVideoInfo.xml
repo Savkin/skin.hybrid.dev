@@ -44,7 +44,7 @@
 					<label>$VAR[Mainlabel]</label>
 					<align>center</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="group">
@@ -84,7 +84,7 @@
 							<width>675</width>
 							<height>380</height>
 							<font>font30_title</font>
-							<textcolor>white</textcolor>
+							<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<align>center</align>
 							<aligny>center</aligny>
@@ -177,8 +177,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</itemlayout>
@@ -212,8 +212,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</focusedlayout>
@@ -358,8 +358,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</itemlayout>
@@ -393,8 +393,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</focusedlayout>
@@ -523,8 +523,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</itemlayout>
@@ -558,8 +558,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</focusedlayout>
@@ -703,8 +703,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</itemlayout>
@@ -738,8 +738,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</focusedlayout>
@@ -906,8 +906,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</itemlayout>
@@ -941,8 +941,8 @@
 								<font>font13</font>
 								<align>left</align>
 								<aligny>center</aligny>
-								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
+								<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</focusedlayout>
@@ -1061,7 +1061,7 @@
 					<height>120</height>
 					<font>font12</font>
 					<align>justify</align>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<pagecontrol>61</pagecontrol>
 					<label fallback="31028">$INFO[ListItem.Plot]</label>
 					<autoscroll time="3000" delay="4000" repeat="5000">!Control.HasFocus(61) + Skin.HasSetting(StopAutoScroll)</autoscroll>
@@ -1106,7 +1106,7 @@
 							<font>font12</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>white</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</itemlayout>
@@ -1135,7 +1135,7 @@
 							<font>font12</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>white</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</focusedlayout>

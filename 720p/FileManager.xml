@@ -151,7 +151,7 @@
 						<font>font13</font>
 						<aligny>center</aligny>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>
@@ -311,7 +311,7 @@
 						<font>font13</font>
 						<aligny>center</aligny>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 						<align>left</align>
 						<info>ListItem.Label</info>
 					</control>

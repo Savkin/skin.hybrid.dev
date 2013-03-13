@@ -67,7 +67,7 @@
 				<aligny>center</aligny>
 				<font>font13</font>
 				<label>[B]$INFO[ListItem.Title][/B]</label>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<scroll>true</scroll>
 			</control>
 			<control type="image">
@@ -110,7 +110,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<label fallback="161">$INFO[ListItem.Artist]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
@@ -136,7 +136,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<label fallback="161">$INFO[ListItem.Album]$INFO[listitem.discnumber, - $LOCALIZE[427] ]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
@@ -164,7 +164,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<label fallback="161">$INFO[ListItem.Genre]</label>
 				</control>
 				<control type="label">
@@ -188,7 +188,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<label fallback="161">$INFO[ListItem.Year]</label>
 				</control>
 				<control type="label">
@@ -212,7 +212,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<label fallback="161">$INFO[ListItem.TrackNumber]</label>
 				</control>
 				<control type="label">

@@ -54,7 +54,7 @@
 				<label>$LOCALIZE[3] - $LOCALIZE[5]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Window.IsVisible(osdvideosettings)</visible>
 			</control>
@@ -68,7 +68,7 @@
 				<label>$LOCALIZE[292] - $LOCALIZE[5]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Window.IsVisible(osdaudiosettings)</visible>
 			</control>

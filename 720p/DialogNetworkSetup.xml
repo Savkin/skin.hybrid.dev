@@ -62,7 +62,7 @@
 			<width>740</width>
 			<texturefocus border="5">button-focus2.png</texturefocus>
 			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-			<textcolor>white</textcolor>
+			<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 			<disabledcolor>$INFO[Skin.String(DisabledText.Colour)]</disabledcolor>
 			<textoffsetx>12</textoffsetx>
 			<aligny>center</aligny>

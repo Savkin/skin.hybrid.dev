@@ -60,7 +60,7 @@
 				<width>390</width>
 				<height>30</height>
 				<font>font28_title</font>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<align>center</align>
 				<aligny>center</aligny>
 			</control>

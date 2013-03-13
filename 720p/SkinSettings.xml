@@ -127,7 +127,7 @@
 						<width>400</width>
 						<height>62</height>
 						<font>font45_title</font>
-						<textcolor>white</textcolor>
+						<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -1292,7 +1292,7 @@
 								<width>600</width>
 								<height>40</height>
 								<font>font13</font>
-								<textcolor>white</textcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
 								<label>$LOCALIZE[31110]</label>
@@ -1316,7 +1316,7 @@
 								<width>640</width>
 								<height>40</height>
 								<font>font13</font>
-								<textcolor>white</textcolor>
+								<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 								<align>right</align>
 								<aligny>center</aligny>
 								<label>$INFO[ListItem.Label]</label>

@@ -101,7 +101,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13</font>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<label>$INFO[ListItem.StartDate]</label>
 			</control>
 			<control type="label">
@@ -125,7 +125,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13</font>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<label>$INFO[ListItem.StartTime]</label>
 			</control>
 			<control type="label">
@@ -149,7 +149,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13</font>
-				<textcolor>white</textcolor>
+				<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 				<label>$INFO[ListItem.ChannelName]</label>
 			</control>
 			<control type="label">

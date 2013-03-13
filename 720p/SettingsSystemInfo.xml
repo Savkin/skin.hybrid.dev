@@ -292,7 +292,7 @@
 					<label>$LOCALIZE[13271] $INFO[System.CPUUsage]</label>
 					<align>right</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<font>font12_title</font>
 				</control>
@@ -313,7 +313,7 @@
 					<label>$LOCALIZE[31309] $INFO[system.memory(used.percent)]</label>
 					<align>right</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
+					<textcolor>$INFO[Skin.String(DefaultMiscItem.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<font>font12_title</font>
 				</control>
