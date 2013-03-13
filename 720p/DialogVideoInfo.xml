@@ -165,7 +165,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -200,7 +200,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -346,7 +346,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -381,7 +381,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -511,7 +511,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -546,7 +546,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -691,7 +691,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -726,7 +726,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -894,7 +894,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -929,7 +929,7 @@
 								<font>font13</font>
 								<align>right</align>
 								<aligny>center</aligny>
-								<textcolor>blue</textcolor>
+								<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 								<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -1023,7 +1023,7 @@
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>[COLOR=blue]$LOCALIZE[207][/COLOR]$INFO[Container(400).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(400).NumPages,/, )]</label>
+					<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[207][/COLOR]$INFO[Container(400).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(400).NumPages,/, )]</label>
 					<visible>Control.IsVisible(400)</visible>
 				</control>
 				<control type="label">
@@ -1037,7 +1037,7 @@
 					<scroll>true</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>[COLOR=blue]$LOCALIZE[206][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
+					<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[206][/COLOR]$INFO[Container(50).CurrentPage, ( $LOCALIZE[31024] ]$INFO[Container(50).NumPages,/, )]</label>
 					<visible>Control.IsVisible(50)</visible>
 				</control>
 				<control type="spincontrol" id="61">

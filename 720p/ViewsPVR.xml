@@ -35,7 +35,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font10_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<visible>Container(11).ListItem.HasEpg</visible>
 					<label>$INFO[Container(11).ListItem.StartTime]</label>
 				</control>
@@ -56,7 +56,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font10_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<visible>Container(11).ListItem.HasEpg</visible>
 					<label>$INFO[Container(11).ListItem.EndTime]</label>
 				</control>
@@ -333,7 +333,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font10_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<visible>Container(12).ListItem.HasEpg</visible>
 					<label>$INFO[Container(12).ListItem.StartTime]</label>
 				</control>
@@ -354,7 +354,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font10_title</font>
-					<textcolor>blue</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<visible>Container(12).ListItem.HasEpg</visible>
 					<label>$INFO[Container(12).ListItem.EndTime]</label>
 				</control>
@@ -772,7 +772,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>blue</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scrollout>false</scrollout>
 					<pauseatend>1000</pauseatend>

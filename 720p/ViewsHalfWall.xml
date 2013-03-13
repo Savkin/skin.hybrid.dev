@@ -79,7 +79,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>top</aligny>
-				<label>$VAR[MediaRuntime,[B][COLOR=blue]$LOCALIZE[2050]: [/COLOR][/B]]</label>
+				<label>$VAR[MediaRuntime,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]]</label>
 				<visible>!IsEmpty(ListItem.Duration) + !SubString(Container.FolderPath,program.advanced.launcher)</visible>
 			</control>
 			<control type="label">
@@ -93,7 +93,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>top</aligny>
-				<label>$INFO[ListItem.genre,[B][COLOR=blue]$LOCALIZE[515]: [/COLOR][/B]]</label>
+				<label>$INFO[ListItem.genre,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[515]: [/COLOR][/B]]</label>
 				<visible>!IsEmpty(ListItem.genre) + SubString(Container.FolderPath,program.advanced.launcher)</visible>
 			</control>
 			<control type="label">
@@ -107,7 +107,7 @@
 				<scroll>false</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.Director,[B][COLOR=blue]$LOCALIZE[20339]: [/COLOR][/B]]</label>
+				<label>$INFO[ListItem.Director,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[20339]: [/COLOR][/B]]</label>
 				<visible>!IsEmpty(ListItem.Director) + !SubString(Container.FolderPath,program.advanced.launcher)</visible>
 			</control>
 			<control type="label">
@@ -121,7 +121,7 @@
 				<scroll>false</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.writer,[B][COLOR=blue]$LOCALIZE[31030]: [/COLOR][/B]]    </label>
+				<label>$INFO[ListItem.writer,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[31030]: [/COLOR][/B]]    </label>
 				<visible>!IsEmpty(ListItem.writer) + SubString(Container.FolderPath,program.advanced.launcher)</visible>
 			</control>
 			<control type="textbox">
@@ -133,7 +133,7 @@
 				<font>font12</font>
 				<align>justify</align>
 				<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-				<label>$VAR[ShowMediaPlot,[B][COLOR=blue]$LOCALIZE[207]: [/COLOR][/B]]</label>
+				<label>$VAR[ShowMediaPlot,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[207]: [/COLOR][/B]]</label>
 				<autoscroll time="2000" delay="3000" repeat="5000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
 			</control>
 			<control type="image">

@@ -42,7 +42,7 @@
 					<height>35</height>
 					<font>font12</font>
 					<label>31006</label>
-					<textcolor>blue</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
 				</control>

@@ -160,7 +160,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13</font>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					</control>
 					<control type="fadelabel">
 						<description>Author Value</description>
@@ -185,7 +185,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13</font>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					</control>
 					<control type="label">
 						<description>Version Value</description>
@@ -209,7 +209,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13</font>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					</control>
 					<control type="image">
 						<description>Rating value</description>
@@ -409,7 +409,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13</font>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					</control>
 					<control type="fadelabel">
 						<description>Author Value</description>
@@ -434,7 +434,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13</font>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					</control>
 					<control type="label">
 						<description>Version Value</description>
@@ -458,7 +458,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font13</font>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					</control>
 					<control type="image">
 						<description>Rating value</description>

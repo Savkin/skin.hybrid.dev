@@ -25,7 +25,7 @@
 			<align>left</align>
 			<aligny>center</aligny>
 			<font>font12_title</font>
-			<textcolor>blue</textcolor>
+			<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 		</control>
 		<control type="label" id="12">
 			<description>Slider Value</description>

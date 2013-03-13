@@ -214,7 +214,7 @@
 			<height>35</height>
 			<font>font13_title</font>
 			<label>-</label>
-			<textcolor>blue</textcolor>
+			<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			<align>left</align>
 			<aligny>center</aligny>

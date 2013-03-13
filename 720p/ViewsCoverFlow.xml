@@ -3679,7 +3679,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>$VAR[MediaRuntime,[B][COLOR=blue]$LOCALIZE[2050]: [/COLOR][/B]]    </label>
+					<label>$VAR[MediaRuntime,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]]    </label>
 					<visible>!IsEmpty(ListItem.Duration)</visible>
 				</control>
 				<control type="label">
@@ -3691,7 +3691,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>    $INFO[ListItem.Director,[B][COLOR=blue]$LOCALIZE[20339]: [/COLOR][/B]]</label>
+					<label>    $INFO[ListItem.Director,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[20339]: [/COLOR][/B]]</label>
 				</control>
 			</control>
 		</control>
@@ -3709,7 +3709,7 @@
 				<scroll>false</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.genre,[B][COLOR=blue]$LOCALIZE[515]: [/COLOR][/B]]</label>
+				<label>$INFO[ListItem.genre,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[515]: [/COLOR][/B]]</label>
 				<visible>!IsEmpty(ListItem.genre)</visible>
 			</control>
 			<control type="label">
@@ -3723,7 +3723,7 @@
 				<scroll>false</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.writer,[B][COLOR=blue]$LOCALIZE[31030]: [/COLOR][/B]]    </label>
+				<label>$INFO[ListItem.writer,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[31030]: [/COLOR][/B]]    </label>
 				<visible>!IsEmpty(ListItem.writer)</visible>
 			</control>
 		</control>

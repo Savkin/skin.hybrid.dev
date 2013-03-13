@@ -271,7 +271,7 @@
 				<posy>2</posy>
 				<width>280</width>
 				<height>18</height>
-				<label>[COLOR=blue]$INFO[Container(3).NumItems][/COLOR] $VAR[CommonCountItems]</label>
+				<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(3).NumItems][/COLOR] $VAR[CommonCountItems]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>
@@ -283,7 +283,7 @@
 				<posy>2</posy>
 				<width>280</width>
 				<height>18</height>
-				<label>[COLOR=blue]$INFO[Container(3).NumItems][/COLOR] $VAR[CommonCountItems]</label>
+				<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(3).NumItems][/COLOR] $VAR[CommonCountItems]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>
@@ -295,7 +295,7 @@
 				<posy>20</posy>
 				<width>280</width>
 				<height>18</height>
-				<label>$INFO[Container(3).CurrentPage, $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(3).NumPages,/,[/COLOR])]</label>
+				<label>$INFO[Container(3).CurrentPage, $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]]$INFO[Container(3).NumPages,/,[/COLOR])]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>
@@ -312,7 +312,7 @@
 				<posy>2</posy>
 				<width>280</width>
 				<height>18</height>
-				<label>[COLOR=blue]$INFO[Container(6).NumItems][/COLOR] $VAR[CommonCountItems]</label>
+				<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(6).NumItems][/COLOR] $VAR[CommonCountItems]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>
@@ -324,7 +324,7 @@
 				<posy>2</posy>
 				<width>280</width>
 				<height>18</height>
-				<label>[COLOR=blue]$INFO[Container(6).NumItems][/COLOR] $VAR[CommonCountItems]</label>
+				<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(6).NumItems][/COLOR] $VAR[CommonCountItems]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>
@@ -336,7 +336,7 @@
 				<posy>20</posy>
 				<width>280</width>
 				<height>18</height>
-				<label>$INFO[Container(6).CurrentPage, $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container(6).NumPages,/,[/COLOR])]</label>
+				<label>$INFO[Container(6).CurrentPage, $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]]$INFO[Container(6).NumPages,/,[/COLOR])]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>

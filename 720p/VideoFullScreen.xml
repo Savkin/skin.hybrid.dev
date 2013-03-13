@@ -156,7 +156,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[VideoPlayer.Title]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 						<scroll>true</scroll>
 					</control>
 					<control type="image" id="1">
@@ -526,7 +526,7 @@
 					<height>25</height>
 					<align>left</align>
 					<font>font12</font>
-					<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.ChannelNumber, - ([COLOR=blue],[/COLOR])]</label>
+					<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.ChannelNumber, - ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]],[/COLOR])]</label>
 					<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>VideoPlayer.Content(LiveTV)</visible>
@@ -545,7 +545,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[VideoPlayer.Title]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 						<scroll>true</scroll>
 					</control>
 					<control type="image" id="1">
@@ -617,7 +617,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$LOCALIZE[31956]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 						<scroll>true</scroll>
 					</control>
 					<control type="image" id="1">
@@ -785,7 +785,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>blue</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 			</control>
 			<control type="label">
 				<description>Backend</description>

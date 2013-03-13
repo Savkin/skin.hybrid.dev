@@ -307,7 +307,7 @@
 					<aligny>center</aligny>
 					<textcolor>grey</textcolor>
 					<font>font12</font>
-					<label>([COLOR=blue]$INFO[Container(450).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR])</label>
+					<label>([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(450).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR])</label>
 					<visible>!Control.IsVisible(451)</visible>
 				</control>
 				<control type="label">
@@ -320,7 +320,7 @@
 					<aligny>center</aligny>
 					<textcolor>grey</textcolor>
 					<font>font12</font>
-					<label>([COLOR=blue]$INFO[Container(451).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(451).CurrentPage]/$INFO[Container(451).NumPages][/COLOR])</label>
+					<label>([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(451).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(451).CurrentPage]/$INFO[Container(451).NumPages][/COLOR])</label>
 					<visible>Control.IsVisible(451)</visible>
 				</control>
 			</control>

@@ -420,7 +420,7 @@
 				<scroll>false</scroll>
 				<align>left</align>
 				<aligny>bottom</aligny>
-				<label>$VAR[MediaRuntime,[B][COLOR=blue]$LOCALIZE[2050]: [/COLOR][/B]]</label>
+				<label>$VAR[MediaRuntime,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]]</label>
 				<visible>!IsEmpty(ListItem.Duration)</visible>
 			</control>
 			<control type="grouplist">

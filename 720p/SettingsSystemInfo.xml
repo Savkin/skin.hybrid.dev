@@ -279,7 +279,7 @@
 					<width>730</width>
 					<label>144</label>
 					<align>right</align>
-					<textcolor>blue</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<font>font13_title</font>
 				</control>

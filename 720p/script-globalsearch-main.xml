@@ -170,7 +170,7 @@
 							<visible>Control.IsVisible(189)</visible>
 						</item>
 						<item id="10">
-							<label>[COLOR=blue]$LOCALIZE[31009][/COLOR]</label>
+							<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[31009][/COLOR]</label>
 							<label2>-</label2>
 							<onclick>Control.Setfocus(9000,0)</onclick>
 							<onclick>SendClick(198)</onclick>

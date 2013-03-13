@@ -185,7 +185,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>top</aligny>
-					<label>$VAR[MediaRuntime,[B][COLOR=blue]$LOCALIZE[2050]: [/COLOR][/B]]</label>
+					<label>$VAR[MediaRuntime,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]]</label>
 					<animation effect="slide" start="0,0" end="-140,0" time="0" condition="Skin.HasSetting(Enable515ExtraThumbs)">conditional</animation>
 					<visible>!IsEmpty(ListItem.Duration)</visible>
 				</control>

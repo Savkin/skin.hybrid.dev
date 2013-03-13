@@ -111,7 +111,7 @@
 				<onright>101</onright>
 				<ondown>101</ondown>
 				<onup>101</onup>
-				<textcolor>blue</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<showonepage>true</showonepage>
 				<visible>Control.IsVisible(100)</visible>
 			</control>
@@ -183,7 +183,7 @@
 				<onright>110</onright>
 				<ondown>110</ondown>
 				<onup>110</onup>
-				<textcolor>blue</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<showonepage>true</showonepage>
 				<visible>Control.IsVisible(110)</visible>
 			</control>
@@ -274,7 +274,7 @@
 				<onright>120</onright>
 				<ondown>120</ondown>
 				<onup>120</onup>
-				<textcolor>blue</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<showonepage>true</showonepage>
 				<visible>Control.IsVisible(120)</visible>
 			</control>

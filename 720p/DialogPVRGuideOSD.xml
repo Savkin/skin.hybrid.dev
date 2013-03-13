@@ -52,7 +52,7 @@
 				<label>$LOCALIZE[19222] - $INFO[VideoPlayer.ChannelName]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>blue</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label">
@@ -246,7 +246,7 @@
 				<scroll>false</scroll>
 				<align>right</align>
 				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
+				<label>([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
 				<include>Window_OpenClose_Animation</include>
 			</control>
 		</control>

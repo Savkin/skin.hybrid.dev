@@ -143,7 +143,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font13</font>
-					<textcolor>blue</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<scrollout>false</scrollout>
 					<pauseatend>1000</pauseatend>

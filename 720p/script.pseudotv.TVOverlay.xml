@@ -179,7 +179,7 @@
 							<font>font30</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<textcolor>orange</textcolor>
+							<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 							<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 							<scroll>true</scroll>
 						</control>

@@ -62,7 +62,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font12</font>
-			<textcolor>blue</textcolor>
+			<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 		<control type="list" id="10">

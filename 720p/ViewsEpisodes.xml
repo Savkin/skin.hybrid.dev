@@ -32,7 +32,7 @@
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Episode]</label>
 						<font>font28_title</font>
-						<textcolor>blue</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<selectedcolor>white</selectedcolor>
 					</control>
 					<control type="label">
@@ -168,7 +168,7 @@
 						<posy>5</posy>
 						<width>830</width>
 						<height>20</height>
-						<label>$INFO[ListItem.Season,[COLOR=blue] $LOCALIZE[20373] :[/COLOR] ]$INFO[ListItem.premiered,[COLOR=blue] $LOCALIZE[31322] :[/COLOR] ]</label>
+						<label>$INFO[ListItem.Season,[COLOR=$INFO[Skin.String(MainPrimary.Colour)]] $LOCALIZE[20373] :[/COLOR] ]$INFO[ListItem.premiered,[COLOR=$INFO[Skin.String(MainPrimary.Colour)]] $LOCALIZE[31322] :[/COLOR] ]</label>
 						<align>left</align>
 						<aligny>top</aligny>
 						<font>font12</font>
@@ -183,7 +183,7 @@
 						<posx>292</posx>
 						<posy>25</posy>
 						<width>830</width>
-						<label>[COLOR blue]$INFO[ListItem.Episode][/COLOR]. $INFO[ListItem.Title]</label>
+						<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[ListItem.Episode][/COLOR]. $INFO[ListItem.Title]</label>
 						<font>font24_title</font>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>white</selectedcolor>

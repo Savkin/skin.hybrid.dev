@@ -41,7 +41,7 @@
 				<label>31912</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<textcolor>blue</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label" id="101">
@@ -201,7 +201,7 @@
 				<label>31913</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<textcolor>blue</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label" id="102">

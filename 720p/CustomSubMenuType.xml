@@ -42,7 +42,7 @@
 				<font>font13_title</font>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>blue</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<label>$LOCALIZE[31937]</label>
 			</control>

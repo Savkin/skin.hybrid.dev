@@ -88,7 +88,7 @@
 			<control type="label">
 				<width min="50" max="400">auto</width>
 				<height>120</height>
-				<label>[COLOR=blue]$INFO[Container.NumItems][/COLOR] $VAR[CommonCountItems]</label>
+				<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container.NumItems][/COLOR] $VAR[CommonCountItems]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>
@@ -98,7 +98,7 @@
 			<control type="label">
 				<width min="50" max="400">auto</width>
 				<height>120</height>
-				<label>[COLOR=blue]$INFO[Container.NumItems][/COLOR] $VAR[CommonCountItems]</label>
+				<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container.NumItems][/COLOR] $VAR[CommonCountItems]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>
@@ -108,7 +108,7 @@
 			<control type="label">
 				<width min="50" max="400">auto</width>
 				<height>120</height>
-				<label>$INFO[Container.CurrentPage, - $LOCALIZE[31024] ([COLOR=blue]]$INFO[Container.NumPages,/,[/COLOR])]</label>
+				<label>$INFO[Container.CurrentPage, - $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]]$INFO[Container.NumPages,/,[/COLOR])]</label>
 				<font>font12</font>
 				<textcolor>80FFFFFF</textcolor>
 				<scroll>false</scroll>

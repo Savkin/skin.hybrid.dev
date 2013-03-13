@@ -222,7 +222,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[MusicPlayer.Title]</label>
-						<textcolor>orange</textcolor>
+						<textcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</textcolor>
 						<scroll>true</scroll>
 					</control>
 					<control type="image">
@@ -326,7 +326,7 @@
 				<posy>40</posy>
 				<label>-</label>
 				<align>left</align>
-				<label>$INFO[Visualisation.Name] [I][COLOR=orange]($LOCALIZE[20166])[/COLOR][/I] · fps: $INFO[System.FPS]</label>
+				<label>$INFO[Visualisation.Name] [I][COLOR=$INFO[Skin.String(UsrHiLiteText.Colour)]]($LOCALIZE[20166])[/COLOR][/I] · fps: $INFO[System.FPS]</label>
 				<font>font12</font>
 				<visible>Visualisation.Locked</visible>
 			</control>

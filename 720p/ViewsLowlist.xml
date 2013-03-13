@@ -280,7 +280,7 @@
 					<font>font13</font>
 					<align>justify</align>
 					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-					<label>$VAR[ShowMediaPlot,[B][COLOR=blue]$LOCALIZE[207]: [/COLOR][/B]]</label>
+					<label>$VAR[ShowMediaPlot,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[207]: [/COLOR][/B]]</label>
 					<autoscroll time="3600" delay="6000" repeat="6000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
 					<visible>!StringCompare(ListItem.Label,..)</visible>
 				</control>
@@ -305,7 +305,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>top</aligny>
-					<label>$VAR[MediaRuntime,[B][COLOR=blue]$LOCALIZE[2050]: [/COLOR][/B]]</label>
+					<label>$VAR[MediaRuntime,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]]</label>
 					<visible>!IsEmpty(ListItem.Duration) + !SubString(Container.FolderPath,program.advanced.launcher)</visible>
 				</control>
 				<control type="label">
@@ -319,7 +319,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>top</aligny>
-					<label>$INFO[ListItem.genre,[B][COLOR=blue]$LOCALIZE[515]: [/COLOR][/B]]</label>
+					<label>$INFO[ListItem.genre,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[515]: [/COLOR][/B]]</label>
 					<visible>!IsEmpty(ListItem.genre) + SubString(Container.FolderPath,program.advanced.launcher)</visible>
 				</control>
 			</control>
