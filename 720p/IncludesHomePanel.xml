@@ -3695,7 +3695,7 @@
 				<label>[B]$INFO[ListItem.Label][/B]</label>
 				<align>center</align>
 				<font>font13_title</font>
-				<textcolor>$INFO[Skin.String(RSSStatInfo.Colour)]</textcolor>
+				<textcolor>$INFO[Skin.String(TextStatsRSS.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<animation effect="slide" end="25,0" time="100" reversible="true" condition="Control.HasFocus(8001) + Container(8001).Column(0)">conditional</animation>
 				<animation effect="slide" end="5,0" time="100" reversible="true" condition="Control.HasFocus(8001) + Container(8001).Column(1)">conditional</animation>
@@ -3852,7 +3852,7 @@
 				<label>[B]$INFO[ListItem.Label][/B]</label>
 				<align>center</align>
 				<font>font13_title</font>
-				<textcolor>$INFO[Skin.String(RSSStatInfo.Colour)]</textcolor>
+				<textcolor>$INFO[Skin.String(TextStatsRSS.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<animation effect="slide" end="25,0" time="100" reversible="true" condition="Control.HasFocus(8004) + Container(8004).Column(0)">conditional</animation>
 				<animation effect="slide" end="5,0" time="100" reversible="true" condition="Control.HasFocus(8004) + Container(8004).Column(1)">conditional</animation>
@@ -3992,7 +3992,7 @@
 				<label>$INFO[ListItem.Label2]</label>
 				<align>center</align>
 				<font>font13_title</font>
-				<textcolor>$INFO[Skin.String(RSSStatInfo.Colour)]</textcolor>
+				<textcolor>$INFO[Skin.String(TextStatsRSS.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<animation effect="slide" end="25,0" time="100" reversible="true" condition="Control.HasFocus(8002) + Container(8002).Column(0)">conditional</animation>
 				<animation effect="slide" end="5,0" time="100" reversible="true" condition="Control.HasFocus(8002) + Container(8002).Column(1)">conditional</animation>

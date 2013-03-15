@@ -78,6 +78,10 @@
 	<onload condition="!Skin.HasSetting(InitialSetUpRun) + IsEmpty(Skin.String(MainMenu.Name)">Skin.SetString(MainMenu.Name,$LOCALIZE[571])</onload>
 	<onload condition="!Skin.HasSetting(InitialSetUpRun) + IsEmpty(Skin.String(UnFocusedMain.Colour)">Skin.SetString(UnFocusedMain.Colour,MenuNoFocus)</onload>
 	<onload condition="!Skin.HasSetting(InitialSetUpRun) + IsEmpty(Skin.String(UnFocusedMain.Name)">Skin.SetString(UnFocusedMain.Name,$LOCALIZE[571])</onload>
+	<onload condition="IsEmpty(Skin.String(MediaMenu.Colour)">Skin.SetString(MediaMenu.Colour,MediaMenuFocus)</onload>
+	<onload condition="IsEmpty(Skin.String(MediaMenu.Name)">Skin.SetString(MediaMenu.Name,$LOCALIZE[571])</onload>
+	<onload condition="IsEmpty(Skin.String(UnFocusedMediaMenu.Colour)">Skin.SetString(UnFocusedMediaMenu.Colour,MediaMenuNoFocus)</onload>
+	<onload condition="IsEmpty(Skin.String(UnFocusedMediaMenu.Name)">Skin.SetString(UnFocusedMediaMenu.Name,$LOCALIZE[571])</onload>
 	<onload condition="!Skin.HasSetting(InitialSetUpRun) + IsEmpty(Skin.String(MainPrimary.Colour)">Skin.SetString(MainPrimary.Colour,MainLabel)</onload>
 	<onload condition="!Skin.HasSetting(InitialSetUpRun) + IsEmpty(Skin.String(MainPrimary.Name)">Skin.SetString(MainPrimary.Name,$LOCALIZE[571])</onload>
 	<onload condition="!Skin.HasSetting(InitialSetUpRun) + IsEmpty(Skin.String(InfoLabels.Colour)">Skin.SetString(InfoLabels.Colour,MinorLabel)</onload>
@@ -183,7 +187,7 @@
 				<width>900</width>
 				<height>35</height>
 				<font>font30_title</font>
-				<textcolor>$INFO[Skin.String(MainLabel.Colour)]</textcolor>
+				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>

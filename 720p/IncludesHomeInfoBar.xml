@@ -141,7 +141,7 @@
 					<height>20</height>
 					<align>left</align>
 					<width>220</width>
-					<label>$LOCALIZE[16102]:[COLOR $INFO[Skin.String(TetStatsRSS.Colour)]] $INFO[Window.Property(Movies.Watched)][/COLOR]</label>
+					<label>$LOCALIZE[16102]:[COLOR $INFO[Skin.String(TextStatsRSS.Colour)]] $INFO[Window.Property(Movies.Watched)][/COLOR]</label>
 					<aligny>center</aligny>
 					<font>font12_title</font>
 					<textcolor>$INFO[Skin.String(TitlesStatsRSS.Colour)]</textcolor>

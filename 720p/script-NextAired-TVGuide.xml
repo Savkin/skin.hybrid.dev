@@ -2242,7 +2242,7 @@
 						<height>15</height>
 						<label>Listed shows: $INFO[Window(Home).Property(NextAired.Total)]</label>
 						<font>font12_title</font>
-						<textcolor>$INFO[Skin.String(MainLabel.Colour)]</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<align>center</align>
 					</control>
 					<control type="label">
@@ -2252,7 +2252,7 @@
 						<height>15</height>
 						<label>Airing today: $INFO[Window(Home).Property(NextAired.TodayTotal)]</label>
 						<font>font12_title</font>
-						<textcolor>$INFO[Skin.String(MainLabel.Colour)]</textcolor>
+						<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 						<align>center</align>
 					</control>
 				</control>
@@ -2262,7 +2262,7 @@
 					<width>900</width>
 					<height>35</height>
 					<font>font30_title</font>
-					<textcolor>$INFO[Skin.String(MainLabel.Colour)]</textcolor>
+					<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
 					<scroll>true</scroll>
 					<align>center</align>
 					<aligny>center</aligny>

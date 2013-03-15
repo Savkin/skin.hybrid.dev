@@ -270,6 +270,13 @@
 			<onfocus condition="IsEmpty(Skin.String(MainMenu.Name)">Skin.SetString(MainMenu.Name,$LOCALIZE[571])</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(UnFocusedMain.Colour)">Skin.SetString(UnFocusedMain.Colour,MenuNoFocus)</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(UnFocusedMain.Name)">Skin.SetString(UnFocusedMain.Name,$LOCALIZE[571])</onfocus>
+			
+			<onfocus condition="IsEmpty(Skin.String(MediaMenu.Colour)">Skin.SetString(MediaMenu.Colour,MediaMenuFocus)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(MediaMenu.Name)">Skin.SetString(MediaMenu.Name,$LOCALIZE[571])</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(UnFocusedMediaMenu.Colour)">Skin.SetString(UnFocusedMediaMenu.Colour,MediaMenuNoFocus)</onfocus>
+			<onfocus condition="IsEmpty(Skin.String(UnFocusedMediaMenu.Name)">Skin.SetString(UnFocusedMediaMenu.Name,$LOCALIZE[571])</onfocus>
+
+			
 			<onfocus condition="IsEmpty(Skin.String(MainPrimary.Colour)">Skin.SetString(MainPrimary.Colour,MainLabel)</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(MainPrimary.Name)">Skin.SetString(MainPrimary.Name,$LOCALIZE[571])</onfocus>
 			<onfocus condition="IsEmpty(Skin.String(InfoLabels.Colour)">Skin.SetString(InfoLabels.Colour,MinorLabel)</onfocus>
