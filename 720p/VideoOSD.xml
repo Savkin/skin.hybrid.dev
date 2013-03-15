@@ -259,7 +259,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>grey</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					<scroll>false</scroll>
 				</control>
 			</control>

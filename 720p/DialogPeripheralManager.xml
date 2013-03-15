@@ -105,7 +105,7 @@
 						<posy>30</posy>
 						<width>520</width>
 						<height>20</height>
-						<label>$LOCALIZE[35504]:  [COLOR=grey2]$INFO[ListItem.Property(Product)][/COLOR]    $LOCALIZE[35503]:  [COLOR=grey2]$INFO[ListItem.Property(Vendor)][/COLOR]</label>
+						<label>$LOCALIZE[35504]:  [COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[ListItem.Property(Product)][/COLOR]    $LOCALIZE[35503]:  [COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[ListItem.Property(Vendor)][/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>font12</font>
@@ -117,7 +117,7 @@
 						<posy>50</posy>
 						<width>520</width>
 						<height>20</height>
-						<label>$LOCALIZE[35501]:  [COLOR=grey2]$INFO[ListItem.Property(Class)][/COLOR]     $LOCALIZE[19114]:  [COLOR=grey2]$INFO[ListItem.Property(Version)][/COLOR]</label>
+						<label>$LOCALIZE[35501]:  [COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[ListItem.Property(Class)][/COLOR]     $LOCALIZE[19114]:  [COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[ListItem.Property(Version)][/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>font12</font>
@@ -161,7 +161,7 @@
 						<posy>30</posy>
 						<width>520</width>
 						<height>20</height>
-						<label>$LOCALIZE[35504]:  [COLOR=grey2]$INFO[ListItem.Property(Product)][/COLOR]    $LOCALIZE[35503]:  [COLOR=grey2]$INFO[ListItem.Property(Vendor)][/COLOR]</label>
+						<label>$LOCALIZE[35504]:  [COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[ListItem.Property(Product)][/COLOR]    $LOCALIZE[35503]:  [COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[ListItem.Property(Vendor)][/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>font12</font>
@@ -173,7 +173,7 @@
 						<posy>50</posy>
 						<width>520</width>
 						<height>20</height>
-						<label>$LOCALIZE[35501]:  [COLOR=grey2]$INFO[ListItem.Property(Class)][/COLOR]     $LOCALIZE[19114]:  [COLOR=grey2]$INFO[ListItem.Property(Version)][/COLOR]</label>
+						<label>$LOCALIZE[35501]:  [COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[ListItem.Property(Class)][/COLOR]     $LOCALIZE[19114]:  [COLOR=$INFO[Skin.String(InfoLabels.Colour)]]$INFO[ListItem.Property(Version)][/COLOR]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>font12</font>
@@ -208,7 +208,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<scroll>true</scroll>
-				<textcolor>grey</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 				<label>([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(20).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(20).CurrentPage]/$INFO[Container(20).NumPages][/COLOR])</label>
 			</control>
 			<control type="button" id="10">

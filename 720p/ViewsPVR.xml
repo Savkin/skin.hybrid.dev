@@ -117,8 +117,8 @@
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<info>ListItem.ChannelNumber</info>
 					</control>
 					<control type="label">
@@ -139,8 +139,8 @@
 						<width>330</width>
 						<height>20</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Title]</label>
@@ -152,8 +152,8 @@
 						<width>280</width>
 						<height>20</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Title]</label>
@@ -212,8 +212,8 @@
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<info>ListItem.ChannelNumber</info>
 					</control>
 					<control type="label">
@@ -234,8 +234,8 @@
 						<width>330</width>
 						<height>20</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Title]</label>
@@ -247,8 +247,8 @@
 						<width>280</width>
 						<height>20</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Title]</label>
@@ -415,8 +415,8 @@
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<info>ListItem.ChannelNumber</info>
 					</control>
 					<control type="label">
@@ -437,8 +437,8 @@
 						<width>330</width>
 						<height>20</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Title]</label>
@@ -450,8 +450,8 @@
 						<width>280</width>
 						<height>20</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Title]</label>
@@ -510,8 +510,8 @@
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<info>ListItem.ChannelNumber</info>
 					</control>
 					<control type="label">
@@ -532,8 +532,8 @@
 						<width>330</width>
 						<height>20</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Title]</label>
@@ -545,8 +545,8 @@
 						<width>280</width>
 						<height>20</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Title]</label>
@@ -854,8 +854,8 @@
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<info>ListItem.ChannelNumber</info>
 					</control>
 					<control type="image">
@@ -894,8 +894,8 @@
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>grey</textcolor>
-						<selectedcolor>grey</selectedcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
+						<selectedcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</selectedcolor>
 						<info>ListItem.ChannelNumber</info>
 					</control>
 					<control type="image">

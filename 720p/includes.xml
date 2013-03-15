@@ -743,7 +743,7 @@
 			<align>right</align>
 			<aligny>center</aligny>
 			<font>font12</font>
-			<textcolor>grey</textcolor>
+			<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 			<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 		</control>
 	</include>

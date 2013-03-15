@@ -86,7 +86,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>NowPlayAlbum</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)</visible>
 			</control>
@@ -100,7 +100,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>NowPlayTitle</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label">
@@ -113,7 +113,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>NowPlayTime</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 			</control>
@@ -189,7 +189,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>NowPlayAlbum</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 			</control>
@@ -203,7 +203,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>NowPlayAlbum</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)</visible>
 			</control>
@@ -217,7 +217,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
-				<textcolor>NowPlayTitle</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label">
@@ -230,7 +230,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<textcolor>NowPlayTime</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 			</control>
@@ -265,7 +265,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>NowPlayTitle</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -278,7 +278,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayTime</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
@@ -311,7 +311,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayAlbum</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -320,11 +320,11 @@
 					<posy>475</posy>
 					<height>30</height>
 					<width>1050</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=grey] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]] (,)[/COLOR]]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>NowPlayTitle</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -337,7 +337,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayTime</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
@@ -364,7 +364,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayAlbum</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -377,7 +377,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>NowPlayTitle</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -390,7 +390,7 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayTime</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
@@ -425,7 +425,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>NowPlayTitle</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -438,7 +438,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayTime</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
@@ -471,7 +471,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayAlbum</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -480,11 +480,11 @@
 					<posy>475</posy>
 					<height>30</height>
 					<width>455</width>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=grey] (,)[/COLOR]]</label>
+					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year,[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]] (,)[/COLOR]]</label>
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>NowPlayTitle</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -497,7 +497,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayTime</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>
@@ -524,7 +524,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayAlbum</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -537,7 +537,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font13_title</font>
-					<textcolor>NowPlayTitle</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="label">
@@ -550,7 +550,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>NowPlayTime</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 			</control>

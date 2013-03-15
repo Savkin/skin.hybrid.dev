@@ -158,7 +158,7 @@
 						<width>356</width>
 						<height>80</height>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label fallback="31028">$INFO[ListItem.Plot]</label>
 						<align>justify</align>
@@ -405,7 +405,7 @@
 						<width>356</width>
 						<height>80</height>
 						<font>font12</font>
-						<textcolor>lightgrey</textcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label fallback="31028">$INFO[ListItem.Plot]</label>
 						<autoscroll time="4000" delay="5000" repeat="15000" />

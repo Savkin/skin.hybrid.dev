@@ -108,7 +108,7 @@
 						<width>380</width>
 						<height>40</height>
 						<font>font45_title</font>
-						<textcolor>grey3</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMain.Colour)]</textcolor>
 						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>

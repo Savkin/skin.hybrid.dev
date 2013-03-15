@@ -182,7 +182,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<scroll>true</scroll>
-				<textcolor>grey</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 				<label>([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(5).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container(5).CurrentPage]/$INFO[Container(5).NumPages][/COLOR])</label>
 			</control>
 		</control>

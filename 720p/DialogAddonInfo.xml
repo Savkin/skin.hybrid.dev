@@ -233,7 +233,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					</control>
 					<control type="textbox" id="400">
 						<description>Description</description>
@@ -299,7 +299,7 @@
 						<align>right</align>
 						<aligny>center</aligny>
 						<font>font12</font>
-						<textcolor>grey</textcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					</control>
 					<control type="textbox" id="401">
 						<description>Description</description>

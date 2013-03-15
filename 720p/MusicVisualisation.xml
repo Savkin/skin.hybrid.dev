@@ -190,7 +190,7 @@
 					<align>left</align>
 					<font>font13_title</font>
 					<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, - ]</label>
-					<textcolor>NowPlayAlbum</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
 				</control>
@@ -203,7 +203,7 @@
 					<align>left</align>
 					<font>font13_title</font>
 					<label>$LOCALIZE[31956] $INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, - ]</label>
-					<textcolor>NowPlayAlbum</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<visible>SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)</visible>
 				</control>

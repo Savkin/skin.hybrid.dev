@@ -15,36 +15,4 @@
 	<color name="UsrHiLiteText">FFEB9E17</color>
 	<color name="DisabledText">FF505050</color>
 	<color name="TextShadow">FF000000</color>	
-	
-	
-	
-	
-	
-
-	<!-- BY COLOUR NAMES -->
-	
-	<color name="grey">FFb4b4b4</color>
-	<color name="grey2">FF999999</color>
-	<color name="grey3">FF505050</color>
-	
-	
-   
-    
-	<!-- BY ITEM TYPE COLOURS -->
-	
-	
-	
-	
-	
-  
-	
-	
-	
-	
-	<color name="SubMenu">FF999999</color><!--grey2-->
-	
-	
-    <color name="NowPlayAlbum">white</color><!--white-->
-    <color name="NowPlayTitle">FF0084FF</color><!--white-->
-    <color name="NowPlayTime">white</color><!--white-->
 </colors>

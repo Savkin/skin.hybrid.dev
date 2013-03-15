@@ -113,7 +113,7 @@
 						<font>font12</font>
 						<aligny>center</aligny>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
-						<textcolor>grey</textcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
 					</control>
@@ -163,7 +163,7 @@
 						<font>font12</font>
 						<aligny>center</aligny>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
-						<textcolor>grey</textcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
 					</control>
@@ -273,7 +273,7 @@
 						<font>font12</font>
 						<aligny>center</aligny>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
-						<textcolor>grey</textcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
 					</control>
@@ -323,7 +323,7 @@
 						<font>font12</font>
 						<aligny>center</aligny>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
-						<textcolor>grey</textcolor>
+						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 						<align>right</align>
 						<info>ListItem.Label2</info>
 					</control>

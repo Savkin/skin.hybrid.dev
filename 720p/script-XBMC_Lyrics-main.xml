@@ -61,7 +61,7 @@
 				<label>$INFO[MusicPlayer.Artist]</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<textcolor>grey</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="label">
@@ -74,7 +74,7 @@
 				<label>$INFO[MusicPlayer.Title]</label>
 				<align>right</align>
 				<aligny>center</aligny>
-				<textcolor>grey</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 			</control>
 			<control type="image">

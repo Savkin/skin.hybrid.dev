@@ -166,7 +166,7 @@
 					<width>450</width>
 					<height>30</height>
 					<font>font13</font>
-					<textcolor>grey</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
@@ -178,7 +178,7 @@
 					<width>450</width>
 					<height>50</height>
 					<font>font12</font>
-					<textcolor>grey</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>left</align>
 					<label>$INFO[ListItem.Property(Addon.Summary)]</label>
@@ -230,7 +230,7 @@
 					<width>450</width>
 					<height>50</height>
 					<font>font12</font>
-					<textcolor>grey</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>left</align>
 					<label>$INFO[ListItem.Property(Addon.Summary)]</label>

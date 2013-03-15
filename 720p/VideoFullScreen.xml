@@ -190,7 +190,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>grey</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					<scroll>true</scroll>
 					<animation effect="fade" time="200">VisibleChange</animation>
 				</control>
@@ -264,7 +264,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13</font>
-				<textcolor>grey</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<label>$INFO[Player.ChapterName,[B][COLOR=$INFO[Skin.String(DefaultMiscItem.Colour)]]$LOCALIZE[21396]: [/COLOR][/B]]</label>
 				<visible>Player.ChapterCount + !VideoPlayer.Content(LiveTV) + [!Skin.HasSetting(HideSeekBarOSD) | Window.IsActive(VideoOSD)]</visible>
@@ -579,7 +579,7 @@
 					<align>right</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>grey</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					<scroll>true</scroll>
 					<visible>!Window.IsVisible(VideoOSD) + !VideoPlayer.Content(LiveTV)</visible>
 					<animation effect="fade" time="200">VisibleChange</animation>
@@ -593,7 +593,7 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12</font>
-					<textcolor>grey</textcolor>
+					<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 					<scroll>true</scroll>
 					<visible>[!Window.IsVisible(VideoOSD) | Window.IsActive(VideoOSD)] + VideoPlayer.Content(LiveTV)</visible>
 					<animation effect="fade" time="200">VisibleChange</animation>

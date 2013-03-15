@@ -151,7 +151,7 @@
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>grey3</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMain.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<label>$INFO[ListItem.Property(Number),(,) - ]$INFO[ListItem.Property(Name)]</label>
 						<visible>!ListItem.Property(ActiveChannel)</visible>
@@ -212,7 +212,7 @@
 						<font>font12</font>
 						<align>left</align>
 						<aligny>center</aligny>
-						<textcolor>grey3</textcolor>
+						<textcolor>$INFO[Skin.String(UnFocusedMain.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<label>$INFO[ListItem.Property(Number),(,) - ]$INFO[ListItem.Property(Name)]</label>
 						<visible>!ListItem.Property(ActiveChannel)</visible>
@@ -246,7 +246,7 @@
 				<width>420</width>
 				<height>20</height>
 				<font>font12</font>
-				<textcolor>grey</textcolor>
+				<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
 				<scroll>false</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
