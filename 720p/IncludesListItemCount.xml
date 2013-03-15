@@ -22,7 +22,7 @@
 					<height>120</height>
 					<label>$VAR[CommonCountItems]</label>
 					<font>font13_title</font>
-					<textcolor>C0FFFFFF</textcolor>
+					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 					<scroll>false</scroll>
 					<align>left</align>
 				</control>
@@ -31,7 +31,7 @@
 					<height>120</height>
 					<label>$INFO[Container.ListItem.TVShowTitle,: ,]</label>
 					<font>font13_title</font>
-					<textcolor>99FFFFFF</textcolor>
+					<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 					<scroll>false</scroll>
 					<align>left</align>
 					<visible>Container.Content(Seasons) | Container.Content(Episodes)</visible>
@@ -41,7 +41,7 @@
 					<height>120</height>
 					<label>$INFO[ListItem.Artist,: ,]</label>
 					<font>font13_title</font>
-					<textcolor>99FFFFFF</textcolor>
+					<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 					<scroll>false</scroll>
 					<align>left</align>
 					<visible>Container.Content(Albums)</visible>
@@ -51,7 +51,7 @@
 					<height>120</height>
 					<label>$INFO[ListItem.Album,: ,]</label>
 					<font>font13_title</font>
-					<textcolor>99FFFFFF</textcolor>
+					<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 					<scroll>false</scroll>
 					<align>left</align>
 					<visible>Container.Content(Songs)</visible>
@@ -69,7 +69,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<label>$INFO[ListItem.SortLetter]</label>
-			<textcolor>C0FFFFFF</textcolor>
+			<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 			<font>font30_title</font>
 			<animation type="Visible" reversible="false">
 				<effect type="fade" start="0" end="100" time="300" tween="sine" easing="inout" />
@@ -90,7 +90,7 @@
 				<height>120</height>
 				<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container.NumItems][/COLOR] $VAR[CommonCountItems]</label>
 				<font>font12</font>
-				<textcolor>80FFFFFF</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<scroll>false</scroll>
 				<align>left</align>
 				<visible>!IntegerGreaterThan(Container.NumItems,1) + !Window.IsActive(script-globalsearch-main.xml)</visible>
@@ -100,7 +100,7 @@
 				<height>120</height>
 				<label>[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container.NumItems][/COLOR] $VAR[CommonCountItems]</label>
 				<font>font12</font>
-				<textcolor>80FFFFFF</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<scroll>false</scroll>
 				<align>left</align>
 				<visible>IntegerGreaterThan(Container.NumItems,1) + !Window.IsActive(script-globalsearch-main.xml)</visible>
@@ -108,9 +108,9 @@
 			<control type="label">
 				<width min="50" max="400">auto</width>
 				<height>120</height>
-				<label>$INFO[Container.CurrentPage, - $LOCALIZE[31024] ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]]$INFO[Container.NumPages,/,[/COLOR])]</label>
+				<label>$LOCALIZE[31024] - ([COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container.CurrentPage][/COLOR]/[COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$INFO[Container.NumPages][/COLOR])</label>
 				<font>font12</font>
-				<textcolor>80FFFFFF</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<scroll>false</scroll>
 				<align>left</align>
 				<visible>IntegerGreaterThan(Container.NumPages,1) + !Window.IsActive(script-globalsearch-main.xml)</visible>
@@ -120,7 +120,7 @@
 				<height>120</height>
 				<label>$VAR[GlobalSearchResults]</label>
 				<font>font12</font>
-				<textcolor>80FFFFFF</textcolor>
+				<textcolor>$INFO[Skin.String(InfoLabels.Colour)]</textcolor>
 				<scroll>false</scroll>
 				<align>left</align>
 				<visible>Window.IsActive(script-globalsearch-main.xml)</visible>
