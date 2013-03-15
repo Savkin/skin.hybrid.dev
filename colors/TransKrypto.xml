@@ -1,50 +1,18 @@
 <!-- TRANSKRYPTO COLOR SET BY FREAKYLINUX GUY-->
 <colors>
-	<!-- Hybrid Default Item Default Colours -->
 	<color name="MainLabel">FF6DF300</color>
 	<color name="MenuFocus">FF6DF300</color>
 	<color name="MenuNoFocus">FF505050</color>
 	<color name="MinorLabel">FF999999</color>
-	<color name="HomeInfoClock">FF6DF300</color>
-	<color name="HomeInfoDate">FF9AD16A</color>
+	<color name="HomeInfoOne">FFFFFFFF</color>
+	<color name="HomeInfoTwo">FF6DF300</color>
+	<color name="HomeInfoThree">FF999999</color>
     <color name="StatsName">FF6DF300</color>
     <color name="StatsAmnt">FFFFFFFF</color>
-	
-	<color name="TextShadow">FF000000</color>		
-
-
-        <!-- CONFLUENCE LITE COLORS -->
-	<color name="white">FFFFFFFF</color>
-	<color name="grey">FFb4b4b4</color>
-	<color name="grey2">FF999999</color>
-	<color name="grey3">FF505050</color>
-	<color name="black">FF000000</color>
-	<color name="blue">FF6DF300</color>
-    <color name="selected">FF6DF300</color>
-    <color name="orange">FF6DF300</color>
-	
-	<!-- BY ITEM TYPE COLOURS -->
-	
-	
-
-
-        
-        
-        <color name="SubMenu">FF999999</color><!--grey2-->
-		
-		
-        <color name="CommonBtnFocus">ffffffff</color><!--white-->
-        <color name="CommonBtnNoFocus">FF999999</color><!--grey2-->
-        <color name="HomeInfoOne">FFFFFFFF</color><!--white-->
-        <color name="HomeInfoTwo">FF6DF300</color><!--blue-->
-        <color name="HomeInfoThree">FF999999</color><!--grey2-->
-
-        <!--ADVANCED COLORS CLOCK -->
-        
-        
-
-        <!--ADNVANCED COLORS HOME ALBUM INFO -->
-        <color name="NowPlayAlbum">FF9AD16A</color><!--white-->
-        <color name="NowPlayTitle">FF6DF300</color><!--white-->
-        <color name="NowPlayTime">FF9AD16A</color><!--white-->
+	<color name="MediaMenuFocus">FFFFFFFF</color>
+	<color name="MediaMenuNoFocus">FF999999</color>
+	<color name="DefaultItem">FFFFFFFF</color>
+	<color name="UsrHiLiteText">FFEB9E17</color>
+	<color name="DisabledText">FF505050</color>
+	<color name="TextShadow">FF000000</color>	
 </colors>

@@ -1,50 +1,18 @@
 <!-- GREY COLOR SET BY FREAKYLINUX GUY -->
 <colors>
-	<!-- Hybrid Default Item Default Colours -->
 	<color name="MainLabel">FF999999</color>
 	<color name="MenuFocus">FF999999</color>
 	<color name="MenuNoFocus">FF505050</color>
 	<color name="MinorLabel">FF999999</color>
-	<color name="HomeInfoClock">FFFFFFFF</color>
-	<color name="HomeInfoDate">FFFFFFFF</color>
+	<color name="HomeInfoOne">FFFFFFFF</color>
+	<color name="HomeInfoTwo">FF999999</color>
+	<color name="HomeInfoThree">FF999999</color>
     <color name="StatsName">FFFFFFFF</color>
     <color name="StatsAmnt">FFb4b4b4</color>
-	
-       
+	<color name="MediaMenuFocus">FFFFFFFF</color>
+	<color name="MediaMenuNoFocus">FF999999</color>
+	<color name="DefaultItem">FFFFFFFF</color>
+	<color name="UsrHiLiteText">FFEB9E17</color>
+	<color name="DisabledText">FF505050</color>
 	<color name="TextShadow">FF000000</color>	
-
-
-        <!-- CONFLUENCE LITE COLORS -->
-	<color name="white">FFFFFFFF</color>
-	<color name="grey">FFb4b4b4</color>
-	<color name="grey2">FF999999</color>
-	<color name="grey3">FF505050</color>
-	<color name="black">FF000000</color>
-	<color name="blue">FF999999</color>
-	<color name="selected">FFFFFFFF</color>
-    <color name="orange">FFAAAAAA</color>
-	
-	<!-- BY ITEM TYPE COLOURS -->
-	
-	
-
-
-	
-	
-	
-	
-	<color name="SubMenu">FF999999</color><!--grey2-->
-	<color name="CommonBtnFocus">FFFFFFFF</color><!--white-->
-	<color name="CommonBtnNoFocus">FF999999</color><!--grey2-->
-	<color name="HomeInfoOne">FFFFFFFF</color><!--white-->
-	<color name="HomeInfoTwo">FF999999</color><!--blue-->
-	<color name="HomeInfoThree">FF999999</color><!--grey2-->
-
-
-        
-
-        <!--ADNVANCED COLORS HOME ALBUM INFO -->
-        <color name="NowPlayAlbum">FFffffff</color><!--white-->
-        <color name="NowPlayTitle">FFffffff</color><!--white-->
-        <color name="NowPlayTime">FFffffff</color><!--white-->
 </colors>

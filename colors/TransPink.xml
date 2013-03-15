@@ -1,55 +1,18 @@
 <!-- TRANSPINK COLOR SET BY FREAKYLINUX GUY -->
 <colors>
-	<!-- Hybrid Default Item Default Colours -->
 	<color name="MainLabel">ffd204a9</color>
 	<color name="MenuFocus">ffd204a9</color>
 	<color name="MenuNoFocus">33FFFFFF</color>
 	<color name="MinorLabel">88FFFFFF</color>
-	<color name="HomeInfoClock">FFD204A9</color>
-	<color name="HomeInfoDate">FFFF69B4</color>
+	<color name="HomeInfoOne">FFFFFFFF</color>
+	<color name="HomeInfoTwo">ffd204a9</color>
+	<color name="HomeInfoThree">88FFFFFF</color>
     <color name="StatsName">ffd204a9</color>
     <color name="StatsAmnt">FFFF69B4</color>
-	
-	
+	<color name="MediaMenuFocus">FFFFFFFF</color>
+	<color name="MediaMenuNoFocus">FF999999</color>
+	<color name="DefaultItem">FFFFFFFF</color>
+	<color name="UsrHiLiteText">FFFF69b4</color>
+	<color name="DisabledText">FF505050</color>
 	<color name="TextShadow">FF000000</color>	
-
-
-        <!-- CONFLUENCE LITE COLORS -->
-	<color name="white">FFffffff</color>
-	<color name="grey">FFb4b4b4</color>
-	<color name="grey2">88FFFFFF</color>
-	<color name="grey3">33FFFFFF</color>
-	<color name="grey4">17FFFFFF</color>
-	<color name="black">FF000000</color>
-	<color name="blue">ffd204a9</color>
-	<color name="selected">FFFF69b4</color>
-     <color name="orange">ffd204a9</color>
-	
-	<!-- BY ITEM TYPE COLOURS -->
-	
-	
-
-
-      
-        
-		
-		
-        <color name="SubMenu">88FFFFFF</color><!--grey2-->
-		
-		
-		
-        <color name="CommonBtnFocus">ffffffff</color><!--white-->
-        <color name="CommonBtnNoFocus">88FFFFFF</color><!--grey2-->
-        <color name="HomeInfoOne">ffffffff</color><!--white-->
-        <color name="HomeInfoTwo">ffd204a9</color><!--blue-->
-        <color name="HomeInfoThree">88FFFFFF</color><!--grey2-->
-
-        <!--ADVANCED COLORS CLOCK -->
-        
-        
-
-        <!--ADNVANCED COLORS HOME ALBUM INFO -->
-        <color name="NowPlayAlbum">FFFF69B4</color><!--white-->
-        <color name="NowPlayTitle">FFD204A9</color><!--white-->
-        <color name="NowPlayTime">FFFF69B4</color><!--white-->
 </colors>
