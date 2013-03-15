@@ -482,8 +482,9 @@
 						<font>font13</font>
 						<align>justify</align>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-						<label>$INFO[ListItem.Plot,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[207]: [/COLOR][/B]]</label>
+						<label>[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[207]: [/COLOR][/B]$INFO[ListItem.Plot]</label>
 						<autoscroll time="4000" delay="5000" repeat="5000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
+						<visible>!IsEmpty(ListItem.Plot) | !IsEmpty(Container.ShowPlot)</visible>
 					</control>
 					<control type="grouplist">
 						<description>Media Codec Flagging Images</description>

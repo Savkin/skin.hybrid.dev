@@ -422,7 +422,7 @@
 			<height>260</height>
 			<font>font13_title</font>
 			<align>justify</align>
-			<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
+			<textcolor>FFFFFFFF</textcolor>
 			<label>$VAR[ShowMediaPlot]</label>
 			<autoscroll time="4000" delay="4000" repeat="5000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
 			<visible>!StringCompare(ListItem.Label,..)</visible>
