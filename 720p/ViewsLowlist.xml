@@ -280,9 +280,9 @@
 					<font>font13</font>
 					<align>justify</align>
 					<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
-					<label>$VAR[ShowMediaPlot,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[207]: [/COLOR][/B]]</label>
+					<label>[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[207]: [/COLOR][/B]$VAR[ShowMediaPlot]</label>
 					<autoscroll time="3600" delay="6000" repeat="6000">!Skin.HasSetting(StopAutoScroll)</autoscroll>
-					<visible>!StringCompare(ListItem.Label,..)</visible>
+					<visible>!IsEmpty(ListItem.Plot) | !IsEmpty(Container.ShowPlot)</visible>
 				</control>
 				<control type="image">
 					<description>Rating value</description>
@@ -305,7 +305,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>top</aligny>
-					<label>$VAR[MediaRuntime,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]]</label>
+					<label>[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]$VAR[MediaRuntime]</label>
 					<visible>!IsEmpty(ListItem.Duration) + !SubString(Container.FolderPath,program.advanced.launcher)</visible>
 				</control>
 				<control type="label">

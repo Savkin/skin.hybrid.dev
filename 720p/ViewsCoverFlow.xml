@@ -3679,7 +3679,7 @@
 					<scroll>false</scroll>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>$VAR[MediaRuntime,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]]    </label>
+					<label>[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[2050]: [/COLOR][/B]$VAR[MediaRuntime]    </label>
 					<visible>!IsEmpty(ListItem.Duration)</visible>
 				</control>
 				<control type="label">
@@ -3691,7 +3691,8 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>    $INFO[ListItem.Director,[B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[20339]: [/COLOR][/B]]</label>
+					<label>    [B][COLOR=$INFO[Skin.String(MainPrimary.Colour)]]$LOCALIZE[20339]: [/COLOR][/B]$INFO[ListItem.Director]</label>
+					<visible>!IsEmpty(ListItem.Director)</visible>
 				</control>
 			</control>
 		</control>
