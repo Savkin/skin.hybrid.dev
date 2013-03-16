@@ -39,7 +39,7 @@
 		<value condition="!IsEmpty(Skin.CurrentTheme)  + !stringcompare(Skin.CurrentTheme,$LOCALIZE[15109])">special://skin/backgrounds/$INFO[Skin.CurrentTheme].jpg</value>
 		<value>special://skin/backgrounds/SKINDEFAULT.jpg</value>
 	</variable>
-		<variable name="ReSetTextColour" type="text">
+	<variable name="ReSetTextColour" type="text">
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),TextShadow)">TextShadow</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),DisabledText)">DisabledText</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),DefaultMiscItem)">DefaultItem</value>
@@ -49,12 +49,12 @@
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),MediaMenu)">MediaMenuFocus</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),UnFocusedMediaMenu)">MediaMenuNoFocus</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),InfoLabels)">MinorLabel</value>
-		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),HomeInfoOne)">HomeInfoOne</value>	
+		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),HomeInfoOne)">HomeInfoOne</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),HomeInfoTwo)">HomeInfoTwo</value>
 		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),HomeInfoThree)">HomeInfoThree</value>
-		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),TitlesStatsRSS)">StatsName</value>			
-		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),TextStatsRSS)">StatsAmnt</value>			
-		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),UsrHiLiteText)">UsrHiLiteText</value>			
+		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),TitlesStatsRSS)">StatsName</value>
+		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),TextStatsRSS)">StatsAmnt</value>
+		<value condition="stringcompare(Window(home).Property(UsrSelectBtn),UsrHiLiteText)">UsrHiLiteText</value>
 	</variable>
 	<variable name="MenuPopUpNav" type="text">
 		<value condition="StringCompare(Container(9000).ListItem.Property(HiLiteItem),Videos) + !Skin.HasSetting(SubmenuPlayListMusic) + System.HasAddon(script.playlists) + !Skin.HasSetting(DisableSubmenuPlayList)">ActivateWindow(2122)</value>

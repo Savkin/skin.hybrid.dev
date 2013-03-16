@@ -61,7 +61,7 @@
 			<visible>!Skin.HasSetting(TransparentVizFanArt)</visible>
 			<visible>Player.HasAudio + System.HasAddon(script.artistslideshow) + !Skin.HasSetting(DisableArtistSlideShow) + Skin.HasSetting(ShowArtistSlideShow) + !Skin.HasSetting(ShowMusicVizOnly)</visible>
 			<visible>![SubString(Player.FolderPath,mms://,Left) | SubString(Player.FolderPath,http://,Left)]</visible>
-		</control>		
+		</control>
 		<control type="multiimage">
 			<description>Artist ExtraFanArt Multi-image Background</description>
 			<include>Dimensions_Fullscreen</include>
@@ -92,7 +92,7 @@
 			<visible>!Skin.HasSetting(TransparentVizFanArt)</visible>
 			<visible>Player.HasAudio + Skin.HasSetting(EnableXtraFanArt) + !Skin.HasSetting(ShowMusicVizOnly)</visible>
 			<visible>[Skin.HasSetting(DisableArtistSlideShow) | !Skin.HasSetting(ShowArtistSlideShow)] + !Skin.HasSetting(ShowBackgroundAlbumWall)</visible>
-		</control>		
+		</control>
 		<control type="visualisation" id="2">
 			<description>visualisation</description>
 			<include>Dimensions_Fullscreen</include>

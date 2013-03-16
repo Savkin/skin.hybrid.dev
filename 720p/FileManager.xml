@@ -38,7 +38,7 @@
 				<width>470</width>
 				<height>30</height>
 				<font>font_MainMenu</font>
-				<label>31912</label>
+				<label>A</label>
 				<align>right</align>
 				<aligny>center</aligny>
 				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>
@@ -198,7 +198,7 @@
 				<width>470</width>
 				<height>30</height>
 				<font>font_MainMenu</font>
-				<label>31913</label>
+				<label>B</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>$INFO[Skin.String(MainPrimary.Colour)]</textcolor>

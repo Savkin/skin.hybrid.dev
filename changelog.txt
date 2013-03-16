@@ -1,6 +1,10 @@
 [B]1.1.0[/B] [I]Mar 2013[/I]
-- Added User Select Font Colours [WIP]
+- Added User Select Font Colours [WIP] - Please Report Bugs!
 - Added Global Search to Required Dependency
+- Added Invisible Button Right Hand Side of Screen for Slide Window
+- Added Option for Global Search not Favourites Default Slide window
+- Updated HD Media Flag
+- Removed Non Official Themes
 
 [B]1.0.11[/B] [I]Feb 2013[/I]
 - Update Language Files

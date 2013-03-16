@@ -2918,7 +2918,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,MediaMenu,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
-					</control>	
+					</control>
 					<control type="button" id="405">
 						<width>750</width>
 						<height>40</height>
@@ -2931,7 +2931,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,UnFocusedMediaMenu,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
-					</control>	
+					</control>
 					<control type="button" id="406">
 						<width>750</width>
 						<height>40</height>
@@ -2944,7 +2944,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,DefaultMiscItem,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
-					</control>	
+					</control>
 					<control type="button" id="407">
 						<width>750</width>
 						<height>40</height>
@@ -3049,18 +3049,6 @@
 						<onclick>SetProperty(UsrSelectBtn,UsrHiLiteText,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
 					</control>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					<control type="button" id="417">
 						<width>750</width>
 						<height>40</height>
@@ -3073,7 +3061,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,DisabledText,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
-					</control>					
+					</control>
 					<control type="button" id="418">
 						<width>750</width>
 						<height>40</height>
@@ -3086,7 +3074,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<onclick>SetProperty(UsrSelectBtn,TextShadow,home)</onclick>
 						<onclick>ActivateWindow(2123)</onclick>
-					</control>					
+					</control>
 				</control>
 				<control type="scrollbar" id="60">
 					<posx>1160</posx>
@@ -3996,7 +3984,7 @@
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 						<enable>Skin.HasSetting(ShowBackgroundAlbumWall) + !Skin.HasSetting(ShowMusicVizOnly)</enable>
 					</control>
-							<control type="radiobutton" id="644">
+					<control type="radiobutton" id="644">
 						<width>750</width>
 						<height>40</height>
 						<font>font13</font>

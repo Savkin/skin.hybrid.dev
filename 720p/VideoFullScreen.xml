@@ -55,7 +55,7 @@
 				<texture>$INFO[Player.Art(clearlogo)]</texture>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<visible>!IsEmpty(Player.Art(clearlogo)) + VideoPlayer.Content(Movies) + Skin.HasSetting(TVShowUsesLogo)</visible>
-			</control>			
+			</control>
 			<control type="group" id="1">
 				<visible>
 					[VideoPlayer.Content(Movies) + Skin.HasSetting(TVShowUsesLogo) + IsEmpty(Player.Art(clearlogo))] | [VideoPlayer.Content(Movies) + !Skin.HasSetting(TVShowUsesLogo) + IsEmpty(Player.Art(clearart))] |

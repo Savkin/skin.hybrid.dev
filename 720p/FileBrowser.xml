@@ -166,7 +166,7 @@
 							<font>font13</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>green</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</itemlayout>
@@ -202,7 +202,7 @@
 							<font>font13</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>green</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</focusedlayout>
@@ -241,7 +241,7 @@
 							<font>font13</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>green</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</itemlayout>
@@ -277,7 +277,7 @@
 							<font>font13</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>green</selectedcolor>
+							<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</focusedlayout>

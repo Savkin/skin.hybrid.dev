@@ -92,7 +92,7 @@
 			<onback>9000</onback>
 			<onclick>$VAR[MenuPopUpNav]</onclick>
 			<visible>![Window.IsVisible(CustomSuggestedMovies.xml) | Window.IsVisible(CustomSuggestedEpisodes.xml) | Window.IsVisible(CustomSuggestedAlbums.xml) | Window.IsVisible(CustomPlaylistsVideos.xml)]</visible>
-		</control>		
+		</control>
 		<include>Clock</include>
 		<include>ShowHomeInfoBar</include>
 	</controls>

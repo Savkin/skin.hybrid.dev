@@ -54,7 +54,6 @@
 				<aligny>center</aligny>
 				<font>font13_title</font>
 				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 				<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				<visible>Skin.HasSetting(HideWeatherInfo)</visible>
 			</control>
@@ -89,7 +88,6 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="textbox">
@@ -99,7 +97,6 @@
 					<width>180</width>
 					<font>font10</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>center</align>
@@ -123,7 +120,6 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[419] </label>
 						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day0.HighTemp))</visible>
 					</control>
@@ -135,7 +131,6 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>[B]$INFO[Window(weather).Property(Day0.HighTemp)][/B]</label>
 						<visible>!IsEmpty(Window(weather).Property(Day0.HighTemp))</visible>
@@ -149,7 +144,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[System.TemperatureUnits]</label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day0.HighTemp))</visible>
 					</control>
@@ -170,7 +164,6 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[418] </label>
 						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day0.LowTemp))</visible>
 					</control>
@@ -182,7 +175,6 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>[B]$INFO[Window(weather).Property(Day0.LowTemp)][/B]</label>
 						<visible>!IsEmpty(Window(weather).Property(Day0.LowTemp))</visible>
@@ -196,7 +188,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[System.TemperatureUnits]</label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day0.LowTemp))</visible>
 					</control>
@@ -208,7 +199,6 @@
 					<width>200</width>
 					<font>font8</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -248,7 +238,6 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="textbox">
@@ -258,7 +247,6 @@
 					<width>180</width>
 					<font>font10</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>center</align>
@@ -282,7 +270,6 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[419] </label>
 						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day1.HighTemp))</visible>
 					</control>
@@ -294,7 +281,6 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>[B]$INFO[Window(weather).Property(Day1.HighTemp)][/B]</label>
 						<visible>!IsEmpty(Window(weather).Property(Day1.HighTemp))</visible>
@@ -308,7 +294,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[System.TemperatureUnits]</label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day1.HighTemp))</visible>
 					</control>
@@ -329,7 +314,6 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[418] </label>
 						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day1.LowTemp))</visible>
 					</control>
@@ -341,7 +325,6 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>[B]$INFO[Window(weather).Property(Day1.LowTemp)][/B]</label>
 						<visible>!IsEmpty(Window(weather).Property(Day1.LowTemp))</visible>
@@ -355,7 +338,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[System.TemperatureUnits]</label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day1.LowTemp))</visible>
 					</control>
@@ -367,7 +349,6 @@
 					<width>200</width>
 					<font>font8</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -407,7 +388,6 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="textbox">
@@ -417,7 +397,6 @@
 					<width>180</width>
 					<font>font10</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>center</align>
@@ -441,7 +420,6 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[419] </label>
 						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day2.HighTemp))</visible>
 					</control>
@@ -453,7 +431,6 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>[B]$INFO[Window(weather).Property(Day2.HighTemp)][/B]</label>
 						<visible>!IsEmpty(Window(weather).Property(Day2.HighTemp))</visible>
@@ -467,7 +444,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[System.TemperatureUnits]</label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day2.HighTemp))</visible>
 					</control>
@@ -488,7 +464,6 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[418] </label>
 						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day2.LowTemp))</visible>
 					</control>
@@ -500,7 +475,6 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>[B]$INFO[Window(weather).Property(Day2.LowTemp)][/B]</label>
 						<visible>!IsEmpty(Window(weather).Property(Day2.LowTemp))</visible>
@@ -514,7 +488,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[System.TemperatureUnits]</label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day2.LowTemp))</visible>
 					</control>
@@ -526,7 +499,6 @@
 					<width>200</width>
 					<font>font8</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -566,7 +538,6 @@
 					<aligny>center</aligny>
 					<font>font13_title</font>
 					<textcolor>$INFO[Skin.String(HomeInfoTwo.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 				</control>
 				<control type="textbox">
@@ -576,7 +547,6 @@
 					<width>180</width>
 					<font>font10</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 					<align>center</align>
@@ -600,7 +570,6 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[419] </label>
 						<textcolor>$INFO[Skin.String(HomeInfoThree.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day3.HighTemp))</visible>
 					</control>
@@ -612,7 +581,6 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>[B]$INFO[Window(weather).Property(Day3.HighTemp)][/B]</label>
 						<visible>!IsEmpty(Window(weather).Property(Day3.HighTemp))</visible>
@@ -626,7 +594,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[System.TemperatureUnits]</label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day3.HighTemp))</visible>
 					</control>
@@ -647,7 +614,6 @@
 						<aligny>center</aligny>
 						<label>$LOCALIZE[418] </label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day3.LowTemp))</visible>
 					</control>
@@ -659,7 +625,6 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<label>[B]$INFO[Window(weather).Property(Day3.LowTemp)][/B]</label>
 						<visible>!IsEmpty(Window(weather).Property(Day3.LowTemp))</visible>
@@ -673,7 +638,6 @@
 						<aligny>center</aligny>
 						<label>$INFO[System.TemperatureUnits]</label>
 						<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 						<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 						<visible>!IsEmpty(Window(weather).Property(Day3.LowTemp))</visible>
 					</control>
@@ -685,7 +649,6 @@
 					<width>200</width>
 					<font>font8</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -710,7 +673,6 @@
 				<width>830</width>
 				<font>font10</font>
 				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
-
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
