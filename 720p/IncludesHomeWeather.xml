@@ -64,7 +64,7 @@
 					<posx>0</posx>
 					<posy>60</posy>
 					<width>220</width>
-					<height>270</height>
+					<height>340</height>
 					<aspectratio>stretch</aspectratio>
 					<texture border="20">ContentPanel.png</texture>
 					<colordiffuse>AAFFFFFF</colordiffuse>
@@ -194,16 +194,29 @@
 				</control>
 				<control type="label">
 					<posx>10</posx>
-					<posy>280</posy>
+					<posy>295</posy>
 					<height>30</height>
 					<width>200</width>
-					<font>font8</font>
+					<font>font10</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>[B]$INFO[Window(weather).Property(Daily.1.ChancePrecipitation)][/B][CR][COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[31908][/COLOR]</label>
+					<label>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[31908][/COLOR][CR][B]$INFO[Window(weather).Property(Daily.1.ChancePrecipitation)][/B]</label>
 					<visible>!IsEmpty(Window(weather).Property(Daily.1.ChancePrecipitation))</visible>
+				</control>
+				<control type="label">
+					<posx>10</posx>
+					<posy>340</posy>
+					<height>30</height>
+					<width>200</width>
+					<font>font10</font>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+					<label>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[383][/COLOR][CR][B]$INFO[Window(weather).Property(Daily.1.WindSpeed)][/B] $INFO[Window(weather).Property(Daily.1.WindDirection)]</label>
+					<visible>!IsEmpty(Window(weather).Property(Daily.1.WindSpeed))</visible>
 				</control>
 				<visible>Skin.HasSetting(HideWeatherInfo)</visible>
 			</control>
@@ -214,7 +227,7 @@
 					<posx>0</posx>
 					<posy>60</posy>
 					<width>220</width>
-					<height>270</height>
+					<height>340</height>
 					<aspectratio>stretch</aspectratio>
 					<texture border="20">ContentPanel.png</texture>
 					<colordiffuse>AAFFFFFF</colordiffuse>
@@ -344,16 +357,29 @@
 				</control>
 				<control type="label">
 					<posx>10</posx>
-					<posy>280</posy>
+					<posy>295</posy>
 					<height>30</height>
 					<width>200</width>
-					<font>font8</font>
+					<font>font10</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>[B]$INFO[Window(weather).Property(Daily.2.ChancePrecipitation)][/B][CR][COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[31908][/COLOR]</label>
+					<label>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[31908][/COLOR][CR][B]$INFO[Window(weather).Property(Daily.2.ChancePrecipitation)][/B]</label>
 					<visible>!IsEmpty(Window(weather).Property(Daily.2.ChancePrecipitation))</visible>
+				</control>
+				<control type="label">
+					<posx>10</posx>
+					<posy>340</posy>
+					<height>30</height>
+					<width>200</width>
+					<font>font10</font>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+					<label>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[383][/COLOR][CR][B]$INFO[Window(weather).Property(Daily.2.WindSpeed)][/B] $INFO[Window(weather).Property(Daily.2.WindDirection)]</label>
+					<visible>!IsEmpty(Window(weather).Property(Daily.2.WindSpeed))</visible>
 				</control>
 				<animation effect="slide" start="0,0" end="250,0" condition="Skin.HasSetting(HideWeatherInfo)">Conditional</animation>
 			</control>
@@ -364,7 +390,7 @@
 					<posx>0</posx>
 					<posy>60</posy>
 					<width>220</width>
-					<height>270</height>
+					<height>340</height>
 					<aspectratio>stretch</aspectratio>
 					<texture border="20">ContentPanel.png</texture>
 					<colordiffuse>AAFFFFFF</colordiffuse>
@@ -494,16 +520,29 @@
 				</control>
 				<control type="label">
 					<posx>10</posx>
-					<posy>280</posy>
+					<posy>295</posy>
 					<height>30</height>
 					<width>200</width>
-					<font>font8</font>
+					<font>font10</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>[B]$INFO[Window(weather).Property(Daily.3.ChancePrecipitation)][/B][CR][COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[31908][/COLOR]</label>
+					<label>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[31908][/COLOR][CR][B]$INFO[Window(weather).Property(Daily.3.ChancePrecipitation)][/B]</label>
 					<visible>!IsEmpty(Window(weather).Property(Daily.3.ChancePrecipitation))</visible>
+				</control>
+				<control type="label">
+					<posx>10</posx>
+					<posy>340</posy>
+					<height>30</height>
+					<width>200</width>
+					<font>font10</font>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+					<label>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[383][/COLOR][CR][B]$INFO[Window(weather).Property(Daily.3.WindSpeed)][/B] $INFO[Window(weather).Property(Daily.3.WindDirection)]</label>
+					<visible>!IsEmpty(Window(weather).Property(Daily.3.WindSpeed))</visible>
 				</control>
 				<animation effect="slide" start="0,0" end="250,0" condition="Skin.HasSetting(HideWeatherInfo)">Conditional</animation>
 			</control>
@@ -514,7 +553,7 @@
 					<posx>0</posx>
 					<posy>60</posy>
 					<width>220</width>
-					<height>270</height>
+					<height>340</height>
 					<aspectratio>stretch</aspectratio>
 					<texture border="20">ContentPanel.png</texture>
 					<colordiffuse>AAFFFFFF</colordiffuse>
@@ -644,34 +683,39 @@
 				</control>
 				<control type="label">
 					<posx>10</posx>
-					<posy>280</posy>
+					<posy>295</posy>
 					<height>30</height>
 					<width>200</width>
-					<font>font8</font>
+					<font>font10</font>
 					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>[B]$INFO[Window(weather).Property(Daily.4.ChancePrecipitation)][/B][CR][COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[31908][/COLOR]</label>
+					<label>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[31908][/COLOR][CR][B]$INFO[Window(weather).Property(Daily.4.ChancePrecipitation)][/B]</label>
 					<visible>!IsEmpty(Window(weather).Property(Daily.4.ChancePrecipitation))</visible>
 				</control>
-				<control type="image">
-					<posx>0</posx>
-					<posy>60</posy>
-					<width>220</width>
-					<height>270</height>
-					<aspectratio>stretch</aspectratio>
-					<texture>clearCase/EmptyCaseBorder.png</texture>
+				<control type="label">
+					<posx>10</posx>
+					<posy>340</posy>
+					<height>30</height>
+					<width>200</width>
+					<font>font10</font>
+					<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
+					<shadowcolor>$INFO[Skin.String(TextShadow.Colour)]</shadowcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+					<label>[COLOR=$INFO[Skin.String(HomeInfoThree.Colour)]]$LOCALIZE[383][/COLOR][CR][B]$INFO[Window(weather).Property(Daily.4.WindSpeed)][/B] $INFO[Window(weather).Property(Daily.4.WindDirection)]</label>
+					<visible>!IsEmpty(Window(weather).Property(Daily.4.WindSpeed))</visible>
 				</control>
 				<visible>!Skin.HasSetting(HideWeatherInfo)</visible>
 			</control>
 			<control type="label">
 				<description>Provider Text</description>
 				<posx>25</posx>
-				<posy>335</posy>
+				<posy>415</posy>
 				<height>20</height>
 				<width>830</width>
-				<font>font10</font>
+				<font>font12</font>
 				<textcolor>$INFO[Skin.String(HomeInfoOne.Colour)]</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
