@@ -43,9 +43,9 @@
 					<control type="label">
 						<posx>10</posx>
 						<posy>0</posy>
-						<width>660</width>
+						<width>510</width>
 						<height>40</height>
-						<font>font13</font>
+						<font>font14</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
@@ -71,7 +71,7 @@
 						<posy>0</posy>
 						<width>400</width>
 						<height>40</height>
-						<font>font12</font>
+						<font>font13</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
@@ -96,7 +96,7 @@
 						<visible>!IsEmpty(ListItem.Overlay) + Window.IsVisible(Videos)</visible>
 					</control>
 				</itemlayout>
-				<itemlayout condition="Skin.HasSetting(HideFileListPoster)" height="40" width="1065">
+				<itemlayout condition="Skin.HasSetting(HideFileListPoster)" height="40" width="1165">
 					<control type="image">
 						<posx>10</posx>
 						<posy>5</posy>
@@ -115,9 +115,9 @@
 					<control type="label">
 						<posx>45</posx>
 						<posy>0</posy>
-						<width>1040</width>
+						<width>1060</width>
 						<height>40</height>
-						<font>font13</font>
+						<font>font14</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
@@ -129,7 +129,7 @@
 						<posy>0</posy>
 						<width>400</width>
 						<height>40</height>
-						<font>font12</font>
+						<font>font13</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
@@ -142,7 +142,7 @@
 						<posy>0</posy>
 						<width>400</width>
 						<height>40</height>
-						<font>font12</font>
+						<font>font13</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
@@ -205,14 +205,14 @@
 					<control type="label">
 						<posx>10</posx>
 						<posy>0</posy>
-						<width>1040</width>
+						<width>510</width>
 						<height>40</height>
-						<font>font13</font>
+						<font>font14</font>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>[B]$INFO[ListItem.Label][/B]</label>
+						<label>$INFO[ListItem.Label]</label>
 						<animation effect="slide" start="0,0" end="35,0" delay="0" time="0" condition="Window.IsVisible(Videos) + !Skin.HasSetting(HideSubTitleFlags)">conditional</animation>
 					</control>
 					<control type="label">
@@ -220,7 +220,7 @@
 						<posy>0</posy>
 						<width>400</width>
 						<height>40</height>
-						<font>font12</font>
+						<font>font13</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
@@ -233,7 +233,7 @@
 						<posy>0</posy>
 						<width>400</width>
 						<height>40</height>
-						<font>font12</font>
+						<font>font13</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
@@ -258,7 +258,7 @@
 						<visible>!IsEmpty(ListItem.Overlay) + Window.IsVisible(Videos)</visible>
 					</control>
 				</focusedlayout>
-				<focusedlayout condition="Skin.HasSetting(HideFileListPoster)" height="40" width="1065">
+				<focusedlayout condition="Skin.HasSetting(HideFileListPoster)" height="40" width="1165">
 					<control type="image">
 						<posx>10</posx>
 						<posy>5</posy>
@@ -296,21 +296,21 @@
 					<control type="label">
 						<posx>45</posx>
 						<posy>0</posy>
-						<width>1040</width>
+						<width>1060</width>
 						<height>40</height>
-						<font>font13</font>
+						<font>font14</font>
 						<textcolor>$INFO[Skin.String(MediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>[B]$INFO[ListItem.Label][/B]</label>
+						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
 						<posx>1165</posx>
 						<posy>0</posy>
 						<width>400</width>
 						<height>40</height>
-						<font>font12</font>
+						<font>font13</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
@@ -323,7 +323,7 @@
 						<posy>0</posy>
 						<width>400</width>
 						<height>40</height>
-						<font>font12</font>
+						<font>font13</font>
 						<textcolor>$INFO[Skin.String(UnFocusedMediaMenu.Colour)]</textcolor>
 						<selectedcolor>$INFO[Skin.String(UsrHiLiteText.Colour)]</selectedcolor>
 						<align>right</align>
